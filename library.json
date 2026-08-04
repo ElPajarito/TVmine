@@ -2147,5 +2147,109 @@
     "date": "2026-08-04",
     "poster": "covers/nausica-of-the-valley-of-the-wind.jpg",
     "tmdbId": 81
+  },
+  {
+    "id": "jujutsu-kaisen",
+    "title": "JUJUTSU KAISEN",
+    "type": "tv",
+    "status": "towatch",
+    "year": 2020,
+    "genres": [
+      "Animation",
+      "Action / Adventure",
+      "Sci-Fi / Fantasy"
+    ],
+    "score": null,
+    "synopsis": "Yuji Itadori is a boy with tremendous physical strength, though he lives a completely ordinary high school life. One day, to save a classmate who has been attacked by curses, he eats the finger of Ryomen Sukuna, taking the curse into his own soul. From then on, he shares one body with Ryomen Sukuna. Guided by the most powerful of sorcerers, Satoru Gojo, Itadori is admitted to Tokyo Jujutsu High School, an organization that fights the curses... and thus begins the heroic tale of a boy who became a curse to exorcise a curse, a life from which he could never turn back.",
+    "date": "2026-08-04",
+    "poster": "covers/jujutsu-kaisen.jpg",
+    "tmdbId": 95479
+  },
+  {
+    "id": "invincible",
+    "title": "INVINCIBLE",
+    "type": "tv",
+    "status": "towatch",
+    "year": 2021,
+    "genres": [
+      "Animation",
+      "Drama",
+      "Sci-Fi / Fantasy",
+      "Action / Adventure"
+    ],
+    "score": null,
+    "synopsis": "Mark Grayson is a normal teenager except for the fact that his father is the most powerful superhero on the planet. Shortly after his seventeenth birthday, Mark begins to develop powers of his own and enters into his father's tutelage.",
+    "date": "2026-08-04",
+    "poster": "covers/invincible.jpg",
+    "tmdbId": 95557
+  },
+  {
+    "id": "berserk",
+    "title": "Berserk",
+    "type": "tv",
+    "status": "towatch",
+    "year": 1997,
+    "genres": [
+      "Action / Adventure",
+      "Sci-Fi / Fantasy",
+      "Animation"
+    ],
+    "score": null,
+    "synopsis": "Guts, a wandering mercenary, joins the Band of the Hawk after being defeated in a duel by Griffith, the group's leader and founder. Together, they dominate every battle, but something menacing lurks in the shadows.",
+    "date": "2026-08-04",
+    "poster": "covers/berserk.jpg",
+    "tmdbId": 35935
+  },
+  {
+    "id": "megalobox",
+    "title": "MEGALOBOX",
+    "type": "tv",
+    "status": "towatch",
+    "year": 2018,
+    "genres": [
+      "Animation",
+      "Action / Adventure",
+      "Drama",
+      "Sci-Fi / Fantasy"
+    ],
+    "score": null,
+    "synopsis": "A desolate land stretches out from the city of poverty. A motorcycle speeds recklessly, blowing clouds of sand and dust. The rider is the protagonist of this story – he has neither a name nor a past. All he has is his ring name, “Junk Dog” and a technique for rigging MEGALOBOX matches with his pal Gansaku Nanbu, which they use to support their hand-to-mouth lives. JD is bored, resigned, and unfulfilled. Yuri has been the reigning champion of MEGALOBOX for the past few years. He has the skills and presence of a true champion. This is a story of JD and his rival, Yuri.",
+    "date": "2026-08-04",
+    "poster": "covers/megalobox.jpg",
+    "tmdbId": 77939
+  },
+  {
+    "id": "solo-leveling",
+    "title": "Solo Leveling",
+    "type": "tv",
+    "status": "towatch",
+    "year": null,
+    "genres": [
+      "Action / Adventure",
+      "Sci-Fi / Fantasy"
+    ],
+    "score": null,
+    "synopsis": "Sung Jin-woo, an E-rank Hunter — the lowest tier — gains extraordinary abilities after a near-death experience. As he levels up, he becomes humanity's unexpected hope, defending against monstrous threats emerging from beyond the mysterious Gates.",
+    "date": "2026-08-04",
+    "poster": null,
+    "tmdbId": 295389
+  },
+  {
+    "id": "pluto",
+    "title": "PLUTO",
+    "type": "tv",
+    "status": "towatch",
+    "year": 2023,
+    "genres": [
+      "Animation",
+      "Sci-Fi / Fantasy",
+      "Mystery",
+      "Crime"
+    ],
+    "score": null,
+    "synopsis": "When the world's seven most advanced robots and their human allies are murdered one by one, Inspector Gesicht soon discovers that he's also in danger.",
+    "date": "2026-08-04",
+    "poster": "covers/pluto.jpg",
+    "tmdbId": 91997
   }
 ]
