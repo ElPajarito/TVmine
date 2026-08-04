@@ -112,16 +112,6 @@ function cardMarkup(item, index) {
         </div>
       </div>
       <div class="card-title">${item.title}</div>
-      <div class="list-info">
-        <div class="timeline-date">${item.status === "watched" ? "finished " : "added "}${fmtDate(item.date)}</div>
-        <div class="list-title">${item.title}</div>
-        <div class="list-meta">
-          <span class="chip">${typeLabel}</span>
-          <span class="chip">${item.year}</span>
-          ${item.genres.map(g => `<span class="chip">${g}</span>`).join("")}
-        </div>
-        ${item.notes ? `<div class="list-notes">${item.notes}</div>` : ""}
-      </div>
       ${progressMarkup(item)}
     </article>`;
 }
@@ -129,7 +119,6 @@ function cardMarkup(item, index) {
 // ---------- filtering + smart ordering ----------
 
 const filterState = { query: "", type: "all", genres: new Set() };
-let currentView = "grid";
 let openStatus = null; // "watching" | "towatch" | "watched" | "search" | null
 
 function matchesFilters(item) {
@@ -144,9 +133,8 @@ function matchesFilters(item) {
 }
 
 // fixed smart order: watched by score, to-watch by date added, watching stays
-// in data order; timeline view always sorts by date
-function smartSort(items, status, view) {
-  if (view === "timeline") return [...items].sort((a, b) => b.date.localeCompare(a.date));
+// in data order
+function smartSort(items, status) {
   if (status === "watched") return [...items].sort((a, b) => (b.score ?? -1) - (a.score ?? -1));
   if (status === "towatch") return [...items].sort((a, b) => b.date.localeCompare(a.date));
   return items;
@@ -171,11 +159,11 @@ const panelBody = document.getElementById("panelBody");
 function renderPanelContent() {
   if (!openStatus) return;
   const pool = openStatus === "search" ? LIBRARY : LIBRARY.filter(x => x.status === openStatus);
-  const items = smartSort(pool.filter(matchesFilters), openStatus, currentView);
+  const items = smartSort(pool.filter(matchesFilters), openStatus);
   panelCollection.innerHTML = items.length
     ? items.map(cardMarkup).join("")
     : `<div class="empty-note">${PANEL_META[openStatus].empty}</div>`;
-  panelCollection.className = "collection" + (currentView !== "grid" ? ` view-${currentView}` : "");
+  panelCollection.className = "collection";
   requestAnimationFrame(() => requestAnimationFrame(() => {
     panelCollection.querySelectorAll(".card-reveal").forEach(c => c.classList.add("shown"));
     panelCollection.querySelectorAll(".progress-fill").forEach(f => { f.style.width = f.dataset.pct + "%"; });
@@ -371,19 +359,6 @@ function initFilters() {
   });
 }
 
-// ---------- view switcher ----------
-
-function initViewSwitcher() {
-  document.querySelectorAll(".view-btn").forEach(btn => {
-    btn.addEventListener("click", () => {
-      document.querySelectorAll(".view-btn").forEach(b => b.classList.remove("active"));
-      btn.classList.add("active");
-      currentView = btn.dataset.view;
-      renderPanelContent();
-    });
-  });
-}
-
 // ---------- detail modal ----------
 
 const modal = document.getElementById("modal");
@@ -448,6 +423,5 @@ renderHub();
 spawnSprites();
 spawnStars();
 initPanel();
-initViewSwitcher();
 initFilters();
 initModal();
