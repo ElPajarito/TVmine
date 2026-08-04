@@ -937,7 +937,7 @@ body, .topbar, .card, .modal-panel, .hub-btn, .watch-strip, .panel-card {
   .river { gap: 16px; }
   .river-card { width: 92px; margin-right: 13px; border-width: 2px; }
   /* smaller cards read faster — let the current run quicker too */
-  .lane-track { animation-duration: calc(var(--dur, 60s) / 2); }
+  .lane-track { animation-duration: calc(var(--dur, 60s) / 3); }
   .panel-card { width: 94vw; height: calc(100vh - 92px); }
   .panel-head { padding: 16px 18px 8px; }
   .panel-body { padding: 6px 18px 20px; }
