@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TVmine — my watch garden</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ambient sky -->
+  <div class="sky" aria-hidden="true">
+    <div class="sun"><div class="sun-core"></div></div>
+    <svg class="cloud cloud-1" viewBox="0 0 200 60"><ellipse cx="60" cy="40" rx="55" ry="20"/><ellipse cx="110" cy="30" rx="45" ry="22"/><ellipse cx="150" cy="42" rx="40" ry="16"/></svg>
+    <svg class="cloud cloud-2" viewBox="0 0 200 60"><ellipse cx="60" cy="40" rx="55" ry="20"/><ellipse cx="110" cy="30" rx="45" ry="22"/><ellipse cx="150" cy="42" rx="40" ry="16"/></svg>
+    <svg class="cloud cloud-3" viewBox="0 0 200 60"><ellipse cx="60" cy="40" rx="55" ry="20"/><ellipse cx="110" cy="30" rx="45" ry="22"/><ellipse cx="150" cy="42" rx="40" ry="16"/></svg>
+    <svg class="cloud cloud-4" viewBox="0 0 200 60"><ellipse cx="60" cy="40" rx="55" ry="20"/><ellipse cx="110" cy="30" rx="45" ry="22"/><ellipse cx="150" cy="42" rx="40" ry="16"/></svg>
+    <div class="stars" id="stars"></div>
+    <div class="rain"></div>
+    <div id="sprites"></div>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="#" onclick="return false">
+      <svg class="brand-leaf" viewBox="0 0 24 24"><path d="M12 2C7 7 4 12 4 16a8 8 0 0 0 16 0c0-4-3-9-8-14z" fill="currentColor"/><path d="M12 6v13" stroke="#fdf6e3" stroke-width="1.6" stroke-linecap="round"/></svg>
+      TVmine
+    </a>
+    <div class="search-wrap">
+      <svg viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 L21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+      <input type="search" id="searchBox" placeholder="search the garden…" autocomplete="off">
+    </div>
+    <div class="view-switcher" role="group" aria-label="View mode">
+      <button class="view-btn active" data-view="grid" title="Poster grid">
+        <svg viewBox="0 0 24 24"><rect x="3" y="3" width="8" height="8" rx="1.5"/><rect x="13" y="3" width="8" height="8" rx="1.5"/><rect x="3" y="13" width="8" height="8" rx="1.5"/><rect x="13" y="13" width="8" height="8" rx="1.5"/></svg>
+      </button>
+      <button class="view-btn" data-view="list" title="Detail list">
+        <svg viewBox="0 0 24 24"><rect x="3" y="4" width="5" height="6" rx="1"/><rect x="10" y="5" width="11" height="1.8" rx="0.9"/><rect x="10" y="8" width="7" height="1.8" rx="0.9"/><rect x="3" y="14" width="5" height="6" rx="1"/><rect x="10" y="15" width="11" height="1.8" rx="0.9"/><rect x="10" y="18" width="7" height="1.8" rx="0.9"/></svg>
+      </button>
+      <button class="view-btn" data-view="shelf" title="Compact shelf">
+        <svg viewBox="0 0 24 24"><rect x="3" y="4" width="3.6" height="16" rx="0.8"/><rect x="8.2" y="4" width="3.6" height="16" rx="0.8"/><rect x="13.4" y="4" width="3.6" height="16" rx="0.8"/><rect x="18.6" y="4" width="3.6" height="16" rx="0.8"/></svg>
+      </button>
+      <button class="view-btn" data-view="timeline" title="Timeline">
+        <svg viewBox="0 0 24 24"><circle cx="6" cy="5" r="2.2"/><circle cx="6" cy="12" r="2.2"/><circle cx="6" cy="19" r="2.2"/><rect x="5.2" y="5" width="1.6" height="14"/><rect x="11" y="4" width="10" height="1.8" rx="0.9"/><rect x="11" y="11" width="10" height="1.8" rx="0.9"/><rect x="11" y="18" width="10" height="1.8" rx="0.9"/></svg>
+      </button>
+    </div>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle light or dark theme" title="Light / dark">
+      <svg class="tt-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><g stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M19.8 4.2l-2.1 2.1M6.3 17.7l-2.1 2.1"/></g></svg>
+      <svg class="tt-moon" viewBox="0 0 24 24"><path d="M20.5 14.8A9 9 0 0 1 9.2 3.5a9 9 0 1 0 11.3 11.3z"/></svg>
+    </button>
+  </header>
+
+  <main class="stage">
+    <div class="river" id="river" aria-hidden="true"></div>
+
+    <div class="hub">
+      <div class="hub-buttons">
+        <button class="hub-btn hub-towatch" data-status="towatch">
+          <span class="hub-count" id="countTowatch">0</span>
+          <span class="hub-label">To Watch</span>
+          <span class="hub-sub"></span>
+        </button>
+        <button class="hub-btn hub-watched" data-status="watched">
+          <span class="hub-count" id="countWatched">0</span>
+          <span class="hub-label">Watched</span>
+          <span class="hub-sub" id="watchedSub">the harvest so far</span>
+        </button>
+      </div>
+      <div class="watch-strip" id="watchStrip"></div>
+    </div>
+  </main>
+
+  <!-- status panel: opens center-stage over the river -->
+  <div class="status-panel" id="statusPanel" hidden>
+    <div class="panel-backdrop" id="panelBackdrop"></div>
+    <div class="panel-card" id="panelCard" role="dialog" aria-modal="true">
+      <div class="band-decor" id="panelDecor" aria-hidden="true"></div>
+      <button class="panel-close" id="panelClose" aria-label="Close">✕</button>
+      <div class="panel-head">
+        <div class="panel-title-row">
+          <h2 id="panelTitle">Watched</h2>
+          <svg class="squiggle" viewBox="0 0 220 14" preserveAspectRatio="none"><path d="M3 8 Q 20 2 40 8 T 80 8 T 120 8 T 160 8 T 214 7" fill="none"/></svg>
+        </div>
+        <div class="panel-filters">
+          <div class="type-pills" role="group" aria-label="Type filter">
+            <button class="pill active" data-type="all">All</button>
+            <button class="pill" data-type="tv">TV</button>
+            <button class="pill" data-type="movie">Films</button>
+          </div>
+          <div class="genre-chips" id="genreChips"></div>
+        </div>
+      </div>
+      <div class="panel-body" id="panelBody">
+        <div class="collection" id="panelCollection"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- detail popup -->
+  <div class="modal" id="modal" hidden>
+    <div class="modal-backdrop"></div>
+    <div class="modal-panel" role="dialog" aria-modal="true">
+      <button class="modal-close" aria-label="Close">✕</button>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
