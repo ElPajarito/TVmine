@@ -2343,7 +2343,7 @@ const LIBRARY = [
     "id": "the-substance",
     "title": "The Substance",
     "type": "movie",
-    "status": "towatch",
+    "status": "watched",
     "year": 2024,
     "genres": [
       "Horror",
@@ -2355,22 +2355,5 @@ const LIBRARY = [
     "date": "2026-08-08",
     "poster": "covers/the-substance.jpg",
     "tmdbId": 933260
-  },
-  {
-    "id": "the-raid-2",
-    "title": "The Raid 2",
-    "type": "movie",
-    "status": "towatch",
-    "year": 2014,
-    "genres": [
-      "Action",
-      "Crime",
-      "Thriller"
-    ],
-    "score": 7.8,
-    "synopsis": "After fighting his way through an apartment building populated by an army of dangerous criminals and escaping with his life, SWAT team member Rama goes undercover, joining a powerful Indonesian crime syndicate to protect his family and uncover corrupt members of his own force.",
-    "date": "2026-08-08",
-    "poster": "covers/the-raid-2.jpg",
-    "tmdbId": 180299
   }
 ];
