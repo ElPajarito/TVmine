@@ -2338,5 +2338,39 @@ const LIBRARY = [
     "date": "2026-08-08",
     "poster": "covers/donnie-darko.jpg",
     "tmdbId": 141
+  },
+  {
+    "id": "the-substance",
+    "title": "The Substance",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2024,
+    "genres": [
+      "Horror",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "score": 8.5,
+    "synopsis": "A fading celebrity decides to use a black market drug, a cell-replicating substance that temporarily creates a younger, better version of herself.",
+    "date": "2026-08-08",
+    "poster": "covers/the-substance.jpg",
+    "tmdbId": 933260
+  },
+  {
+    "id": "the-raid-2",
+    "title": "The Raid 2",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2014,
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "score": 7.8,
+    "synopsis": "After fighting his way through an apartment building populated by an army of dangerous criminals and escaping with his life, SWAT team member Rama goes undercover, joining a powerful Indonesian crime syndicate to protect his family and uncover corrupt members of his own force.",
+    "date": "2026-08-08",
+    "poster": "covers/the-raid-2.jpg",
+    "tmdbId": 180299
   }
 ];
