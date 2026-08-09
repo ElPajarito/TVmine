@@ -1904,26 +1904,6 @@ const LIBRARY = [
     "tmdbId": 242828
   },
   {
-    "id": "earwig-and-the-witch",
-    "title": "Earwig and the Witch",
-    "type": "movie",
-    "status": "towatch",
-    "year": 2021,
-    "genres": [
-      "Animation",
-      "Fantasy",
-      "Family",
-      "Music",
-      "Comedy",
-      "TV Movie"
-    ],
-    "score": null,
-    "synopsis": "A headstrong orphan discovers a world of spells and potions while living with a selfish witch.",
-    "date": "2026-08-04",
-    "poster": "covers/earwig-and-the-witch.jpg",
-    "tmdbId": 683127
-  },
-  {
     "id": "the-boy-and-the-heron",
     "title": "The Boy and the Heron",
     "type": "movie",
