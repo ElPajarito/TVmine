@@ -48,6 +48,11 @@ Everyday use:
 skip the picker. Statuses: `watching` · `towatch` · `watched`.
 Progress format is `season:episode/episodesInSeason`.
 
+**Scoring implies watched** — `add "The Substance" --score 9` goes straight
+into Watched (no `--status` needed), and scoring an existing entry with
+`update` moves it to Watched and stamps today's date. An explicit `--status`
+always wins.
+
 **Duplicate protection** — `add` refuses anything already in the library
 (matched by TMDB id, or by title + type for entries that lack one) and points
 you at `update` instead; interactively it asks, with `--first` it just refuses,

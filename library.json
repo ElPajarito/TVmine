@@ -389,7 +389,7 @@
     "id": "ghost-in-the-shell",
     "title": "Ghost in the Shell",
     "type": "movie",
-    "status": "watched",
+    "status": "towatch",
     "year": 1995,
     "genres": [
       "Action",
@@ -2352,5 +2352,955 @@
     "date": "2026-08-08",
     "poster": "covers/the-substance.jpg",
     "tmdbId": 933260
+  },
+  {
+    "id": "hacksaw-ridge",
+    "title": "Hacksaw Ridge",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2016,
+    "genres": [
+      "Drama",
+      "History",
+      "War"
+    ],
+    "score": null,
+    "synopsis": "WWII American Army Medic Desmond T. Doss, who served during the Battle of Okinawa, refuses to kill people and becomes the first Conscientious Objector in American history to receive the Congressional Medal of Honor.",
+    "date": "2026-08-09",
+    "poster": "covers/hacksaw-ridge.jpg",
+    "tmdbId": 324786
+  },
+  {
+    "id": "santa-jaws",
+    "title": "Santa Jaws",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2018,
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Horror"
+    ],
+    "score": null,
+    "synopsis": "Trying to survive the family Christmas, Cody makes a wish to be alone, which ends up backfiring when a shark manifests and kills his entire family.",
+    "date": "2026-08-09",
+    "poster": "covers/santa-jaws.jpg",
+    "tmdbId": 542476
+  },
+  {
+    "id": "anora",
+    "title": "Anora",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2024,
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Romance"
+    ],
+    "score": null,
+    "synopsis": "A young sex worker from Brooklyn gets her chance at a Cinderella story when she meets and impulsively marries the son of an oligarch. Once the news reaches Russia, her fairytale is threatened as his parents set out to get the marriage annulled.",
+    "date": "2026-08-09",
+    "poster": "covers/anora.jpg",
+    "tmdbId": 1064213
+  },
+  {
+    "id": "late-night-with-the-devil",
+    "title": "Late Night with the Devil",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2024,
+    "genres": [
+      "Horror"
+    ],
+    "score": null,
+    "synopsis": "A live broadcast of a late-night talk show in 1977 goes horribly wrong, unleashing evil into the nation's living rooms.",
+    "date": "2026-08-09",
+    "poster": "covers/late-night-with-the-devil.jpg",
+    "tmdbId": 938614
+  },
+  {
+    "id": "the-wild-robot",
+    "title": "The Wild Robot",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2024,
+    "genres": [
+      "Family",
+      "Animation",
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "score": null,
+    "synopsis": "After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island. To survive the harsh environment, Roz bonds with the island's animals and cares for an orphaned baby goose.",
+    "date": "2026-08-09",
+    "poster": "covers/the-wild-robot.jpg",
+    "tmdbId": 1184918
+  },
+  {
+    "id": "the-whale",
+    "title": "The Whale",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2022,
+    "genres": [
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "A reclusive English teacher suffering from severe obesity attempts to reconnect with his estranged teenage daughter for one last chance at redemption.",
+    "date": "2026-08-09",
+    "poster": "covers/the-whale.jpg",
+    "tmdbId": 785084
+  },
+  {
+    "id": "vinland-saga",
+    "title": "Vinland Saga",
+    "type": "tv",
+    "status": "towatch",
+    "year": 2019,
+    "genres": [
+      "Animation",
+      "War / Politics",
+      "Action / Adventure",
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "For a thousand years, the Vikings have made quite a name and reputation for themselves as the strongest families with a thirst for violence. Thorfinn, the son of one of the Vikings' greatest warriors, spends his boyhood in a battlefield enhancing his skills in his adventure to redeem his most-desired revenge after his father was murdered.",
+    "date": "2026-08-09",
+    "poster": "covers/vinland-saga.jpg",
+    "tmdbId": 88803
+  },
+  {
+    "id": "the-northman",
+    "title": "The Northman",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2022,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ],
+    "score": null,
+    "synopsis": "Prince Amleth is on the verge of becoming a man when his father is brutally murdered by his uncle, who kidnaps the boy's mother. Two decades later, Amleth is now a Viking who's on a mission to save his mother, kill his uncle and avenge his father.",
+    "date": "2026-08-09",
+    "poster": "covers/the-northman.jpg",
+    "tmdbId": 639933
+  },
+  {
+    "id": "prisoners",
+    "title": "Prisoners",
+    "type": "movie",
+    "status": "watched",
+    "year": 2013,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Crime"
+    ],
+    "score": 8.9,
+    "synopsis": "After his six-year-old daughter is abducted, a desperate father takes justice into his own hands when he loses faith in the detective leading the investigation, setting both men on a collision course as the search descends into obsession and moral compromise.",
+    "date": "2026-08-09",
+    "poster": "covers/prisoners.jpg",
+    "tmdbId": 146233
+  },
+  {
+    "id": "f1",
+    "title": "F1",
+    "type": "movie",
+    "status": "watched",
+    "year": 2025,
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "score": 8.7,
+    "synopsis": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team—and mentor a young hotshot driver—while chasing one more chance at glory.",
+    "date": "2026-08-09",
+    "poster": "covers/f1.jpg",
+    "tmdbId": 911430
+  },
+  {
+    "id": "127-hours",
+    "title": "127 Hours",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2010,
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Thriller"
+    ],
+    "score": null,
+    "synopsis": "The true story of mountain climber Aron Ralston's remarkable adventure to save himself after a fallen boulder crashes on his arm and traps him in an isolated canyon in Utah.",
+    "date": "2026-08-09",
+    "poster": "covers/127-hours.jpg",
+    "tmdbId": 44115
+  },
+  {
+    "id": "looper",
+    "title": "Looper",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2012,
+    "genres": [
+      "Action",
+      "Thriller",
+      "Sci-Fi"
+    ],
+    "score": null,
+    "synopsis": "In the year 2044, time travel has not yet been invented but in 30 years it will have been. When the mob wants to get rid of someone, they will send their target into the past where a looper, a hired gun, like Joe is waiting to mop up. Joe is getting rich and life is good until the day the mob decides to close the loop, sending back Joe's future self for assassination.",
+    "date": "2026-08-09",
+    "poster": "covers/looper.jpg",
+    "tmdbId": 59967
+  },
+  {
+    "id": "elysium",
+    "title": "Elysium",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2013,
+    "genres": [
+      "Sci-Fi",
+      "Action",
+      "Drama",
+      "Thriller"
+    ],
+    "score": null,
+    "synopsis": "In the year 2159, two classes of people exist: the very wealthy who live on a pristine man-made space station called Elysium, and the rest, who live on an overpopulated, ruined Earth. Secretary Rhodes, a hard line government official, will stop at nothing to enforce anti-immigration laws and preserve the luxurious lifestyle of the citizens of Elysium. That doesn’t stop the people of Earth from trying to get in, by any means they can. When unlucky Max is backed into a corner, he agrees to take on a daunting mission that, if successful, will not only save his life, but could bring equality to these polarized worlds.",
+    "date": "2026-08-09",
+    "poster": "covers/elysium.jpg",
+    "tmdbId": 68724
+  },
+  {
+    "id": "the-martian",
+    "title": "The Martian",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2015,
+    "genres": [
+      "Sci-Fi",
+      "Drama",
+      "Adventure"
+    ],
+    "score": null,
+    "synopsis": "During a manned mission to Mars, Astronaut Mark Watney is presumed dead after a fierce storm and left behind by his crew. But Watney has survived and finds himself stranded and alone on the hostile planet. With only meager supplies, he must draw upon his ingenuity, wit and spirit to subsist and find a way to signal to Earth that he is alive.",
+    "date": "2026-08-09",
+    "poster": "covers/the-martian.jpg",
+    "tmdbId": 286217
+  },
+  {
+    "id": "12-years-a-slave",
+    "title": "12 Years a Slave",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2013,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "score": null,
+    "synopsis": "In the pre-Civil War United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery. Facing cruelty as well as unexpected kindnesses Solomon struggles not only to stay alive, but to retain his dignity. In the twelfth year of his unforgettable odyssey, Solomon’s chance meeting with a Canadian abolitionist will forever alter his life.",
+    "date": "2026-08-09",
+    "poster": "covers/12-years-a-slave.jpg",
+    "tmdbId": 76203
+  },
+  {
+    "id": "edge-of-tomorrow",
+    "title": "Edge of Tomorrow",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2014,
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "score": null,
+    "synopsis": "Major Bill Cage is an officer who has never seen a day of combat when he is unceremoniously demoted and dropped into combat. Cage is killed within minutes, managing to take an alpha alien down with him. He awakens back at the beginning of the same day and is forced to fight and die again... and again - as physical contact with the alien has thrown him into a time loop.",
+    "date": "2026-08-09",
+    "poster": "covers/edge-of-tomorrow.jpg",
+    "tmdbId": 137113
+  },
+  {
+    "id": "arrival",
+    "title": "Arrival",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2016,
+    "genres": [
+      "Drama",
+      "Sci-Fi",
+      "Mystery"
+    ],
+    "score": null,
+    "synopsis": "Taking place after alien crafts land around the world, an expert linguist is recruited by the military to determine whether they come in peace or are a threat.",
+    "date": "2026-08-09",
+    "poster": "covers/arrival.jpg",
+    "tmdbId": 329865
+  },
+  {
+    "id": "baby-driver",
+    "title": "Baby Driver",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2017,
+    "genres": [
+      "Action",
+      "Crime"
+    ],
+    "score": null,
+    "synopsis": "After being coerced into working for a crime boss, a young getaway driver finds himself taking part in a heist doomed to fail.",
+    "date": "2026-08-09",
+    "poster": "covers/baby-driver.jpg",
+    "tmdbId": 339403
+  },
+  {
+    "id": "mother",
+    "title": "mother!",
+    "type": "movie",
+    "status": "watched",
+    "year": 2017,
+    "genres": [
+      "Horror",
+      "Drama"
+    ],
+    "score": 8.0,
+    "synopsis": "A couple's relationship is tested when uninvited guests arrive at their home, disrupting their tranquil existence.",
+    "date": "2026-08-09",
+    "poster": "covers/mother.jpg",
+    "tmdbId": 381283
+  },
+  {
+    "id": "logan",
+    "title": "Logan",
+    "type": "movie",
+    "status": "watched",
+    "year": 2017,
+    "genres": [
+      "Action",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "score": 8.3,
+    "synopsis": "In the near future, a weary Logan cares for an ailing Professor X in a hideout on the Mexican border. But Logan's attempts to hide from the world and his legacy are upended when a young mutant arrives, pursued by dark forces.",
+    "date": "2026-08-09",
+    "poster": "covers/logan.jpg",
+    "tmdbId": 263115
+  },
+  {
+    "id": "spider-man-into-the-spider-verse",
+    "title": "Spider-Man: Into the Spider-Verse",
+    "type": "movie",
+    "status": "watched",
+    "year": 2018,
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "score": 8.1,
+    "synopsis": "Struggling to find his place in the world while juggling school and family, Brooklyn teenager Miles Morales is unexpectedly bitten by a radioactive spider and develops unfathomable powers just like the one and only Spider-Man. While wrestling with the implications of his new abilities, Miles discovers a super collider created by the madman Wilson \"Kingpin\" Fisk, causing others from across the Spider-Verse to be inadvertently transported to his dimension.",
+    "date": "2026-08-09",
+    "poster": "covers/spider-man-into-the-spider-verse.jpg",
+    "tmdbId": 324857
+  },
+  {
+    "id": "spider-man-across-the-spider-verse",
+    "title": "Spider-Man: Across the Spider-Verse",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2023,
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "score": null,
+    "synopsis": "After reuniting with Gwen Stacy, Brooklyn’s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse's very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must set out on his own to save those he loves most.",
+    "date": "2026-08-09",
+    "poster": "covers/spider-man-across-the-spider-verse.jpg",
+    "tmdbId": 569094
+  },
+  {
+    "id": "the-irishman",
+    "title": "The Irishman",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2019,
+    "genres": [
+      "Crime",
+      "Drama",
+      "History"
+    ],
+    "score": null,
+    "synopsis": "Pennsylvania, 1956. Frank Sheeran, a war veteran of Irish origin who works as a truck driver, accidentally meets mobster Russell Bufalino. Once Frank becomes his trusted man, Bufalino sends him to Chicago with the task of helping Jimmy Hoffa, a powerful union leader related to organized crime, with whom Frank will maintain a close friendship for nearly twenty years.",
+    "date": "2026-08-09",
+    "poster": "covers/the-irishman.jpg",
+    "tmdbId": 398978
+  },
+  {
+    "id": "dark-waters",
+    "title": "Dark Waters",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2019,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "score": null,
+    "synopsis": "A tenacious attorney uncovers a dark secret that connects a growing number of unexplained deaths to one of the world's largest corporations. In the process, he risks everything — his future, his family, and his own life — to expose the truth.",
+    "date": "2026-08-09",
+    "poster": "covers/dark-waters.jpg",
+    "tmdbId": 552178
+  },
+  {
+    "id": "1917",
+    "title": "1917",
+    "type": "movie",
+    "status": "watched",
+    "year": 2019,
+    "genres": [
+      "War",
+      "Drama",
+      "History"
+    ],
+    "score": 8.8,
+    "synopsis": "At the height of the First World War, two young British soldiers must cross enemy territory and deliver a message that will stop a deadly attack on hundreds of soldiers.",
+    "date": "2026-08-09",
+    "poster": "covers/1917.jpg",
+    "tmdbId": 530915
+  },
+  {
+    "id": "joker",
+    "title": "Joker",
+    "type": "movie",
+    "status": "watched",
+    "year": 2019,
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
+    "score": 8.6,
+    "synopsis": "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
+    "date": "2026-08-09",
+    "poster": "covers/joker.jpg",
+    "tmdbId": 475557
+  },
+  {
+    "id": "lincoln",
+    "title": "Lincoln",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2012,
+    "genres": [
+      "History",
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "The revealing story of the 16th US President's tumultuous final months in office. In a nation divided by war and the strong winds of change, Lincoln pursues a course of action designed to end the war, unite the country and abolish slavery. With the moral courage and fierce determination to succeed, his choices during this critical moment will change the fate of generations to come.",
+    "date": "2026-08-09",
+    "poster": "covers/lincoln.jpg",
+    "tmdbId": 72976
+  },
+  {
+    "id": "the-king-s-speech",
+    "title": "The King's Speech",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2010,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "score": null,
+    "synopsis": "The King's Speech tells the story of the man who became King George VI, the father of Queen Elizabeth II. After his brother abdicates, George ('Bertie') reluctantly assumes the throne. Plagued by a dreaded stutter and considered unfit to be king, Bertie engages the help of an unorthodox speech therapist named Lionel Logue. Through a set of unexpected techniques, and as a result of an unlikely friendship, Bertie is able to find his voice and boldly lead the country into war.",
+    "date": "2026-08-09",
+    "poster": "covers/the-king-s-speech.jpg",
+    "tmdbId": 45269
+  },
+  {
+    "id": "ocean-s-eleven",
+    "title": "Ocean's Eleven",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2001,
+    "genres": [
+      "Thriller",
+      "Crime"
+    ],
+    "score": null,
+    "synopsis": "Less than 24 hours into his parole, charismatic thief Danny Ocean is already rolling out his next plan: In one night, Danny's hand-picked crew of specialists will attempt to steal more than $150 million from three Las Vegas casinos. But to score the cash, Danny risks his chances of reconciling with ex-wife, Tess.",
+    "date": "2026-08-09",
+    "poster": "covers/ocean-s-eleven.jpg",
+    "tmdbId": 161
+  },
+  {
+    "id": "val",
+    "title": "Val",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2021,
+    "genres": [
+      "Documentary"
+    ],
+    "score": null,
+    "synopsis": "For over 40 years Val Kilmer, one of Hollywood’s most mercurial and/or misunderstood actors has been documenting his own life and craft through film and video. He has amassed thousands of hours of footage, from 16mm home movies made with his brothers, to time spent in iconic roles for blockbuster movies like Top Gun, The Doors, Tombstone, and Batman Forever. This raw, wildly original and unflinching documentary reveals a life lived to extremes and a heart-filled, sometimes hilarious look at what it means to be an artist and a complex man.",
+    "date": "2026-08-09",
+    "poster": "covers/val.jpg",
+    "tmdbId": 834027
+  },
+  {
+    "id": "the-green-knight",
+    "title": "The Green Knight",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2021,
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Fantasy"
+    ],
+    "score": null,
+    "synopsis": "An epic fantasy adventure based on the timeless Arthurian legend, The Green Knight tells the story of Sir Gawain, King Arthur's reckless and headstrong nephew, who embarks on a daring quest to confront the eponymous Green Knight, a gigantic emerald-skinned stranger and tester of men.",
+    "date": "2026-08-09",
+    "poster": "covers/the-green-knight.jpg",
+    "tmdbId": 559907
+  },
+  {
+    "id": "the-wall-of-the-eye",
+    "title": "The Wall of the Eye",
+    "type": "tv",
+    "status": "towatch",
+    "year": 2022,
+    "genres": [
+      "Drama",
+      "Mystery"
+    ],
+    "score": null,
+    "synopsis": "In 1990, Hagizaki Tatsuo, the accounting department chief of Ukishima Electric Works, was busy negotiating on getting a loan together with Sekino, the company's general manager. However, just as they were about to get the funds, Sekino was involved in a 200 million yen fraud and he later disappeared with the loan. The company decides to cover up the incident to protect its image, but Hagizaki wants to get to the bottom of the matter with the help of his newspaper reporter friend, Muraki. Hagizaki later notices that the case becomes darker and darker as he continues to investigate. He then meets a beautiful woman, Uezaki Etsuko, whom he believes hold the key to the entire incident.",
+    "date": "2026-08-09",
+    "poster": "covers/the-wall-of-the-eye.jpg",
+    "tmdbId": 196055
+  },
+  {
+    "id": "still-a-michael-j-fox-movie",
+    "title": "STILL: A Michael J. Fox Movie",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2023,
+    "genres": [
+      "Documentary"
+    ],
+    "score": null,
+    "synopsis": "A short kid from a Canadian army base becomes the international pop culture darling of the 1980s—only to find the course of his life altered by a stunning diagnosis. What happens when an incurable optimist confronts an incurable disease?",
+    "date": "2026-08-09",
+    "poster": "covers/still-a-michael-j-fox-movie.jpg",
+    "tmdbId": 1058699
+  },
+  {
+    "id": "taxi-driver",
+    "title": "Taxi Driver",
+    "type": "movie",
+    "status": "towatch",
+    "year": 1976,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "Suffering from insomnia, disturbed loner Travis Bickle takes a job as a New York City cabbie, haunting the streets nightly, growing increasingly detached from reality as he dreams of cleaning up the filthy city.",
+    "date": "2026-08-09",
+    "poster": "covers/taxi-driver.jpg",
+    "tmdbId": 103
+  },
+  {
+    "id": "the-iron-claw",
+    "title": "The Iron Claw",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2023,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "score": null,
+    "synopsis": "The true story of the inseparable Von Erich brothers, who made history in the intensely competitive world of professional wrestling in the early 1980s. Through tragedy and triumph, under the shadow of their domineering father and coach, the brothers seek larger-than-life immortality on the biggest stage in sports.",
+    "date": "2026-08-09",
+    "poster": "covers/the-iron-claw.jpg",
+    "tmdbId": 850165
+  },
+  {
+    "id": "gangs-of-new-york",
+    "title": "Gangs of New York",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2002,
+    "genres": [
+      "Drama",
+      "History",
+      "Crime"
+    ],
+    "score": null,
+    "synopsis": "In early 1860s New York, Irish immigrant Amsterdam Vallon is released from prison and returns to the Five Points, seeking revenge against his father's killer, William Cutting, a powerful anti-immigrant gang leader. He knows that revenge can only be attained by infiltrating Cutting's inner circle. Vallon's journey becomes a fight for personal survival and to find a place for the Irish people.",
+    "date": "2026-08-09",
+    "poster": "covers/gangs-of-new-york.jpg",
+    "tmdbId": 3131
+  },
+  {
+    "id": "killers-of-the-flower-moon",
+    "title": "Killers of the Flower Moon",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2023,
+    "genres": [
+      "Crime",
+      "History",
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one—until the FBI steps in to unravel the mystery.",
+    "date": "2026-08-09",
+    "poster": "covers/killers-of-the-flower-moon.jpg",
+    "tmdbId": 466420
+  },
+  {
+    "id": "godzilla-minus-one",
+    "title": "Godzilla Minus One",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2023,
+    "genres": [
+      "Sci-Fi",
+      "Horror",
+      "Action"
+    ],
+    "score": null,
+    "synopsis": "In postwar Japan, Godzilla brings new devastation to an already scorched landscape. With no military intervention or government help in sight, the survivors must join together in the face of despair and fight back against an unrelenting horror.",
+    "date": "2026-08-09",
+    "poster": "covers/godzilla-minus-one.jpg",
+    "tmdbId": 940721
+  },
+  {
+    "id": "mickey-17",
+    "title": "Mickey 17",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2025,
+    "genres": [
+      "Sci-Fi",
+      "Comedy",
+      "Adventure"
+    ],
+    "score": null,
+    "synopsis": "Unlikely hero Mickey Barnes finds himself in the extraordinary circumstance of working for an employer who demands the ultimate commitment to the job… to die, for a living.",
+    "date": "2026-08-09",
+    "poster": "covers/mickey-17.jpg",
+    "tmdbId": 696506
+  },
+  {
+    "id": "barking-dogs-never-bite",
+    "title": "Barking Dogs Never Bite",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2000,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "An idle part-time college lecturer is annoyed by the yapping sound of a nearby dog. He decides to take drastic action.",
+    "date": "2026-08-09",
+    "poster": "covers/barking-dogs-never-bite.jpg",
+    "tmdbId": 21531
+  },
+  {
+    "id": "john-wick-chapter-2",
+    "title": "John Wick: Chapter 2",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2017,
+    "genres": [
+      "Action",
+      "Thriller",
+      "Crime"
+    ],
+    "score": null,
+    "synopsis": "John Wick is forced out of retirement by a former associate looking to seize control of a shadowy international assassins’ guild. Bound by a blood oath to aid him, Wick travels to Rome and does battle against some of the world’s most dangerous killers.",
+    "date": "2026-08-09",
+    "poster": "covers/john-wick-chapter-2.jpg",
+    "tmdbId": 324552
+  },
+  {
+    "id": "john-wick-chapter-4",
+    "title": "John Wick: Chapter 4",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2023,
+    "genres": [
+      "Action",
+      "Thriller",
+      "Crime"
+    ],
+    "score": null,
+    "synopsis": "With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
+    "date": "2026-08-09",
+    "poster": "covers/john-wick-chapter-4.jpg",
+    "tmdbId": 603692
+  },
+  {
+    "id": "john-wick-chapter-3-parabellum",
+    "title": "John Wick: Chapter 3 - Parabellum",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2019,
+    "genres": [
+      "Action",
+      "Thriller",
+      "Crime"
+    ],
+    "score": null,
+    "synopsis": "Super-assassin John Wick returns with a $14 million price tag on his head and an army of bounty-hunting killers on his trail. After killing a member of the shadowy international assassin’s guild, the High Table, John Wick is excommunicado, but the world’s most ruthless hit men and women await his every turn.",
+    "date": "2026-08-09",
+    "poster": "covers/john-wick-chapter-3-parabellum.jpg",
+    "tmdbId": 458156
+  },
+  {
+    "id": "john-wick",
+    "title": "John Wick",
+    "type": "movie",
+    "status": "watched",
+    "year": 2014,
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "score": 7.9,
+    "synopsis": "Ex-hitman John Wick comes out of retirement to track down the gangsters that took everything from him.",
+    "date": "2026-08-09",
+    "poster": "covers/john-wick.jpg",
+    "tmdbId": 245891
+  },
+  {
+    "id": "the-nightingale",
+    "title": "The Nightingale",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2018,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Western"
+    ],
+    "score": null,
+    "synopsis": "In 1825, Clare, a 21-year-old Irish convict, chases a British soldier through the rugged Tasmanian wilderness, bent on revenge for a terrible act of violence he committed against her family. She enlists the services of an Aboriginal tracker who is also marked by trauma from his own violence-filled past.",
+    "date": "2026-08-09",
+    "poster": "covers/the-nightingale.jpg",
+    "tmdbId": 400090
+  },
+  {
+    "id": "official-secrets",
+    "title": "Official Secrets",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2019,
+    "genres": [
+      "Thriller",
+      "History",
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "The true story of British intelligence whistleblower Katharine Gun who—prior to the 2003 Iraq invasion—leaked a top-secret NSA memo exposing a joint US-UK illegal spying operation against members of the UN Security Council. The memo proposed blackmailing member states into voting for war.",
+    "date": "2026-08-09",
+    "poster": "covers/official-secrets.jpg",
+    "tmdbId": 393624
+  },
+  {
+    "id": "mindhunter",
+    "title": "MINDHUNTER",
+    "type": "tv",
+    "status": "towatch",
+    "year": 2017,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "score": null,
+    "synopsis": "An agent in the FBI's Elite Serial Crime Unit develops profiling techniques as he pursues notorious serial killers and rapists.",
+    "date": "2026-08-09",
+    "poster": "covers/mindhunter.jpg",
+    "tmdbId": 67744
+  },
+  {
+    "id": "jojo-rabbit",
+    "title": "Jojo Rabbit",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2019,
+    "genres": [
+      "Comedy",
+      "War",
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "Jojo, a lonely German boy during World War II has his world shaken when he learns that his single mother is hiding a Jewish girl in their home. Influenced by a buffoonish imaginary version of Adolf Hitler, he begins to question his beliefs and confront the conflict between propaganda and his own humanity.",
+    "date": "2026-08-09",
+    "poster": "covers/jojo-rabbit.jpg",
+    "tmdbId": 515001
+  },
+  {
+    "id": "the-father",
+    "title": "The Father",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2020,
+    "genres": [
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "A man refuses all assistance from his daughter as he ages and, as he tries to make sense of his changing circumstances, he begins to doubt his loved ones, his own mind and even the fabric of his reality.",
+    "date": "2026-08-09",
+    "poster": "covers/the-father.jpg",
+    "tmdbId": 600354
+  },
+  {
+    "id": "how-to-train-your-dragon",
+    "title": "How to Train Your Dragon",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2010,
+    "genres": [
+      "Fantasy",
+      "Adventure",
+      "Animation",
+      "Family"
+    ],
+    "score": null,
+    "synopsis": "As the son of a Viking leader on the cusp of manhood, shy Hiccup Horrendous Haddock III faces a rite of passage: he must kill a dragon to prove his warrior mettle. But after downing a feared dragon, he realizes that he no longer wants to destroy it, and instead befriends the beast – which he names Toothless – much to the chagrin of his warrior father.",
+    "date": "2026-08-09",
+    "poster": "covers/how-to-train-your-dragon.jpg",
+    "tmdbId": 10191
+  },
+  {
+    "id": "how-to-train-your-dragon-2",
+    "title": "How to Train Your Dragon 2",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2014,
+    "genres": [
+      "Fantasy",
+      "Action",
+      "Adventure",
+      "Animation",
+      "Family"
+    ],
+    "score": null,
+    "synopsis": "Five years after uniting the dragons and Vikings of Berk, Hiccup and Toothless soar beyond their homeland, charting the vast unknown. During one of their adventures, the pair discover a secret cave that houses hundreds of wild dragons -- and a mysterious dragon rider with a startling connection to Hiccup. And as the ruthless dragon conqueror Drago Bludvist rises to seize control of both dragons and people alike, Hiccup must step into his role as a true leader and, alongside his friends and Toothless, protect Berk from a devastating war.",
+    "date": "2026-08-09",
+    "poster": "covers/how-to-train-your-dragon-2.jpg",
+    "tmdbId": 82702
+  },
+  {
+    "id": "dream-scenario",
+    "title": "Dream Scenario",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2023,
+    "genres": [
+      "Comedy",
+      "Fantasy"
+    ],
+    "score": null,
+    "synopsis": "Hapless family man Paul Matthews finds his life turned upside down when millions of strangers suddenly start seeing him in their dreams. But when his nighttime appearances take a nightmarish turn, Paul is forced to navigate his newfound stardom.",
+    "date": "2026-08-09",
+    "poster": "covers/dream-scenario.jpg",
+    "tmdbId": 823482
+  },
+  {
+    "id": "poor-things",
+    "title": "Poor Things",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2023,
+    "genres": [
+      "Sci-Fi",
+      "Romance",
+      "Comedy"
+    ],
+    "score": null,
+    "synopsis": "Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.",
+    "date": "2026-08-09",
+    "poster": "covers/poor-things.jpg",
+    "tmdbId": 792307
+  },
+  {
+    "id": "flow",
+    "title": "FLOW",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2024,
+    "genres": [
+      "Animation"
+    ],
+    "score": null,
+    "synopsis": "As the ‘flow’ progresses, the world where our ‘giant’ once stood gradually fades away, replaced by their inner worlds. Our ‘giant’ continues to advance endlessly, questioning the relationship between the world and oneself.",
+    "date": "2026-08-09",
+    "poster": "covers/flow.jpg",
+    "tmdbId": 1281775
+  },
+  {
+    "id": "nuremberg",
+    "title": "Nuremberg",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2025,
+    "genres": [
+      "History",
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "In postwar Germany, an American psychiatrist must determine whether Nazi prisoners are fit to go on trial for war crimes, and finds himself in a complex battle of intellect and ethics with Hermann Göring, Hitler's right-hand man.",
+    "date": "2026-08-09",
+    "poster": "covers/nuremberg.jpg",
+    "tmdbId": 1214931
+  },
+  {
+    "id": "chainsaw-man",
+    "title": "Chainsaw Man",
+    "type": "tv",
+    "status": "watched",
+    "year": 2022,
+    "genres": [
+      "Animation",
+      "Action / Adventure",
+      "Sci-Fi / Fantasy",
+      "Comedy"
+    ],
+    "score": 9.0,
+    "synopsis": "Denji has a simple dream—to live a happy and peaceful life, spending time with a girl he likes. This is a far cry from reality, however, as Denji is forced by the yakuza into killing devils in order to pay off his crushing debts. Using his pet devil Pochita as a weapon, he is ready to do anything for a bit of cash.",
+    "date": "2026-08-09",
+    "poster": "covers/chainsaw-man.jpg",
+    "tmdbId": 114410
+  },
+  {
+    "id": "frankenstein",
+    "title": "Frankenstein",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2025,
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Horror"
+    ],
+    "score": null,
+    "synopsis": "Dr. Victor Frankenstein, a brilliant but egotistical scientist, brings a creature to life in a monstrous experiment that ultimately leads to the undoing of both the creator and his tragic creation.",
+    "date": "2026-08-09",
+    "poster": "covers/frankenstein.jpg",
+    "tmdbId": 1062722
   }
 ]

@@ -252,6 +252,9 @@ def library_duplicates(lib):
 
 def cmd_add(args):
     lib = load_library()
+    if args.status is None:
+        # a score means you've seen it; otherwise it's a plan
+        args.status = "watched" if args.score is not None else "towatch"
     results = search_tmdb(args.title, args.type)
     chosen = pick_result(results, first=args.first)
     dupes = find_duplicates(lib, chosen["tmdb_id"], chosen["title"], chosen["type"])
@@ -294,6 +297,9 @@ def cmd_update(args):
     e = find_entry(lib, args.id)
     if args.score is not None:
         e["score"] = args.score
+        # scoring something means you've watched it (unless told otherwise)
+        if not args.status and e["status"] != "watched":
+            args.status = "watched"
     if args.status:
         if args.status == "watched" and e["status"] != "watched" and not args.date:
             e["date"] = today()  # finished today
@@ -365,7 +371,8 @@ def main():
     a = sub.add_parser("add", help="look up a title on TMDB and add it")
     a.add_argument("title")
     a.add_argument("--type", choices=["movie", "tv"], help="constrain the search")
-    a.add_argument("--status", choices=["watching", "towatch", "watched"], default="towatch")
+    a.add_argument("--status", choices=["watching", "towatch", "watched"],
+                   help="default: towatch, or watched when --score is given")
     a.add_argument("--score", type=float)
     a.add_argument("--notes")
     a.add_argument("--progress", help="S:E/TOTAL e.g. 1:21/28")
