@@ -2095,23 +2095,6 @@
     "tmdbId": 372058
   },
   {
-    "id": "how-the-grinch-stole-christmas",
-    "title": "How the Grinch Stole Christmas",
-    "type": "movie",
-    "status": "towatch",
-    "year": 2000,
-    "genres": [
-      "Family",
-      "Comedy",
-      "Fantasy"
-    ],
-    "score": null,
-    "synopsis": "The Grinch decides to rob Whoville of Christmas - but a dash of kindness from little Cindy Lou Who and her family may be enough to melt his heart...",
-    "date": "2026-08-04",
-    "poster": "covers/how-the-grinch-stole-christmas.jpg",
-    "tmdbId": 8871
-  },
-  {
     "id": "nausica-of-the-valley-of-the-wind",
     "title": "Nausicaä of the Valley of the Wind",
     "type": "movie",
