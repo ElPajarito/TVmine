@@ -3302,5 +3302,59 @@ const LIBRARY = [
     "date": "2026-08-14",
     "poster": "covers/the-impossible.jpg",
     "tmdbId": 80278
+  },
+  {
+    "id": "steins-gate",
+    "title": "Steins;Gate",
+    "type": "tv",
+    "status": "towatch",
+    "year": 2011,
+    "genres": [
+      "Animation",
+      "Sci-Fi / Fantasy",
+      "Mystery",
+      "Comedy"
+    ],
+    "score": null,
+    "synopsis": "A group of friends have customized their microwave so that it can send text messages to the past. As they perform different experiments, an organization named SERN who has been doing their own research on time travel tracks them down and now the characters have to find a way to avoid being captured by them.",
+    "date": "2026-08-16",
+    "poster": "covers/steins-gate.jpg",
+    "tmdbId": 42509
+  },
+  {
+    "id": "mob-psycho-100",
+    "title": "Mob Psycho 100",
+    "type": "tv",
+    "status": "towatch",
+    "year": 2016,
+    "genres": [
+      "Animation",
+      "Action / Adventure",
+      "Comedy",
+      "Sci-Fi / Fantasy"
+    ],
+    "score": null,
+    "synopsis": "Shigeo Kageyama, a.k.a. \"Mob,\" is a boy who has trouble expressing himself, but who happens to be a powerful esper. Mob is determined to live a normal life and keeps his ESP suppressed, but when his emotions surge to a level of 100%, something terrible happens to him! As he's surrounded by false espers, evil spirits, and mysterious organizations, what will Mob think? What choices will he make?",
+    "date": "2026-08-16",
+    "poster": "covers/mob-psycho-100.jpg",
+    "tmdbId": 67075
+  },
+  {
+    "id": "monster",
+    "title": "Monster",
+    "type": "tv",
+    "status": "towatch",
+    "year": 2004,
+    "genres": [
+      "Animation",
+      "Drama",
+      "Mystery",
+      "Crime"
+    ],
+    "score": null,
+    "synopsis": "Kenzou Tenma, a Japanese brain surgeon in Germany, finds his life in utter turmoil after getting involved with a psychopath that was once a former patient.",
+    "date": "2026-08-16",
+    "poster": "covers/monster.jpg",
+    "tmdbId": 30981
   }
 ];
