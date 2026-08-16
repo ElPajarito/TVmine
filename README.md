@@ -14,6 +14,8 @@ Open `index.html` in a browser (or serve the folder with `python3 -m http.server
 - Currently-watching shows float in an always-visible strip with progress bars
 - Panels have TV/Films + genre filters; the topbar has live search (searching
   with no panel open opens a search panel across the whole library)
+- Panels can sort by Duration or Year (click again to flip direction; TV counts
+  as total watch time). Duration chips only show while duration sort is active
 - Four view modes (top-right) apply inside panels: grid · list · shelf · timeline
 - Watched is sorted by score, To Watch by date added; Esc closes panels/popups
 - Titles without a downloaded cover get a unique painted placeholder landscape

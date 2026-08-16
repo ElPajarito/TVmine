@@ -170,6 +170,24 @@ def fetch_details(tmdb_id, media_type):
     return d, genres
 
 
+def apply_runtime(entry, details):
+    """Store duration info: movies get runtime (min); TV gets episode length
+    and episode count so the site can compute total watch time."""
+    if entry["type"] == "movie":
+        if details.get("runtime"):
+            entry["runtime"] = details["runtime"]
+    else:
+        ep = None
+        if details.get("episode_run_time"):
+            ep = details["episode_run_time"][0]
+        elif (details.get("last_episode_to_air") or {}).get("runtime"):
+            ep = details["last_episode_to_air"]["runtime"]
+        if ep:
+            entry["episodeRuntime"] = ep
+        if details.get("number_of_episodes"):
+            entry["episodes"] = details["number_of_episodes"]
+
+
 def download_cover(poster_path, slug):
     if not poster_path:
         print("no poster available on TMDB — keeping painted placeholder.")
@@ -278,6 +296,7 @@ def cmd_add(args):
         "poster": poster,
         "tmdbId": chosen["tmdb_id"],
     }
+    apply_runtime(entry, details)
     if args.notes:
         entry["notes"] = args.notes
     if args.progress:

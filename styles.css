@@ -610,6 +610,33 @@ body, .topbar, .card, .modal-panel, .hub-btn, .watch-strip, .panel-card {
 .genre-chip:hover { transform: translateY(-2px); border-color: rgba(255, 255, 255, 0.7); }
 .genre-chip.active { background: var(--band-accent); color: var(--cream-soft); }
 
+.sort-bar { display: flex; align-items: center; gap: 6px; }
+.sort-label {
+  font-family: var(--font-hand);
+  font-size: 0.8rem;
+  color: var(--ink);
+  opacity: 0.7;
+  margin-right: 2px;
+}
+.sort-btn {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--ink-soft);
+  background: rgba(255, 255, 255, 0.45);
+  border: none;
+  border-radius: 999px;
+  padding: 5px 13px;
+  cursor: pointer;
+  transition: background .25s, color .25s, transform .2s cubic-bezier(.3,.9,.4,1.4);
+}
+.sort-btn:hover { transform: translateY(-2px); }
+.sort-btn.active { background: var(--band-accent); color: var(--cream-soft); }
+.sort-arrow { font-weight: 700; }
+
+.poster-veil .chip-duration { background: rgba(0, 0, 0, 0.35); }
+.modal-meta .chip-duration { color: var(--ink); font-weight: 700; }
+
 .panel-body {
   position: relative;
   z-index: 2;

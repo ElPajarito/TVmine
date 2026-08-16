@@ -81,6 +81,24 @@ function posterMarkup(item) {
 const fmtDate = iso =>
   new Date(iso + "T00:00").toLocaleDateString("en", { month: "short", day: "numeric", year: "numeric" });
 
+// duration: movies = runtime; TV = total watch time (episodes × episode length)
+function totalMinutes(item) {
+  if (item.type === "movie") return item.runtime ?? null;
+  if (item.episodeRuntime && item.episodes) return item.episodeRuntime * item.episodes;
+  return null;
+}
+
+function fmtDuration(min) {
+  const h = Math.floor(min / 60), m = Math.round(min % 60);
+  return h ? (m ? `${h}h ${m}m` : `${h}h`) : `${m}m`;
+}
+
+function durationLabel(item) {
+  const min = totalMinutes(item);
+  if (min == null) return null;
+  return item.type === "tv" ? `${item.episodes} eps · ${fmtDuration(min)}` : fmtDuration(min);
+}
+
 function scoreBadge(item) {
   if (item.status === "watching") return ""; // no verdict until the story ends
   if (item.score == null) return `<div class="score-badge unrated" title="not rated yet">~</div>`;
@@ -108,6 +126,8 @@ function cardMarkup(item, index) {
         ${posterMarkup(item)}
         <div class="poster-veil">
           <div class="veil-row"><span class="chip">${typeLabel}</span><span class="chip">${item.year}</span></div>
+          ${sortState.key === "duration" && durationLabel(item)
+            ? `<div class="veil-row"><span class="chip chip-duration">⏱ ${durationLabel(item)}</span></div>` : ""}
           <div class="veil-row">${item.genres.slice(0, 2).map(g => `<span class="chip">${g}</span>`).join("")}</div>
         </div>
       </div>
@@ -119,6 +139,7 @@ function cardMarkup(item, index) {
 // ---------- filtering + smart ordering ----------
 
 const filterState = { query: "", type: "all", genres: new Set() };
+const sortState = { key: "default", dir: 1 }; // dir 1 = ascending (shortest/oldest first)
 let openStatus = null; // "watching" | "towatch" | "watched" | "search" | null
 
 function matchesFilters(item) {
@@ -159,7 +180,17 @@ const panelBody = document.getElementById("panelBody");
 function renderPanelContent() {
   if (!openStatus) return;
   const pool = openStatus === "search" ? LIBRARY : LIBRARY.filter(x => x.status === openStatus);
-  const items = smartSort(pool.filter(matchesFilters), openStatus);
+  let items = smartSort(pool.filter(matchesFilters), openStatus);
+  if (sortState.key !== "default") {
+    const value = sortState.key === "duration" ? totalMinutes : x => x.year ?? null;
+    items = [...items].sort((a, b) => {
+      const va = value(a), vb = value(b);
+      if (va == null && vb == null) return 0;
+      if (va == null) return 1;   // unknown durations sink to the end either way
+      if (vb == null) return -1;
+      return (va - vb) * sortState.dir;
+    });
+  }
   panelCollection.innerHTML = items.length
     ? items.map(cardMarkup).join("")
     : `<div class="empty-note">${PANEL_META[openStatus].empty}</div>`;
@@ -189,6 +220,9 @@ function decorMarkup(kind) {
 
 function openPanel(status) {
   openStatus = status;
+  sortState.key = "default";
+  sortState.dir = 1;
+  updateSortButtons();
   const meta = PANEL_META[status];
   panelTitle.textContent = status === "search"
     ? `Search “${filterState.query.trim()}”` : meta.title;
@@ -203,6 +237,31 @@ function openPanel(status) {
 function closePanel() {
   panel.hidden = true;
   openStatus = null;
+}
+
+function updateSortButtons() {
+  document.querySelectorAll(".sort-btn").forEach(b => {
+    const active = b.dataset.sort === sortState.key;
+    b.classList.toggle("active", active);
+    const arrow = b.querySelector(".sort-arrow");
+    if (arrow) arrow.textContent = active ? (sortState.dir === 1 ? " ↑" : " ↓") : "";
+  });
+}
+
+function initSort() {
+  document.querySelectorAll(".sort-btn").forEach(b => {
+    b.addEventListener("click", () => {
+      const key = b.dataset.sort;
+      if (key === sortState.key && key !== "default") {
+        sortState.dir = -sortState.dir;      // same button again: flip direction
+      } else {
+        sortState.key = key;
+        sortState.dir = 1;                   // fresh sort starts shortest/oldest first
+      }
+      updateSortButtons();
+      renderPanelContent();
+    });
+  });
 }
 
 function initPanel() {
@@ -373,6 +432,8 @@ function openModal(item) {
       <div class="modal-meta">
         <span class="chip">${typeLabel}</span>
         <span class="chip">${item.year}</span>
+        ${!panel.hidden && sortState.key === "duration" && durationLabel(item)
+          ? `<span class="chip chip-duration">⏱ ${durationLabel(item)}</span>` : ""}
         ${item.genres.map(g => `<span class="chip">${g}</span>`).join("")}
       </div>
       ${item.status === "watching"
@@ -423,5 +484,6 @@ renderHub();
 spawnSprites();
 spawnStars();
 initPanel();
+initSort();
 initFilters();
 initModal();

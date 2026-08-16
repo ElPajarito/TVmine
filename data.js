@@ -16,7 +16,8 @@ const LIBRARY = [
     "synopsis": "A grieving single mother and her child fall into a deep well of paranoia when an eerie children's book manifests in their home.",
     "date": "2026-08-04",
     "poster": "covers/the-babadook.jpg",
-    "tmdbId": 242224
+    "tmdbId": 242224,
+    "runtime": 94
   },
   {
     "id": "arcane",
@@ -33,7 +34,9 @@ const LIBRARY = [
     "synopsis": "Amid the stark discord of twin cities Piltover and Zaun, two sisters fight on rival sides of a war between magic technologies and clashing convictions.",
     "date": "2026-08-04",
     "poster": "covers/arcane.jpg",
-    "tmdbId": 94605
+    "tmdbId": 94605,
+    "episodeRuntime": 51,
+    "episodes": 18
   },
   {
     "id": "am-i-racist",
@@ -49,7 +52,8 @@ const LIBRARY = [
     "synopsis": "Matt Walsh goes deep undercover in the world of diversity, equity, and inclusion. Prepare to be shocked by how far race hustlers will go and how much further Matt Walsh will go to expose the grift, uncovering absurdities that will leave you laughing.",
     "date": "2026-08-04",
     "poster": "covers/am-i-racist.jpg",
-    "tmdbId": 1320637
+    "tmdbId": 1320637,
+    "runtime": 101
   },
   {
     "id": "pressure",
@@ -66,7 +70,8 @@ const LIBRARY = [
     "synopsis": "In the tense 72 hours before D-Day, and the fate of the free world hanging in the balance, General Dwight D. Eisenhower and Captain James Stagg face an impossible choice—launch the largest and most dangerous seaborne invasion in history or risk losing the war altogether.",
     "date": "2026-08-04",
     "poster": "covers/pressure.jpg",
-    "tmdbId": 1318413
+    "tmdbId": 1318413,
+    "runtime": 101
   },
   {
     "id": "navalny",
@@ -81,7 +86,8 @@ const LIBRARY = [
     "synopsis": "Follows the man who survived an assassination attempt by poisoning with a lethal nerve agent in August 2020. During his months-long recovery, he makes shocking discoveries about the attempt on his life and decides to return home.",
     "date": "2026-08-04",
     "poster": "covers/navalny.jpg",
-    "tmdbId": 926676
+    "tmdbId": 926676,
+    "runtime": 98
   },
   {
     "id": "the-killer",
@@ -97,7 +103,8 @@ const LIBRARY = [
     "synopsis": "After a fateful miss, an assassin battles his employers, and himself, on an international manhunt he insists isn't personal.",
     "date": "2026-08-04",
     "poster": "covers/the-killer.jpg",
-    "tmdbId": 800158
+    "tmdbId": 800158,
+    "runtime": 118
   },
   {
     "id": "the-prestige",
@@ -114,7 +121,8 @@ const LIBRARY = [
     "synopsis": "A mysterious story of two magicians whose intense rivalry leads them on a life-long battle for supremacy -- full of obsession, deceit and jealousy with dangerous and deadly consequences.",
     "date": "2026-08-04",
     "poster": "covers/the-prestige.jpg",
-    "tmdbId": 1124
+    "tmdbId": 1124,
+    "runtime": 130
   },
   {
     "id": "perfect-blue",
@@ -130,7 +138,8 @@ const LIBRARY = [
     "synopsis": "Rising pop star Mima Kirigoe quits singing to pursue a career as an actress. After she takes up a role on a popular detective show, her handlers and collaborators begin turning up murdered. Harboring feelings of guilt and haunted by visions of her former self, Mima's reality and fantasy meld into a frenzied paranoia.",
     "date": "2026-08-04",
     "poster": "covers/perfect-blue.jpg",
-    "tmdbId": 10494
+    "tmdbId": 10494,
+    "runtime": 81
   },
   {
     "id": "who-is-america",
@@ -145,7 +154,9 @@ const LIBRARY = [
     "synopsis": "A satirical half-hour series from comedian Sacha Baron Cohen exploring the diverse individuals, from the infamous to the unknown across the political and cultural spectrum, who populate our unique nation.",
     "date": "2026-08-04",
     "poster": "covers/who-is-america.jpg",
-    "tmdbId": 80730
+    "tmdbId": 80730,
+    "episodeRuntime": 30,
+    "episodes": 7
   },
   {
     "id": "12-angry-men",
@@ -160,7 +171,8 @@ const LIBRARY = [
     "synopsis": "The defense and the prosecution have rested and the jury is filing into the jury room to decide if a young Spanish-American is guilty or innocent of murdering his father. What begins as an open and shut case soon becomes a mini-drama of each of the jurors' prejudices and preconceptions about the trial, the accused, and each other.",
     "date": "2026-08-04",
     "poster": "covers/12-angry-men.jpg",
-    "tmdbId": 389
+    "tmdbId": 389,
+    "runtime": 97
   },
   {
     "id": "the-story-of-god-with-morgan-freeman",
@@ -175,7 +187,9 @@ const LIBRARY = [
     "synopsis": "Morgan Freeman presents his quest in order to find how most religions perceive life after death, what different civilizations thought about the act of creation and other big questions that mankind has continuously asked.",
     "date": "2026-08-04",
     "poster": "covers/the-story-of-god-with-morgan-freeman.jpg",
-    "tmdbId": 66185
+    "tmdbId": 66185,
+    "episodeRuntime": 49,
+    "episodes": 15
   },
   {
     "id": "alien",
@@ -191,7 +205,8 @@ const LIBRARY = [
     "synopsis": "During its return to the earth, commercial spaceship Nostromo intercepts a distress signal from a distant planet. When a three-member team of the crew discovers a chamber containing thousands of eggs on the planet, a creature inside one of the eggs attacks an explorer. The entire crew is unaware of the impending nightmare set to descend upon them when the alien parasite planted inside its unfortunate host is birthed.",
     "date": "2026-08-04",
     "poster": "covers/alien.jpg",
-    "tmdbId": 348
+    "tmdbId": 348,
+    "runtime": 117
   },
   {
     "id": "warfare",
@@ -207,7 +222,8 @@ const LIBRARY = [
     "synopsis": "A platoon of Navy SEALs embarks on a dangerous mission in Ramadi, Iraq, with the chaos and brotherhood of war retold through their memories of the event.",
     "date": "2026-08-04",
     "poster": "covers/warfare.jpg",
-    "tmdbId": 1241436
+    "tmdbId": 1241436,
+    "runtime": 95
   },
   {
     "id": "whiplash",
@@ -224,7 +240,8 @@ const LIBRARY = [
     "synopsis": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.",
     "date": "2026-08-04",
     "poster": "covers/whiplash.jpg",
-    "tmdbId": 244786
+    "tmdbId": 244786,
+    "runtime": 107
   },
   {
     "id": "rush",
@@ -240,7 +257,8 @@ const LIBRARY = [
     "synopsis": "In the 1970s, a rivalry propels race car drivers Niki Lauda and James Hunt to fame and glory — until a horrible accident threatens to end it all.",
     "date": "2026-08-04",
     "poster": "covers/rush.jpg",
-    "tmdbId": 96721
+    "tmdbId": 96721,
+    "runtime": 123
   },
   {
     "id": "casino",
@@ -256,7 +274,8 @@ const LIBRARY = [
     "synopsis": "In Las Vegas, two best friends--a casino executive and a Mafia enforcer--compete for a gambling empire and a fast-living, fast-loving socialite.",
     "date": "2026-08-04",
     "poster": "covers/casino.jpg",
-    "tmdbId": 524
+    "tmdbId": 524,
+    "runtime": 179
   },
   {
     "id": "reservoir-dogs",
@@ -272,7 +291,8 @@ const LIBRARY = [
     "synopsis": "A botched robbery indicates a police informant, and the pressure mounts in the aftermath at a warehouse. Crime begets violence as the survivors -- veteran Mr. White, newcomer Mr. Orange, psychopathic parolee Mr. Blonde, bickering weasel Mr. Pink and Nice Guy Eddie -- unravel.",
     "date": "2026-08-04",
     "poster": "covers/reservoir-dogs.jpg",
-    "tmdbId": 500
+    "tmdbId": 500,
+    "runtime": 99
   },
   {
     "id": "the-godfather",
@@ -288,7 +308,8 @@ const LIBRARY = [
     "synopsis": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
     "date": "2026-08-04",
     "poster": "covers/the-godfather.jpg",
-    "tmdbId": 238
+    "tmdbId": 238,
+    "runtime": 175
   },
   {
     "id": "the-godfather-part-ii",
@@ -304,7 +325,8 @@ const LIBRARY = [
     "synopsis": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
     "date": "2026-08-04",
     "poster": "covers/the-godfather-part-ii.jpg",
-    "tmdbId": 240
+    "tmdbId": 240,
+    "runtime": 202
   },
   {
     "id": "the-lighthouse",
@@ -321,7 +343,8 @@ const LIBRARY = [
     "synopsis": "Two lighthouse keepers try to maintain their sanity while living on a remote and mysterious New England island in the 1890s.",
     "date": "2026-08-04",
     "poster": "covers/the-lighthouse.jpg",
-    "tmdbId": 503919
+    "tmdbId": 503919,
+    "runtime": 109
   },
   {
     "id": "obsession",
@@ -337,7 +360,8 @@ const LIBRARY = [
     "synopsis": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
     "date": "2026-08-04",
     "poster": "covers/obsession.jpg",
-    "tmdbId": 1339713
+    "tmdbId": 1339713,
+    "runtime": 109
   },
   {
     "id": "the-spy",
@@ -352,7 +376,9 @@ const LIBRARY = [
     "synopsis": "In the 1960s, Israeli clerk-turned-secret agent Eli Cohen goes deep undercover inside Syria on a perilous, years-long mission to spy for Mossad.",
     "date": "2026-08-04",
     "poster": "covers/the-spy.jpg",
-    "tmdbId": 91725
+    "tmdbId": 91725,
+    "episodeRuntime": 54,
+    "episodes": 6
   },
   {
     "id": "the-act-of-killing",
@@ -369,7 +395,8 @@ const LIBRARY = [
     "date": "2026-08-04",
     "poster": "covers/the-act-of-killing.jpg",
     "tmdbId": 123678,
-    "notes": "Fascinating dive into the mind of war criminals."
+    "notes": "Fascinating dive into the mind of war criminals.",
+    "runtime": 159
   },
   {
     "id": "thirteen-lives",
@@ -386,7 +413,8 @@ const LIBRARY = [
     "synopsis": "Based on the true nail-biting mission that captivated the world. Twelve boys and the coach of a Thai soccer team explore the Tham Luang cave when an unexpected rainstorm traps them in a chamber inside the mountain. Entombed behind a maze of flooded cave tunnels, they face impossible odds. A team of world-class divers navigate through miles of dangerous cave networks to discover that finding the boys is only the beginning.",
     "date": "2026-08-04",
     "poster": "covers/thirteen-lives.jpg",
-    "tmdbId": 698948
+    "tmdbId": 698948,
+    "runtime": 147
   },
   {
     "id": "ghost-in-the-shell",
@@ -403,7 +431,8 @@ const LIBRARY = [
     "synopsis": "In the year 2029, the barriers of our world have been broken down by the net and by cybernetics, but this brings new vulnerability to humans in the form of brain-hacking. When a highly-wanted hacker known as 'The Puppetmaster' begins involving them in politics, Section 9, a group of cybernetically enhanced cops, are called in to investigate and stop the Puppetmaster.",
     "date": "2026-08-04",
     "poster": "covers/ghost-in-the-shell.jpg",
-    "tmdbId": 9323
+    "tmdbId": 9323,
+    "runtime": 83
   },
   {
     "id": "fracture",
@@ -418,7 +447,8 @@ const LIBRARY = [
     "synopsis": "A husband is on trial for the attempted murder of his wife, in what is seemingly an open/shut case for the ambitious district attorney trying to put him away. However, there are surprises for both around every corner, and, as a suspenseful game of cat-and-mouse is played out, each must manipulate and outwit the other.",
     "date": "2026-08-04",
     "poster": "covers/fracture.jpg",
-    "tmdbId": 6145
+    "tmdbId": 6145,
+    "runtime": 113
   },
   {
     "id": "ford-v-ferrari",
@@ -435,7 +465,8 @@ const LIBRARY = [
     "synopsis": "American car designer Carroll Shelby and the British-born driver Ken Miles work together to battle corporate interference, the laws of physics, and their own personal demons to build a revolutionary race car for Ford Motor Company and take on the dominating race cars of Enzo Ferrari at the 24 Hours of Le Mans in France in 1966.",
     "date": "2026-08-04",
     "poster": "covers/ford-v-ferrari.jpg",
-    "tmdbId": 359724
+    "tmdbId": 359724,
+    "runtime": 153
   },
   {
     "id": "the-social-network",
@@ -450,7 +481,8 @@ const LIBRARY = [
     "synopsis": "In 2003, Harvard undergrad and computer programmer Mark Zuckerberg begins work on a new concept that eventually turns into the global social network known as Facebook. Six years later, Mark is one of the youngest billionaires ever, but his unprecedented success leads to both personal and legal complications when he ends up on the receiving end of two lawsuits, one involving his former friend.",
     "date": "2026-08-04",
     "poster": "covers/the-social-network.jpg",
-    "tmdbId": 37799
+    "tmdbId": 37799,
+    "runtime": 121
   },
   {
     "id": "memento",
@@ -466,7 +498,8 @@ const LIBRARY = [
     "synopsis": "Leonard Shelby is tracking down the man who raped and murdered his wife. The difficulty of locating his wife's killer, however, is compounded by the fact that he suffers from a rare, untreatable form of short-term memory loss. Although he can recall details of life before his accident, Leonard cannot remember what happened fifteen minutes ago, where he's going, or why.",
     "date": "2026-08-04",
     "poster": "covers/memento.jpg",
-    "tmdbId": 77
+    "tmdbId": 77,
+    "runtime": 113
   },
   {
     "id": "equilibrium",
@@ -483,7 +516,8 @@ const LIBRARY = [
     "synopsis": "In a dystopian future, a totalitarian regime maintains peace by subduing the populace with a drug, and displays of emotion are punishable by death. A man in charge of enforcing the law rises to overthrow the system.",
     "date": "2026-08-04",
     "poster": "covers/equilibrium.jpg",
-    "tmdbId": 7299
+    "tmdbId": 7299,
+    "runtime": 107
   },
   {
     "id": "the-matrix",
@@ -499,7 +533,8 @@ const LIBRARY = [
     "synopsis": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth.",
     "date": "2026-08-04",
     "poster": "covers/the-matrix.jpg",
-    "tmdbId": 603
+    "tmdbId": 603,
+    "runtime": 136
   },
   {
     "id": "the-two-popes",
@@ -515,7 +550,8 @@ const LIBRARY = [
     "synopsis": "Frustrated with the direction of the church, Cardinal Bergoglio requests permission to retire in 2012 from Pope Benedict. Instead, facing scandal and self-doubt, the introspective Pope Benedict summons his harshest critic and future successor to Rome to reveal a secret that would shake the foundations of the Catholic Church.",
     "date": "2026-08-04",
     "poster": "covers/the-two-popes.jpg",
-    "tmdbId": 551332
+    "tmdbId": 551332,
+    "runtime": 125
   },
   {
     "id": "the-secret-in-their-eyes",
@@ -532,7 +568,8 @@ const LIBRARY = [
     "synopsis": "Hoping to put to rest years of unease concerning a past case, retired criminal investigator Benjamín begins writing a novel based on the unsolved mystery of a newlywed’s rape and murder. With the help of a former colleague, judge Irene, he attempts to make sense of the past.",
     "date": "2026-08-04",
     "poster": "covers/the-secret-in-their-eyes.jpg",
-    "tmdbId": 25376
+    "tmdbId": 25376,
+    "runtime": 130
   },
   {
     "id": "keep-sweet-pray-and-obey",
@@ -548,7 +585,9 @@ const LIBRARY = [
     "synopsis": "In interviews and rare home video footage, ex-FLDS members share the truth about their isolated community — and the events that pushed them to leave.",
     "date": "2026-08-04",
     "poster": "covers/keep-sweet-pray-and-obey.jpg",
-    "tmdbId": 202880
+    "tmdbId": 202880,
+    "episodeRuntime": 45,
+    "episodes": 4
   },
   {
     "id": "sound-of-freedom",
@@ -564,7 +603,8 @@ const LIBRARY = [
     "synopsis": "The story of Tim Ballard, a former US government agent, who quits his job in order to devote his life to rescuing children from global sex traffickers.",
     "date": "2026-08-04",
     "poster": "covers/sound-of-freedom.jpg",
-    "tmdbId": 678512
+    "tmdbId": 678512,
+    "runtime": 131
   },
   {
     "id": "drop",
@@ -580,7 +620,8 @@ const LIBRARY = [
     "synopsis": "Violet, a widowed mother on her first date in years, arrives at an upscale restaurant where she is relieved that her date, Henry, is more charming and handsome than she expected. But their chemistry begins to curdle as Violet begins being irritated and then terrorized by a series of anonymous drops to her phone.",
     "date": "2026-08-04",
     "poster": "covers/drop.jpg",
-    "tmdbId": 1249213
+    "tmdbId": 1249213,
+    "runtime": 95
   },
   {
     "id": "schindler-s-list",
@@ -597,7 +638,8 @@ const LIBRARY = [
     "synopsis": "The true story of how businessman Oskar Schindler saved over a thousand Jewish lives from the Nazis while they worked as slaves in his factory during World War II.",
     "date": "2026-08-04",
     "poster": "covers/schindler-s-list.jpg",
-    "tmdbId": 424
+    "tmdbId": 424,
+    "runtime": 195
   },
   {
     "id": "the-shawshank-redemption",
@@ -613,7 +655,8 @@ const LIBRARY = [
     "synopsis": "Imprisoned in the 1940s for the double murder of his wife and her lover, upstanding banker Andy Dufresne begins a new life at the Shawshank prison, where he puts his accounting skills to work for an amoral warden. During his long stretch in prison, Dufresne comes to be admired by the other inmates -- including an older prisoner named Red -- for his integrity and unquenchable sense of hope.",
     "date": "2026-08-04",
     "poster": "covers/the-shawshank-redemption.jpg",
-    "tmdbId": 278
+    "tmdbId": 278,
+    "runtime": 142
   },
   {
     "id": "interstellar",
@@ -630,7 +673,8 @@ const LIBRARY = [
     "synopsis": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
     "date": "2026-08-04",
     "poster": "covers/interstellar.jpg",
-    "tmdbId": 157336
+    "tmdbId": 157336,
+    "runtime": 169
   },
   {
     "id": "saving-private-ryan",
@@ -647,7 +691,8 @@ const LIBRARY = [
     "synopsis": "As U.S. troops storm the beaches of Normandy, three brothers lie dead on the battlefield, with a fourth trapped behind enemy lines. Ranger captain John Miller and seven men are tasked with penetrating German-held territory and bringing the boy home.",
     "date": "2026-08-04",
     "poster": "covers/saving-private-ryan.jpg",
-    "tmdbId": 857
+    "tmdbId": 857,
+    "runtime": 169
   },
   {
     "id": "the-green-mile",
@@ -664,7 +709,8 @@ const LIBRARY = [
     "synopsis": "A supernatural tale set on death row in a Southern prison, where gentle giant John Coffey possesses the mysterious power to heal people's ailments. When the cell block's head guard, Paul Edgecomb, recognizes Coffey's miraculous gift, he tries desperately to help stave off the condemned man's execution.",
     "date": "2026-08-04",
     "poster": "covers/the-green-mile.jpg",
-    "tmdbId": 497
+    "tmdbId": 497,
+    "runtime": 189
   },
   {
     "id": "the-terminator",
@@ -681,7 +727,8 @@ const LIBRARY = [
     "synopsis": "In the post-apocalyptic future, reigning tyrannical supercomputers teleport a cyborg assassin known as the \"Terminator\" back to 1984 to kill Sarah Connor, whose unborn son is destined to lead insurgents against 21st century mechanical hegemony. Meanwhile, the human-resistance movement dispatches a lone warrior to safeguard Sarah. Can he stop the virtually indestructible killing machine?",
     "date": "2026-08-04",
     "poster": "covers/the-terminator.jpg",
-    "tmdbId": 218
+    "tmdbId": 218,
+    "runtime": 108
   },
   {
     "id": "terminator-2-judgment-day",
@@ -698,7 +745,8 @@ const LIBRARY = [
     "synopsis": "Ten years after the events of the original, a reprogrammed T-800 is sent back in time to protect young John Connor from the shape-shifting T-1000. Together with his mother Sarah, he fights to stop Skynet from triggering a nuclear apocalypse.",
     "date": "2026-08-04",
     "poster": "covers/terminator-2-judgment-day.jpg",
-    "tmdbId": 280
+    "tmdbId": 280,
+    "runtime": 137
   },
   {
     "id": "gladiator",
@@ -715,7 +763,8 @@ const LIBRARY = [
     "synopsis": "After the death of Emperor Marcus Aurelius, his devious son takes power and demotes Maximus, one of Rome's most capable generals who Marcus preferred. Eventually, Maximus is forced to become a gladiator and battle to the death against other men for the amusement of paying audiences.",
     "date": "2026-08-04",
     "poster": "covers/gladiator.jpg",
-    "tmdbId": 98
+    "tmdbId": 98,
+    "runtime": 155
   },
   {
     "id": "the-pianist",
@@ -731,7 +780,8 @@ const LIBRARY = [
     "synopsis": "The true story of pianist Władysław Szpilman's experiences in Warsaw during the Nazi occupation. When the Jews of the city find themselves forced into a ghetto, Szpilman finds work playing in a café; and when his family is deported in 1942, he stays behind, works for a while as a laborer, and eventually goes into hiding in the ruins of the war-torn city.",
     "date": "2026-08-04",
     "poster": "covers/the-pianist.jpg",
-    "tmdbId": 423
+    "tmdbId": 423,
+    "runtime": 150
   },
   {
     "id": "one-flew-over-the-cuckoo-s-nest",
@@ -746,7 +796,8 @@ const LIBRARY = [
     "synopsis": "A petty criminal fakes insanity to serve his sentence in a mental ward rather than prison. He soon finds himself as a leader to the other patients—and an enemy to the cruel, domineering nurse who runs the ward.",
     "date": "2026-08-04",
     "poster": "covers/one-flew-over-the-cuckoo-s-nest.jpg",
-    "tmdbId": 510
+    "tmdbId": 510,
+    "runtime": 135
   },
   {
     "id": "the-departed",
@@ -763,7 +814,8 @@ const LIBRARY = [
     "synopsis": "To take down South Boston's Irish Mafia, the police send in one of their own to infiltrate the underworld, not realizing the syndicate has done likewise. While an undercover cop curries favor with the mob kingpin, a career criminal rises through the police ranks. But both sides soon discover there's a mole among them.",
     "date": "2026-08-04",
     "poster": "covers/the-departed.jpg",
-    "tmdbId": 1422
+    "tmdbId": 1422,
+    "runtime": 151
   },
   {
     "id": "l-on-the-professional",
@@ -780,7 +832,8 @@ const LIBRARY = [
     "synopsis": "Léon, the top hit man in New York, has earned a rep as an effective \"cleaner\". But when his next-door neighbors are wiped out by a loose-cannon DEA agent, he becomes the unwilling custodian of 12-year-old Mathilda. Before long, Mathilda's thoughts turn to revenge, and she considers following in Léon's footsteps.",
     "date": "2026-08-04",
     "poster": "covers/l-on-the-professional.jpg",
-    "tmdbId": 101
+    "tmdbId": 101,
+    "runtime": 111
   },
   {
     "id": "django-unchained",
@@ -796,7 +849,8 @@ const LIBRARY = [
     "synopsis": "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
     "date": "2026-08-04",
     "poster": "covers/django-unchained.jpg",
-    "tmdbId": 68718
+    "tmdbId": 68718,
+    "runtime": 165
   },
   {
     "id": "apocalypse-now",
@@ -812,7 +866,8 @@ const LIBRARY = [
     "synopsis": "At the height of the Vietnam war, Captain Benjamin Willard is sent on a dangerous mission that, officially, \"does not exist, nor will it ever exist.\" His goal is to locate - and eliminate - a mysterious Green Beret Colonel named Walter Kurtz, who has been leading his personal army on illegal guerrilla missions into enemy territory.",
     "date": "2026-08-04",
     "poster": "covers/apocalypse-now.jpg",
-    "tmdbId": 28
+    "tmdbId": 28,
+    "runtime": 147
   },
   {
     "id": "heat",
@@ -829,7 +884,8 @@ const LIBRARY = [
     "synopsis": "Obsessive master thief Neil McCauley leads a top-notch crew on various daring heists throughout Los Angeles while determined detective Vincent Hanna pursues him without rest. Each man recognizes and respects the ability and the dedication of the other even though they are aware their cat-and-mouse game may end in violence.",
     "date": "2026-08-04",
     "poster": "covers/heat.jpg",
-    "tmdbId": 949
+    "tmdbId": 949,
+    "runtime": 170
   },
   {
     "id": "scarface",
@@ -846,7 +902,8 @@ const LIBRARY = [
     "synopsis": "After getting a green card in exchange for assassinating a Cuban government official, Tony Montana stakes a claim on the drug trade in Miami. Viciously murdering anyone who stands in his way, Tony eventually becomes the biggest drug lord in the state, controlling nearly all the cocaine that comes through Miami. But increased pressure from the police, wars with Colombian drug cartels and his own drug-fueled paranoia serve to fuel the flames of his eventual downfall.",
     "date": "2026-08-04",
     "poster": "covers/scarface.jpg",
-    "tmdbId": 111
+    "tmdbId": 111,
+    "runtime": 170
   },
   {
     "id": "full-metal-jacket",
@@ -862,7 +919,8 @@ const LIBRARY = [
     "synopsis": "A pragmatic U.S. Marine observes the dehumanizing effects the U.S.-Vietnam War has on his fellow recruits from their brutal boot camp training to the bloody street fighting in Hue.",
     "date": "2026-08-04",
     "poster": "covers/full-metal-jacket.jpg",
-    "tmdbId": 600
+    "tmdbId": 600,
+    "runtime": 117
   },
   {
     "id": "die-hard",
@@ -878,7 +936,8 @@ const LIBRARY = [
     "synopsis": "High above the city of L.A. a team of terrorists has seized a building, taken hostages, and declared war. One man has manages to escape... An off-duty cop hiding somewhere inside. He's alone, tired... and the only chance anyone has got.",
     "date": "2026-08-04",
     "poster": "covers/die-hard.jpg",
-    "tmdbId": 562
+    "tmdbId": 562,
+    "runtime": 132
   },
   {
     "id": "am-lie",
@@ -894,7 +953,8 @@ const LIBRARY = [
     "synopsis": "At a tiny Parisian café, the adorable yet painfully shy Amélie accidentally discovers a gift for helping others. Soon Amelie is spending her days as a matchmaker, guardian angel, and all-around do-gooder. But when she bumps into a handsome stranger, will she find the courage to become the star of her very own love story?",
     "date": "2026-08-04",
     "poster": "covers/am-lie.jpg",
-    "tmdbId": 194
+    "tmdbId": 194,
+    "runtime": 122
   },
   {
     "id": "grave-of-the-fireflies",
@@ -911,7 +971,8 @@ const LIBRARY = [
     "synopsis": "In the final months of World War II, 14-year-old Seita and his sister Setsuko are orphaned when their mother is killed during an air raid in Kobe, Japan. After a falling out with their aunt, they move into an abandoned bomb shelter. With no surviving relatives and their emergency rations depleted, Seita and Setsuko struggle to survive.",
     "date": "2026-08-04",
     "poster": "covers/grave-of-the-fireflies.jpg",
-    "tmdbId": 12477
+    "tmdbId": 12477,
+    "runtime": 89
   },
   {
     "id": "platoon",
@@ -928,7 +989,8 @@ const LIBRARY = [
     "synopsis": "As a young and naive recruit in Vietnam, Chris Taylor faces a moral crisis when confronted with the horrors of war and the duality of man.",
     "date": "2026-08-04",
     "poster": "covers/platoon.jpg",
-    "tmdbId": 792
+    "tmdbId": 792,
+    "runtime": 120
   },
   {
     "id": "snatch",
@@ -944,7 +1006,8 @@ const LIBRARY = [
     "synopsis": "Unscrupulous boxing promoters, violent bookies, a Russian gangster, incompetent amateur robbers, and supposedly Jewish jewellers fight to track down a priceless stolen diamond.",
     "date": "2026-08-04",
     "poster": "covers/snatch.jpg",
-    "tmdbId": 107
+    "tmdbId": 107,
+    "runtime": 103
   },
   {
     "id": "green-book",
@@ -961,7 +1024,8 @@ const LIBRARY = [
     "synopsis": "Tony Lip, a bouncer in 1962, is hired to drive pianist Don Shirley on a tour through the Deep South in the days when African Americans, forced to find alternate accommodations and services due to segregation laws below the Mason-Dixon Line, relied on a guide called The Negro Motorist Green Book.",
     "date": "2026-08-04",
     "poster": "covers/green-book.jpg",
-    "tmdbId": 490132
+    "tmdbId": 490132,
+    "runtime": 130
   },
   {
     "id": "uncut-gems",
@@ -978,7 +1042,8 @@ const LIBRARY = [
     "synopsis": "A charismatic New York City jeweler always on the lookout for the next big score makes a series of high-stakes bets that could lead to the windfall of a lifetime. Howard must perform a precarious high-wire act, balancing business, family, and encroaching adversaries on all sides in his relentless pursuit of the ultimate win.",
     "date": "2026-08-04",
     "poster": "covers/uncut-gems.jpg",
-    "tmdbId": 473033
+    "tmdbId": 473033,
+    "runtime": 136
   },
   {
     "id": "collateral",
@@ -995,7 +1060,8 @@ const LIBRARY = [
     "synopsis": "Cab driver Max picks up a man who offers him $600 to drive him around. But the promise of easy money sours when Max realizes his fare is an assassin.",
     "date": "2026-08-04",
     "poster": "covers/collateral.jpg",
-    "tmdbId": 1538
+    "tmdbId": 1538,
+    "runtime": 120
   },
   {
     "id": "point-break",
@@ -1012,7 +1078,8 @@ const LIBRARY = [
     "synopsis": "In Los Angeles, a gang of bank robbers who call themselves The Ex-Presidents commit their crimes while wearing masks of Reagan, Carter, Nixon and Johnson. Believing that the members of the gang could be surfers, the F.B.I. sends young agent Johnny Utah to the beach undercover to mix with the surfers and gather information.",
     "date": "2026-08-04",
     "poster": "covers/point-break.jpg",
-    "tmdbId": 1089
+    "tmdbId": 1089,
+    "runtime": 122
   },
   {
     "id": "the-hateful-eight",
@@ -1029,7 +1096,8 @@ const LIBRARY = [
     "synopsis": "Bounty hunters seek shelter from a raging blizzard and get caught up in a plot of betrayal and deception.",
     "date": "2026-08-04",
     "poster": "covers/the-hateful-eight.jpg",
-    "tmdbId": 273248
+    "tmdbId": 273248,
+    "runtime": 188
   },
   {
     "id": "cyberpunk-edgerunners",
@@ -1047,7 +1115,9 @@ const LIBRARY = [
     "synopsis": "In a dystopia riddled with corruption and cybernetic implants, a talented but reckless street kid strives to become a mercenary outlaw — an edgerunner.",
     "date": "2026-08-04",
     "poster": "covers/cyberpunk-edgerunners.jpg",
-    "tmdbId": 105248
+    "tmdbId": 105248,
+    "episodeRuntime": 29,
+    "episodes": 10
   },
   {
     "id": "pluribus",
@@ -1063,7 +1133,9 @@ const LIBRARY = [
     "synopsis": "The most miserable person on Earth must save the world from happiness.",
     "date": "2026-08-04",
     "poster": "covers/pluribus.jpg",
-    "tmdbId": 225171
+    "tmdbId": 225171,
+    "episodeRuntime": 58,
+    "episodes": 9
   },
   {
     "id": "true-detective",
@@ -1084,7 +1156,9 @@ const LIBRARY = [
       "season": 1,
       "episode": 1,
       "episodesInSeason": 8
-    }
+    },
+    "episodeRuntime": 76,
+    "episodes": 30
   },
   {
     "id": "the-vow",
@@ -1101,7 +1175,9 @@ const LIBRARY = [
     "synopsis": "The docuseries follows people deeply involved in the group NXIVM — which is faced with various charges, including sex trafficking and racketeering conspiracy — over the course of several years.",
     "date": "2026-08-04",
     "poster": "covers/the-vow.jpg",
-    "tmdbId": 49920
+    "tmdbId": 49920,
+    "episodeRuntime": 56,
+    "episodes": 15
   },
   {
     "id": "attack-on-titan",
@@ -1118,7 +1194,9 @@ const LIBRARY = [
     "synopsis": "100 years ago, the last remnants of humanity were forced to retreat behind the towering walls of a fortified city to escape the massive, man-eating Titans that roamed the land outside their fortress. Only the members of the Scouting Legion dared to stray beyond the safety of the walls – but even those brave warriors seldom returned alive. Those within the city clung to the illusion of a peaceful existence until the day that dream was shattered, and their slim chance at survival was reduced to one horrifying choice: kill – or be devoured!",
     "date": "2026-08-04",
     "poster": "covers/attack-on-titan.jpg",
-    "tmdbId": 1429
+    "tmdbId": 1429,
+    "episodeRuntime": 23,
+    "episodes": 87
   },
   {
     "id": "the-furious",
@@ -1135,7 +1213,8 @@ const LIBRARY = [
     "synopsis": "After a criminal network kidnaps Wang Wei's daughter and the corrupt police refuse to assist him, Wei sets out on his own to locate her. Navin, a tenacious journalist whose wife has mysteriously vanished, is his only ally. In this explosive martial arts showdown, the unlikely duo fights the kidnappers ruthlessly driven by a furious vengeance.",
     "date": "2026-08-04",
     "poster": "covers/the-furious.jpg",
-    "tmdbId": 1280738
+    "tmdbId": 1280738,
+    "runtime": 113
   },
   {
     "id": "disclosure-day",
@@ -1151,7 +1230,8 @@ const LIBRARY = [
     "synopsis": "A cybersecurity expert becomes a whistleblower after uncovering secrets about aliens, putting him on the run from a corporation. Meanwhile, a meteorologist experiencing strange phenomena joins forces with him to prove there's life beyond our understanding.",
     "date": "2026-08-04",
     "poster": "covers/disclosure-day.jpg",
-    "tmdbId": 1275779
+    "tmdbId": 1275779,
+    "runtime": 146
   },
   {
     "id": "marvel-s-the-punisher",
@@ -1168,7 +1248,9 @@ const LIBRARY = [
     "synopsis": "A former Marine out to punish the criminals responsible for his family's murder finds himself ensnared in a military conspiracy.",
     "date": "2026-08-04",
     "poster": "covers/marvel-s-the-punisher.jpg",
-    "tmdbId": 67178
+    "tmdbId": 67178,
+    "episodeRuntime": 53,
+    "episodes": 26
   },
   {
     "id": "the-sheep-detectives",
@@ -1185,7 +1267,8 @@ const LIBRARY = [
     "synopsis": "George Hardy is a shepherd who reads detective novels to his beloved sheep every night, assuming they can't possibly understand. But when a mysterious incident disrupts life on the farm, the sheep realize they must become the detectives. As they follow the clues and investigate human suspects, they prove that even sheep can be brilliant crime-solvers.",
     "date": "2026-08-04",
     "poster": "covers/the-sheep-detectives.jpg",
-    "tmdbId": 1301421
+    "tmdbId": 1301421,
+    "runtime": 109
   },
   {
     "id": "game-of-thrones",
@@ -1202,7 +1285,9 @@ const LIBRARY = [
     "synopsis": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
     "date": "2026-08-04",
     "poster": "covers/game-of-thrones.jpg",
-    "tmdbId": 1399
+    "tmdbId": 1399,
+    "episodeRuntime": 80,
+    "episodes": 73
   },
   {
     "id": "a-knight-of-the-seven-kingdoms",
@@ -1219,7 +1304,9 @@ const LIBRARY = [
     "synopsis": "A century before the events of Game of Thrones, two unlikely heroes wandered Westeros: a young, naive but courageous knight, Ser Duncan the Tall, and his diminutive squire, Egg. Set in an age when the Targaryen line still holds the Iron Throne and the last dragon has not yet passed from living memory, great destinies, powerful foes, and dangerous exploits await these improbable and incomparable friends.",
     "date": "2026-08-04",
     "poster": "covers/a-knight-of-the-seven-kingdoms.jpg",
-    "tmdbId": 224372
+    "tmdbId": 224372,
+    "episodeRuntime": 31,
+    "episodes": 6
   },
   {
     "id": "good-luck-have-fun-don-t-die",
@@ -1236,7 +1323,8 @@ const LIBRARY = [
     "synopsis": "A 'Man from the Future' arrives at an LA diner where he must recruit the precise combination of disgruntled patrons to join him on a one-night quest to save the world from the terminal threat of a rogue artificial intelligence.",
     "date": "2026-08-04",
     "poster": "covers/good-luck-have-fun-don-t-die.jpg",
-    "tmdbId": 1119449
+    "tmdbId": 1119449,
+    "runtime": 134
   },
   {
     "id": "iron-lung",
@@ -1253,7 +1341,8 @@ const LIBRARY = [
     "synopsis": "In a post-apocalyptic future where an event known as \"The Quiet Rapture\" caused all known stars and habitable planets in the universe to disappear, a convict is sent to search an ocean of blood discovered on a desolate moon, using a small submarine nicknamed the \"Iron Lung\".",
     "date": "2026-08-04",
     "poster": "covers/iron-lung.jpg",
-    "tmdbId": 1116201
+    "tmdbId": 1116201,
+    "runtime": 125
   },
   {
     "id": "28-days-later",
@@ -1270,7 +1359,8 @@ const LIBRARY = [
     "synopsis": "Twenty-eight days after a killer virus was accidentally unleashed from a British research facility, a small group of London survivors are caught in a desperate struggle to protect themselves from the infected. Carried by animals and humans, the virus turns those it infects into homicidal maniacs -- and it's absolutely impossible to contain.",
     "date": "2026-08-04",
     "poster": "covers/28-days-later.jpg",
-    "tmdbId": 170
+    "tmdbId": 170,
+    "runtime": 113
   },
   {
     "id": "marty-supreme",
@@ -1286,7 +1376,8 @@ const LIBRARY = [
     "synopsis": "Marty Mauser, a young man with a dream no one respects, goes to hell and back in pursuit of greatness.",
     "date": "2026-08-04",
     "poster": "covers/marty-supreme.jpg",
-    "tmdbId": 1317288
+    "tmdbId": 1317288,
+    "runtime": 150
   },
   {
     "id": "kill-bill-the-whole-bloody-affair",
@@ -1302,7 +1393,8 @@ const LIBRARY = [
     "synopsis": "A former assassin, known simply as The Bride, wakes from a coma four years after her jealous ex-lover Bill attempts to murder her on her wedding day. Fueled by an insatiable desire for revenge, she vows to get even with every person who contributed to the loss of her unborn child, her entire wedding party, and four years of her life.  After devising a hit list, The Bride sets off on her quest, enduring unspeakable injury and unscrupulous enemies.",
     "date": "2026-08-04",
     "poster": "covers/kill-bill-the-whole-bloody-affair.jpg",
-    "tmdbId": 414419
+    "tmdbId": 414419,
+    "runtime": 254
   },
   {
     "id": "bugonia",
@@ -1319,7 +1411,8 @@ const LIBRARY = [
     "synopsis": "Two conspiracy obsessed young men kidnap the high-powered CEO of a major company, convinced that she is an alien intent on destroying planet Earth.",
     "date": "2026-08-04",
     "poster": "covers/bugonia.jpg",
-    "tmdbId": 701387
+    "tmdbId": 701387,
+    "runtime": 119
   },
   {
     "id": "under-the-silver-lake",
@@ -1336,7 +1429,8 @@ const LIBRARY = [
     "synopsis": "Young and disenchanted Sam meets a mysterious and beautiful woman who's swimming in his building's pool one night. When she suddenly vanishes the next morning, Sam embarks on a surreal quest across Los Angeles to decode the secret behind her disappearance, leading him into the murkiest depths of mystery, scandal and conspiracy.",
     "date": "2026-08-04",
     "poster": "covers/under-the-silver-lake.jpg",
-    "tmdbId": 396461
+    "tmdbId": 396461,
+    "runtime": 139
   },
   {
     "id": "x-men-the-last-stand",
@@ -1353,7 +1447,8 @@ const LIBRARY = [
     "synopsis": "When a cure is found to treat mutations, lines are drawn amongst the X-Men led by Professor Charles Xavier, and Magneto's Brotherhood of Mutants.",
     "date": "2026-08-04",
     "poster": "covers/x-men-the-last-stand.jpg",
-    "tmdbId": 36668
+    "tmdbId": 36668,
+    "runtime": 104
   },
   {
     "id": "train-to-busan",
@@ -1370,7 +1465,8 @@ const LIBRARY = [
     "synopsis": "When a zombie virus pushes Korea into a state of emergency, those trapped on an express train to Busan must fight for their own survival.",
     "date": "2026-08-04",
     "poster": "covers/train-to-busan.jpg",
-    "tmdbId": 396535
+    "tmdbId": 396535,
+    "runtime": 118
   },
   {
     "id": "misery",
@@ -1386,7 +1482,8 @@ const LIBRARY = [
     "synopsis": "After an accident, acclaimed novelist Paul Sheldon is rescued by a nurse who claims to be his biggest fan.  Her obsession takes a dark turn when she holds him captive in her remote Colorado home and forces him to write back to life the popular literary character he killed off.",
     "date": "2026-08-04",
     "poster": "covers/misery.jpg",
-    "tmdbId": 1700
+    "tmdbId": 1700,
+    "runtime": 107
   },
   {
     "id": "silence",
@@ -1402,7 +1499,8 @@ const LIBRARY = [
     "synopsis": "In the 17th century, two Portuguese Jesuit priests travel to Japan in an attempt to locate their mentor, who is rumored to have committed apostasy, and to propagate Catholicism.",
     "date": "2026-08-04",
     "poster": "covers/silence.jpg",
-    "tmdbId": 68730
+    "tmdbId": 68730,
+    "runtime": 161
   },
   {
     "id": "the-last-samurai",
@@ -1419,7 +1517,8 @@ const LIBRARY = [
     "synopsis": "Nathan Algren is an American hired to instruct the Japanese army in the ways of modern warfare, which finds him learning to respect the samurai and the honorable principles that rule them. Pressed to destroy the samurai's way of life in the name of modernization and open trade, Algren decides to become an ultimate warrior himself and to fight for their right to exist.",
     "date": "2026-08-04",
     "poster": "covers/the-last-samurai.jpg",
-    "tmdbId": 616
+    "tmdbId": 616,
+    "runtime": 154
   },
   {
     "id": "kengan-ashura",
@@ -1436,7 +1535,9 @@ const LIBRARY = [
     "synopsis": "Ohma Tokita enters a hidden world where corporate disputes are settled in brutal gladiator bouts. Forget the money, he just wants to fight — and win.",
     "date": "2026-08-04",
     "poster": "covers/kengan-ashura.jpg",
-    "tmdbId": 90660
+    "tmdbId": 90660,
+    "episodeRuntime": 23,
+    "episodes": 52
   },
   {
     "id": "baki-dou-the-invincible-samurai",
@@ -1452,7 +1553,9 @@ const LIBRARY = [
     "synopsis": "Baki and the strongest Underground Arena fighters face a threat of historical proportions: the resurrected Musashi Miyamoto, Japan's greatest samurai.",
     "date": "2026-08-04",
     "poster": "covers/baki-dou-the-invincible-samurai.jpg",
-    "tmdbId": 300054
+    "tmdbId": 300054,
+    "episodeRuntime": 26,
+    "episodes": 25
   },
   {
     "id": "birdman-or-the-unexpected-virtue-of-ignorance",
@@ -1468,7 +1571,8 @@ const LIBRARY = [
     "synopsis": "A fading actor best known for his portrayal of a popular superhero attempts to mount a comeback by appearing in a Broadway play. As opening night approaches, his attempts to become more altruistic, rebuild his career, and reconnect with friends and family prove more difficult than expected.",
     "date": "2026-08-04",
     "poster": "covers/birdman-or-the-unexpected-virtue-of-ignorance.jpg",
-    "tmdbId": 194662
+    "tmdbId": 194662,
+    "runtime": 120
   },
   {
     "id": "the-place-beyond-the-pines",
@@ -1484,7 +1588,8 @@ const LIBRARY = [
     "synopsis": "A motorcycle stunt rider considers committing a crime in order to provide for his wife and child, an act that puts him on a collision course with a cop-turned-politician.",
     "date": "2026-08-04",
     "poster": "covers/the-place-beyond-the-pines.jpg",
-    "tmdbId": 97367
+    "tmdbId": 97367,
+    "runtime": 140
   },
   {
     "id": "space-jam",
@@ -1503,7 +1608,8 @@ const LIBRARY = [
     "synopsis": "With their freedom on the line, the Looney Tunes seek the help of NBA superstar Michael Jordan to win a basketball game against a team of moronic aliens.",
     "date": "2026-08-04",
     "poster": "covers/space-jam.jpg",
-    "tmdbId": 2300
+    "tmdbId": 2300,
+    "runtime": 87
   },
   {
     "id": "rise-of-the-planet-of-the-apes",
@@ -1521,7 +1627,8 @@ const LIBRARY = [
     "synopsis": "A highly intelligent chimpanzee named Caesar has been living a peaceful suburban life ever since he was born. But when he gets taken to a cruel primate facility, Caesar decides to revolt against those who have harmed him.",
     "date": "2026-08-04",
     "poster": "covers/rise-of-the-planet-of-the-apes.jpg",
-    "tmdbId": 61791
+    "tmdbId": 61791,
+    "runtime": 105
   },
   {
     "id": "dawn-of-the-planet-of-the-apes",
@@ -1539,7 +1646,8 @@ const LIBRARY = [
     "synopsis": "A group of scientists in San Francisco struggle to stay alive in the aftermath of a plague that is wiping out humanity, while Caesar tries to maintain dominance over his community of intelligent apes.",
     "date": "2026-08-04",
     "poster": "covers/dawn-of-the-planet-of-the-apes.jpg",
-    "tmdbId": 119450
+    "tmdbId": 119450,
+    "runtime": 130
   },
   {
     "id": "war-for-the-planet-of-the-apes",
@@ -1556,7 +1664,8 @@ const LIBRARY = [
     "synopsis": "Caesar and his apes are forced into a deadly conflict with an army of humans led by a ruthless Colonel. After the apes suffer unimaginable losses, Caesar wrestles with his darker instincts and begins his own mythic quest to avenge his kind. As the journey finally brings them face to face, Caesar and the Colonel are pitted against each other in an epic battle that will determine the fate of both their species and the future of the planet.",
     "date": "2026-08-04",
     "poster": "covers/war-for-the-planet-of-the-apes.jpg",
-    "tmdbId": 281338
+    "tmdbId": 281338,
+    "runtime": 140
   },
   {
     "id": "castle-in-the-sky",
@@ -1575,7 +1684,8 @@ const LIBRARY = [
     "synopsis": "A young boy and a girl with a magic crystal must race against pirates and foreign agents in a search for a legendary floating castle.",
     "date": "2026-08-04",
     "poster": "covers/castle-in-the-sky.jpg",
-    "tmdbId": 10515
+    "tmdbId": 10515,
+    "runtime": 125
   },
   {
     "id": "my-neighbor-totoro",
@@ -1592,7 +1702,8 @@ const LIBRARY = [
     "synopsis": "Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. When the youngest runs away from home, the older sister seeks help from the spirits to find her.",
     "date": "2026-08-04",
     "poster": "covers/my-neighbor-totoro.jpg",
-    "tmdbId": 8392
+    "tmdbId": 8392,
+    "runtime": 86
   },
   {
     "id": "kiki-s-delivery-service",
@@ -1609,7 +1720,8 @@ const LIBRARY = [
     "synopsis": "A young witch, on her mandatory year of independent life, finds fitting into a new community difficult while she supports herself by running an air courier service.",
     "date": "2026-08-04",
     "poster": "covers/kiki-s-delivery-service.jpg",
-    "tmdbId": 16859
+    "tmdbId": 16859,
+    "runtime": 103
   },
   {
     "id": "only-yesterday",
@@ -1626,7 +1738,8 @@ const LIBRARY = [
     "synopsis": "In lyrical switches between the present and the past, Taeko contemplates the arc of her life, and wonders if she has been true to the dreams of her childhood self.",
     "date": "2026-08-04",
     "poster": "covers/only-yesterday.jpg",
-    "tmdbId": 15080
+    "tmdbId": 15080,
+    "runtime": 119
   },
   {
     "id": "porco-rosso",
@@ -1643,7 +1756,8 @@ const LIBRARY = [
     "synopsis": "In Italy in the 1930s, sky pirates in biplanes terrorize wealthy cruise ships as they sail the Adriatic Sea. The only pilot brave enough to stop the scourge is the mysterious Porco Rosso, a former World War I flying ace who was somehow turned into a pig during the war. As he prepares to battle the pirate crew's American ace, Porco Rosso enlists the help of spunky girl mechanic Fio Piccolo and his longtime friend Madame Gina.",
     "date": "2026-08-04",
     "poster": "covers/porco-rosso.jpg",
-    "tmdbId": 11621
+    "tmdbId": 11621,
+    "runtime": 93
   },
   {
     "id": "ocean-waves",
@@ -1661,7 +1775,8 @@ const LIBRARY = [
     "synopsis": "At Kichijōji Station, Tokyo, Taku Morisaki glimpses a familiar woman on the platform opposite boarding a train. Later, her photo falls from a shelf as he exits his apartment before flying to Kōchi Prefecture. Picking it up, he looks at it briefly before leaving. As the aeroplane takes off, he narrates the events that brought her into his life...",
     "date": "2026-08-04",
     "poster": "covers/ocean-waves.jpg",
-    "tmdbId": 21057
+    "tmdbId": 21057,
+    "runtime": 72
   },
   {
     "id": "pom-poko",
@@ -1678,7 +1793,8 @@ const LIBRARY = [
     "synopsis": "The Raccoons of the Tama Hills are being forced from their homes by the rapid development of houses and shopping malls. As it becomes harder to find food and shelter, they decide to band together and fight back. The Raccoons practice and perfect the ancient art of transformation until they are even able to appear as humans in hilarious circumstances.",
     "date": "2026-08-04",
     "poster": "covers/pom-poko.jpg",
-    "tmdbId": 15283
+    "tmdbId": 15283,
+    "runtime": 119
   },
   {
     "id": "whisper-of-the-heart",
@@ -1695,7 +1811,8 @@ const LIBRARY = [
     "synopsis": "Shizuku lives a simple life, dominated by her love for stories and writing. One day she notices that all the library books she has have been previously checked out by the same person: \"Seiji Amasawa.\"",
     "date": "2026-08-04",
     "poster": "covers/whisper-of-the-heart.jpg",
-    "tmdbId": 37797
+    "tmdbId": 37797,
+    "runtime": 111
   },
   {
     "id": "princess-mononoke",
@@ -1712,7 +1829,8 @@ const LIBRARY = [
     "synopsis": "Ashitaka, a prince of the disappearing Emishi people, is cursed by a demonized boar god and must journey to the west to find a cure. Along the way, he encounters San, a young human woman fighting to protect the forest, and Lady Eboshi, who is trying to destroy it. Ashitaka must find a way to bring balance to this conflict.",
     "date": "2026-08-04",
     "poster": "covers/princess-mononoke.jpg",
-    "tmdbId": 128
+    "tmdbId": 128,
+    "runtime": 134
   },
   {
     "id": "my-neighbors-the-yamadas",
@@ -1729,7 +1847,8 @@ const LIBRARY = [
     "synopsis": "The Yamadas are a typical middle class Japanese family in urban Tokyo and this film shows us a variety of episodes of their lives. With tales that range from the humorous to the heartbreaking, we see this family cope with life's little conflicts, problems, and joys in their own way.",
     "date": "2026-08-04",
     "poster": "covers/my-neighbors-the-yamadas.jpg",
-    "tmdbId": 16198
+    "tmdbId": 16198,
+    "runtime": 104
   },
   {
     "id": "spirited-away",
@@ -1746,7 +1865,8 @@ const LIBRARY = [
     "synopsis": "A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free her family.",
     "date": "2026-08-04",
     "poster": "covers/spirited-away.jpg",
-    "tmdbId": 129
+    "tmdbId": 129,
+    "runtime": 125
   },
   {
     "id": "the-cat-returns",
@@ -1765,7 +1885,8 @@ const LIBRARY = [
     "synopsis": "Young Haru rescues a cat from being run over, but soon learns it's no ordinary feline; it happens to be the Prince of the Cats.",
     "date": "2026-08-04",
     "poster": "covers/the-cat-returns.jpg",
-    "tmdbId": 15370
+    "tmdbId": 15370,
+    "runtime": 75
   },
   {
     "id": "howl-s-moving-castle",
@@ -1782,7 +1903,8 @@ const LIBRARY = [
     "synopsis": "Sophie, a young milliner, is turned into an elderly woman by a witch who enters her shop and curses her. She encounters a wizard named Howl and gets caught up in his resistance to fighting for the king.",
     "date": "2026-08-04",
     "poster": "covers/howl-s-moving-castle.jpg",
-    "tmdbId": 4935
+    "tmdbId": 4935,
+    "runtime": 119
   },
   {
     "id": "tales-from-earthsea",
@@ -1799,7 +1921,8 @@ const LIBRARY = [
     "synopsis": "As crops dwindle and dragons reappear, mankind stands on the verge of total chaos. Lord Archmage Sparrowhawk, a powerful wizard, and Arren, a troubled young prince, search for the force behind this mysterious imbalance that threatens to destroy the land of Earthsea.",
     "date": "2026-08-04",
     "poster": "covers/tales-from-earthsea.jpg",
-    "tmdbId": 37933
+    "tmdbId": 37933,
+    "runtime": 116
   },
   {
     "id": "ponyo",
@@ -1816,7 +1939,8 @@ const LIBRARY = [
     "synopsis": "When Sosuke, a young boy who lives on a clifftop overlooking the sea, rescues a stranded goldfish named Ponyo, he discovers more than he bargained for. Ponyo is a curious, energetic young creature who yearns to be human, but even as she causes chaos around the house, her father, a powerful sorcerer, schemes to return Ponyo to the sea.",
     "date": "2026-08-04",
     "poster": "covers/ponyo.jpg",
-    "tmdbId": 12429
+    "tmdbId": 12429,
+    "runtime": 100
   },
   {
     "id": "the-secret-world-of-arrietty",
@@ -1833,7 +1957,8 @@ const LIBRARY = [
     "synopsis": "14-year-old Arrietty and the rest of the Clock family live in peaceful anonymity as they make their own home from items \"borrowed\" from the house's human inhabitants. However, life changes for the Clocks when a human boy discovers Arrietty.",
     "date": "2026-08-04",
     "poster": "covers/the-secret-world-of-arrietty.jpg",
-    "tmdbId": 51739
+    "tmdbId": 51739,
+    "runtime": 94
   },
   {
     "id": "from-up-on-poppy-hill",
@@ -1849,7 +1974,8 @@ const LIBRARY = [
     "synopsis": "Yokohama, 1963. Japan is picking itself up from the devastation of World War II and preparing to host the 1964 Olympics—and the mood is one of both optimism and conflict as the young generation struggles to throw off the shackles of a troubled past. Against this backdrop of hope and change, a friendship begins to blossom between high school students Umi and Shun—but a buried secret from their past emerges to cast a shadow on the future and pull them apart.",
     "date": "2026-08-04",
     "poster": "covers/from-up-on-poppy-hill.jpg",
-    "tmdbId": 83389
+    "tmdbId": 83389,
+    "runtime": 91
   },
   {
     "id": "the-wind-rises",
@@ -1867,7 +1993,8 @@ const LIBRARY = [
     "synopsis": "A lifelong love of flight inspires Japanese aviation engineer Jiro Horikoshi, whose storied career includes the creation of the A-6M World War II fighter plane.",
     "date": "2026-08-04",
     "poster": "covers/the-wind-rises.jpg",
-    "tmdbId": 149870
+    "tmdbId": 149870,
+    "runtime": 126
   },
   {
     "id": "the-tale-of-the-princess-kaguya",
@@ -1884,7 +2011,8 @@ const LIBRARY = [
     "synopsis": "Found inside a shining stalk of bamboo by an old bamboo cutter and his wife, a tiny girl grows rapidly into an exquisite young lady. The mysterious young princess enthrals all who encounter her. But, ultimately, she must confront her fate.",
     "date": "2026-08-04",
     "poster": "covers/the-tale-of-the-princess-kaguya.jpg",
-    "tmdbId": 149871
+    "tmdbId": 149871,
+    "runtime": 137
   },
   {
     "id": "when-marnie-was-there",
@@ -1901,7 +2029,8 @@ const LIBRARY = [
     "synopsis": "Upon being sent to live with relatives in the countryside due to an illness, an emotionally distant adolescent girl becomes obsessed with an abandoned mansion and infatuated with a girl who lives there - a girl who may or may not be real.",
     "date": "2026-08-04",
     "poster": "covers/when-marnie-was-there.jpg",
-    "tmdbId": 242828
+    "tmdbId": 242828,
+    "runtime": 103
   },
   {
     "id": "the-boy-and-the-heron",
@@ -1918,7 +2047,8 @@ const LIBRARY = [
     "synopsis": "While the Second World War rages, the teenage Mahito, haunted by his mother's tragic death, is relocated from Tokyo to the serene rural home of his new stepmother Natsuko, a woman who bears a striking resemblance to the boy's mother.  As he tries to adjust, this strange new world grows even stranger following the appearance of a persistent gray heron, who perplexes and bedevils Mahito, dubbing him the \"long-awaited one.\"",
     "date": "2026-08-04",
     "poster": "covers/the-boy-and-the-heron.jpg",
-    "tmdbId": 508883
+    "tmdbId": 508883,
+    "runtime": 124
   },
   {
     "id": "toy-story",
@@ -1936,7 +2066,8 @@ const LIBRARY = [
     "synopsis": "Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz. But when circumstances separate Buzz and Woody from their owner, the duo eventually learns to put aside their differences.",
     "date": "2026-08-04",
     "poster": "covers/toy-story.jpg",
-    "tmdbId": 862
+    "tmdbId": 862,
+    "runtime": 81
   },
   {
     "id": "toy-story-2",
@@ -1953,7 +2084,8 @@ const LIBRARY = [
     "synopsis": "Andy heads off to Cowboy Camp, leaving his toys to their own devices. Things shift into high gear when an obsessive toy collector named Al McWhiggen, owner of Al's Toy Barn kidnaps Woody. Andy's toys mount a daring rescue mission, Buzz Lightyear meets his match and Woody has to decide where he and his heart truly belong.",
     "date": "2026-08-04",
     "poster": "covers/toy-story-2.jpg",
-    "tmdbId": 863
+    "tmdbId": 863,
+    "runtime": 92
   },
   {
     "id": "toy-story-3",
@@ -1970,7 +2102,8 @@ const LIBRARY = [
     "synopsis": "Woody, Buzz, and the rest of Andy's toys haven't been played with in years. With Andy about to go to college, the gang find themselves accidentally left at a nefarious day care center. The toys must band together to escape and return home to Andy.",
     "date": "2026-08-04",
     "poster": "covers/toy-story-3.jpg",
-    "tmdbId": 10193
+    "tmdbId": 10193,
+    "runtime": 103
   },
   {
     "id": "toy-story-4",
@@ -1988,7 +2121,8 @@ const LIBRARY = [
     "synopsis": "Woody has always been confident about his place in the world, devoted to taking care of his kid—whether that's Andy or Bonnie. But after Bonnie creates a reluctant new toy called \"Forky\", a road trip adventure alongside old and new friends challenges everything Woody believes about loyalty, purpose, and what it truly means to be a toy.",
     "date": "2026-08-04",
     "poster": "covers/toy-story-4.jpg",
-    "tmdbId": 301528
+    "tmdbId": 301528,
+    "runtime": 100
   },
   {
     "id": "monsters-inc",
@@ -2006,7 +2140,8 @@ const LIBRARY = [
     "synopsis": "Lovable Sulley and his wisecracking sidekick Mike Wazowski are the top scare team at Monsters, Inc., the scream-processing factory in Monstropolis. When a little girl named Boo wanders into their world, it's the monsters who are scared silly, and it's up to Sulley and Mike to keep her out of sight and get her back home.",
     "date": "2026-08-04",
     "poster": "covers/monsters-inc.jpg",
-    "tmdbId": 585
+    "tmdbId": 585,
+    "runtime": 92
   },
   {
     "id": "monsters-university",
@@ -2024,7 +2159,8 @@ const LIBRARY = [
     "synopsis": "A look at the relationship between Mike and Sulley during their days at Monsters University — when they weren't necessarily the best of friends.",
     "date": "2026-08-04",
     "poster": "covers/monsters-university.jpg",
-    "tmdbId": 62211
+    "tmdbId": 62211,
+    "runtime": 104
   },
   {
     "id": "the-lion-king",
@@ -2041,7 +2177,8 @@ const LIBRARY = [
     "synopsis": "Young lion prince Simba, eager to one day become king of the Pride Lands, grows up under the watchful eye of his father Mufasa; all the while his villainous uncle Scar conspires to take the throne for himself. Amid betrayal and tragedy, Simba must confront his past and find his rightful place in the Circle of Life.",
     "date": "2026-08-04",
     "poster": "covers/the-lion-king.jpg",
-    "tmdbId": 8587
+    "tmdbId": 8587,
+    "runtime": 89
   },
   {
     "id": "soul",
@@ -2060,7 +2197,8 @@ const LIBRARY = [
     "synopsis": "Joe Gardner is a middle school teacher with a love for jazz music. After a successful audition at the Half Note Club, he suddenly gets into an accident that separates his soul from his body and is transported to the You Seminar, a center in which souls develop and gain passions before being transported to a newborn child. Joe must enlist help from the other souls-in-training, like 22, a soul who has spent eons in the You Seminar, in order to get back to Earth.",
     "date": "2026-08-04",
     "poster": "covers/soul.jpg",
-    "tmdbId": 508442
+    "tmdbId": 508442,
+    "runtime": 101
   },
   {
     "id": "coco",
@@ -2078,7 +2216,8 @@ const LIBRARY = [
     "synopsis": "Despite his family’s baffling generations-old ban on music, Miguel dreams of becoming an accomplished musician like his idol, Ernesto de la Cruz. Desperate to prove his talent, Miguel finds himself in the stunning and colorful Land of the Dead following a mysterious chain of events. Along the way, he meets charming trickster Hector, and together, they set off on an extraordinary journey to unlock the real story behind Miguel's family history.",
     "date": "2026-08-04",
     "poster": "covers/coco.jpg",
-    "tmdbId": 354912
+    "tmdbId": 354912,
+    "runtime": 105
   },
   {
     "id": "your-name",
@@ -2095,7 +2234,8 @@ const LIBRARY = [
     "synopsis": "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
     "date": "2026-08-04",
     "poster": "covers/your-name.jpg",
-    "tmdbId": 372058
+    "tmdbId": 372058,
+    "runtime": 106
   },
   {
     "id": "nausica-of-the-valley-of-the-wind",
@@ -2112,7 +2252,8 @@ const LIBRARY = [
     "synopsis": "After a global war, the seaside kingdom known as the Valley of the Wind remains one of the last strongholds on Earth untouched by a poisonous jungle and the powerful insects that guard it. Led by the courageous Princess Nausicaä, the people of the Valley engage in an epic struggle to restore the bond between humanity and Earth.",
     "date": "2026-08-04",
     "poster": "covers/nausica-of-the-valley-of-the-wind.jpg",
-    "tmdbId": 81
+    "tmdbId": 81,
+    "runtime": 95
   },
   {
     "id": "jujutsu-kaisen",
@@ -2129,7 +2270,9 @@ const LIBRARY = [
     "synopsis": "Yuji Itadori is a boy with tremendous physical strength, though he lives a completely ordinary high school life. One day, to save a classmate who has been attacked by curses, he eats the finger of Ryomen Sukuna, taking the curse into his own soul. From then on, he shares one body with Ryomen Sukuna. Guided by the most powerful of sorcerers, Satoru Gojo, Itadori is admitted to Tokyo Jujutsu High School, an organization that fights the curses... and thus begins the heroic tale of a boy who became a curse to exorcise a curse, a life from which he could never turn back.",
     "date": "2026-08-04",
     "poster": "covers/jujutsu-kaisen.jpg",
-    "tmdbId": 95479
+    "tmdbId": 95479,
+    "episodeRuntime": 24,
+    "episodes": 59
   },
   {
     "id": "invincible",
@@ -2147,7 +2290,9 @@ const LIBRARY = [
     "synopsis": "Mark Grayson is a normal teenager except for the fact that his father is the most powerful superhero on the planet. Shortly after his seventeenth birthday, Mark begins to develop powers of his own and enters into his father's tutelage.",
     "date": "2026-08-04",
     "poster": "covers/invincible.jpg",
-    "tmdbId": 95557
+    "tmdbId": 95557,
+    "episodeRuntime": 52,
+    "episodes": 32
   },
   {
     "id": "berserk",
@@ -2164,7 +2309,9 @@ const LIBRARY = [
     "synopsis": "Guts, a wandering mercenary, joins the Band of the Hawk after being defeated in a duel by Griffith, the group's leader and founder. Together, they dominate every battle, but something menacing lurks in the shadows.",
     "date": "2026-08-04",
     "poster": "covers/berserk.jpg",
-    "tmdbId": 35935
+    "tmdbId": 35935,
+    "episodeRuntime": 23,
+    "episodes": 25
   },
   {
     "id": "megalobox",
@@ -2182,7 +2329,9 @@ const LIBRARY = [
     "synopsis": "A desolate land stretches out from the city of poverty. A motorcycle speeds recklessly, blowing clouds of sand and dust. The rider is the protagonist of this story – he has neither a name nor a past. All he has is his ring name, “Junk Dog” and a technique for rigging MEGALOBOX matches with his pal Gansaku Nanbu, which they use to support their hand-to-mouth lives. JD is bored, resigned, and unfulfilled. Yuri has been the reigning champion of MEGALOBOX for the past few years. He has the skills and presence of a true champion. This is a story of JD and his rival, Yuri.",
     "date": "2026-08-04",
     "poster": "covers/megalobox.jpg",
-    "tmdbId": 77939
+    "tmdbId": 77939,
+    "episodeRuntime": 24,
+    "episodes": 26
   },
   {
     "id": "solo-leveling",
@@ -2198,7 +2347,8 @@ const LIBRARY = [
     "synopsis": "Sung Jin-woo, an E-rank Hunter — the lowest tier — gains extraordinary abilities after a near-death experience. As he levels up, he becomes humanity's unexpected hope, defending against monstrous threats emerging from beyond the mysterious Gates.",
     "date": "2026-08-04",
     "poster": null,
-    "tmdbId": 295389
+    "tmdbId": 295389,
+    "episodes": 7
   },
   {
     "id": "pluto",
@@ -2216,7 +2366,9 @@ const LIBRARY = [
     "synopsis": "When the world's seven most advanced robots and their human allies are murdered one by one, Inspector Gesicht soon discovers that he's also in danger.",
     "date": "2026-08-04",
     "poster": "covers/pluto.jpg",
-    "tmdbId": 91997
+    "tmdbId": 91997,
+    "episodeRuntime": 68,
+    "episodes": 8
   },
   {
     "id": "batman-mask-of-the-phantasm",
@@ -2233,7 +2385,8 @@ const LIBRARY = [
     "synopsis": "Andrea Beaumont leaves her father to return to Gotham, rekindling an old romance with Bruce Wayne. At the same time, a mysterious figure begins to hunt down Gotham's criminals, wrongly implicating Batman in the murders. Now on the run from the law, Batman must find and stop the culprit, while also navigating his relationship with Andrea.",
     "date": "2026-08-08",
     "poster": "covers/batman-mask-of-the-phantasm.jpg",
-    "tmdbId": 14919
+    "tmdbId": 14919,
+    "runtime": 76
   },
   {
     "id": "the-first-slam-dunk",
@@ -2250,7 +2403,8 @@ const LIBRARY = [
     "synopsis": "Shohoku's “speedster” and point guard, Ryota Miyagi, always plays with brains and lightning speed, running circles around his opponents while feigning composure. In his second year of high school, Ryota plays with the Shohoku High School basketball team along with Sakuragi, Rukawa, Akagi, and Mitsui as they take the stage at the Inter-High School National Championship. And now, they are on the brink of challenging the reigning champions, Sannoh Kogyo High School.",
     "date": "2026-08-08",
     "poster": "covers/the-first-slam-dunk.jpg",
-    "tmdbId": 783675
+    "tmdbId": 783675,
+    "runtime": 125
   },
   {
     "id": "the-others",
@@ -2267,7 +2421,8 @@ const LIBRARY = [
     "synopsis": "Grace is a woman who lives in an old house kept dark because her two children, Anne and Nicholas, have a rare sensitivity to light. When the family begins to suspect the house is haunted, Grace fights to protect her children at any cost in the face of strange events and disturbing visions.",
     "date": "2026-08-08",
     "poster": "covers/the-others.jpg",
-    "tmdbId": 1933
+    "tmdbId": 1933,
+    "runtime": 101
   },
   {
     "id": "i-saw-the-devil",
@@ -2283,7 +2438,8 @@ const LIBRARY = [
     "synopsis": "Kyung-chul is a dangerous psychopath who kills for pleasure. Soo-hyeon, a top-secret agent, decides to track down the murderer himself. He promises himself that he will do everything in his power to take vengeance against the killer, even if it means that he must become a monster himself.",
     "date": "2026-08-08",
     "poster": "covers/i-saw-the-devil.jpg",
-    "tmdbId": 49797
+    "tmdbId": 49797,
+    "runtime": 144
   },
   {
     "id": "donnie-darko",
@@ -2300,7 +2456,8 @@ const LIBRARY = [
     "synopsis": "After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a large bunny rabbit that manipulates him to commit a series of crimes.",
     "date": "2026-08-08",
     "poster": "covers/donnie-darko.jpg",
-    "tmdbId": 141
+    "tmdbId": 141,
+    "runtime": 114
   },
   {
     "id": "the-substance",
@@ -2317,7 +2474,8 @@ const LIBRARY = [
     "synopsis": "A fading celebrity decides to use a black market drug, a cell-replicating substance that temporarily creates a younger, better version of herself.",
     "date": "2026-08-08",
     "poster": "covers/the-substance.jpg",
-    "tmdbId": 933260
+    "tmdbId": 933260,
+    "runtime": 141
   },
   {
     "id": "hacksaw-ridge",
@@ -2334,7 +2492,8 @@ const LIBRARY = [
     "synopsis": "WWII American Army Medic Desmond T. Doss, who served during the Battle of Okinawa, refuses to kill people and becomes the first Conscientious Objector in American history to receive the Congressional Medal of Honor.",
     "date": "2026-08-09",
     "poster": "covers/hacksaw-ridge.jpg",
-    "tmdbId": 324786
+    "tmdbId": 324786,
+    "runtime": 139
   },
   {
     "id": "santa-jaws",
@@ -2351,7 +2510,8 @@ const LIBRARY = [
     "synopsis": "Trying to survive the family Christmas, Cody makes a wish to be alone, which ends up backfiring when a shark manifests and kills his entire family.",
     "date": "2026-08-09",
     "poster": "covers/santa-jaws.jpg",
-    "tmdbId": 542476
+    "tmdbId": 542476,
+    "runtime": 88
   },
   {
     "id": "anora",
@@ -2368,7 +2528,8 @@ const LIBRARY = [
     "synopsis": "A young sex worker from Brooklyn gets her chance at a Cinderella story when she meets and impulsively marries the son of an oligarch. Once the news reaches Russia, her fairytale is threatened as his parents set out to get the marriage annulled.",
     "date": "2026-08-09",
     "poster": "covers/anora.jpg",
-    "tmdbId": 1064213
+    "tmdbId": 1064213,
+    "runtime": 139
   },
   {
     "id": "late-night-with-the-devil",
@@ -2383,7 +2544,8 @@ const LIBRARY = [
     "synopsis": "A live broadcast of a late-night talk show in 1977 goes horribly wrong, unleashing evil into the nation's living rooms.",
     "date": "2026-08-09",
     "poster": "covers/late-night-with-the-devil.jpg",
-    "tmdbId": 938614
+    "tmdbId": 938614,
+    "runtime": 93
   },
   {
     "id": "the-wild-robot",
@@ -2401,7 +2563,8 @@ const LIBRARY = [
     "synopsis": "After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island. To survive the harsh environment, Roz bonds with the island's animals and cares for an orphaned baby goose.",
     "date": "2026-08-09",
     "poster": "covers/the-wild-robot.jpg",
-    "tmdbId": 1184918
+    "tmdbId": 1184918,
+    "runtime": 102
   },
   {
     "id": "the-whale",
@@ -2416,7 +2579,8 @@ const LIBRARY = [
     "synopsis": "A reclusive English teacher suffering from severe obesity attempts to reconnect with his estranged teenage daughter for one last chance at redemption.",
     "date": "2026-08-09",
     "poster": "covers/the-whale.jpg",
-    "tmdbId": 785084
+    "tmdbId": 785084,
+    "runtime": 117
   },
   {
     "id": "vinland-saga",
@@ -2434,7 +2598,9 @@ const LIBRARY = [
     "synopsis": "For a thousand years, the Vikings have made quite a name and reputation for themselves as the strongest families with a thirst for violence. Thorfinn, the son of one of the Vikings' greatest warriors, spends his boyhood in a battlefield enhancing his skills in his adventure to redeem his most-desired revenge after his father was murdered.",
     "date": "2026-08-09",
     "poster": "covers/vinland-saga.jpg",
-    "tmdbId": 88803
+    "tmdbId": 88803,
+    "episodeRuntime": 25,
+    "episodes": 48
   },
   {
     "id": "the-northman",
@@ -2451,7 +2617,8 @@ const LIBRARY = [
     "synopsis": "Prince Amleth is on the verge of becoming a man when his father is brutally murdered by his uncle, who kidnaps the boy's mother. Two decades later, Amleth is now a Viking who's on a mission to save his mother, kill his uncle and avenge his father.",
     "date": "2026-08-09",
     "poster": "covers/the-northman.jpg",
-    "tmdbId": 639933
+    "tmdbId": 639933,
+    "runtime": 137
   },
   {
     "id": "prisoners",
@@ -2468,7 +2635,8 @@ const LIBRARY = [
     "synopsis": "After his six-year-old daughter is abducted, a desperate father takes justice into his own hands when he loses faith in the detective leading the investigation, setting both men on a collision course as the search descends into obsession and moral compromise.",
     "date": "2026-08-09",
     "poster": "covers/prisoners.jpg",
-    "tmdbId": 146233
+    "tmdbId": 146233,
+    "runtime": 153
   },
   {
     "id": "f1",
@@ -2484,7 +2652,8 @@ const LIBRARY = [
     "synopsis": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team—and mentor a young hotshot driver—while chasing one more chance at glory.",
     "date": "2026-08-09",
     "poster": "covers/f1.jpg",
-    "tmdbId": 911430
+    "tmdbId": 911430,
+    "runtime": 156
   },
   {
     "id": "127-hours",
@@ -2501,7 +2670,8 @@ const LIBRARY = [
     "synopsis": "The true story of mountain climber Aron Ralston's remarkable adventure to save himself after a fallen boulder crashes on his arm and traps him in an isolated canyon in Utah.",
     "date": "2026-08-09",
     "poster": "covers/127-hours.jpg",
-    "tmdbId": 44115
+    "tmdbId": 44115,
+    "runtime": 94
   },
   {
     "id": "looper",
@@ -2518,7 +2688,8 @@ const LIBRARY = [
     "synopsis": "In the year 2044, time travel has not yet been invented but in 30 years it will have been. When the mob wants to get rid of someone, they will send their target into the past where a looper, a hired gun, like Joe is waiting to mop up. Joe is getting rich and life is good until the day the mob decides to close the loop, sending back Joe's future self for assassination.",
     "date": "2026-08-09",
     "poster": "covers/looper.jpg",
-    "tmdbId": 59967
+    "tmdbId": 59967,
+    "runtime": 118
   },
   {
     "id": "elysium",
@@ -2536,7 +2707,8 @@ const LIBRARY = [
     "synopsis": "In the year 2159, two classes of people exist: the very wealthy who live on a pristine man-made space station called Elysium, and the rest, who live on an overpopulated, ruined Earth. Secretary Rhodes, a hard line government official, will stop at nothing to enforce anti-immigration laws and preserve the luxurious lifestyle of the citizens of Elysium. That doesn’t stop the people of Earth from trying to get in, by any means they can. When unlucky Max is backed into a corner, he agrees to take on a daunting mission that, if successful, will not only save his life, but could bring equality to these polarized worlds.",
     "date": "2026-08-09",
     "poster": "covers/elysium.jpg",
-    "tmdbId": 68724
+    "tmdbId": 68724,
+    "runtime": 109
   },
   {
     "id": "the-martian",
@@ -2553,7 +2725,8 @@ const LIBRARY = [
     "synopsis": "During a manned mission to Mars, Astronaut Mark Watney is presumed dead after a fierce storm and left behind by his crew. But Watney has survived and finds himself stranded and alone on the hostile planet. With only meager supplies, he must draw upon his ingenuity, wit and spirit to subsist and find a way to signal to Earth that he is alive.",
     "date": "2026-08-09",
     "poster": "covers/the-martian.jpg",
-    "tmdbId": 286217
+    "tmdbId": 286217,
+    "runtime": 141
   },
   {
     "id": "12-years-a-slave",
@@ -2569,7 +2742,8 @@ const LIBRARY = [
     "synopsis": "In the pre-Civil War United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery. Facing cruelty as well as unexpected kindnesses Solomon struggles not only to stay alive, but to retain his dignity. In the twelfth year of his unforgettable odyssey, Solomon’s chance meeting with a Canadian abolitionist will forever alter his life.",
     "date": "2026-08-09",
     "poster": "covers/12-years-a-slave.jpg",
-    "tmdbId": 76203
+    "tmdbId": 76203,
+    "runtime": 134
   },
   {
     "id": "edge-of-tomorrow",
@@ -2585,7 +2759,8 @@ const LIBRARY = [
     "synopsis": "Major Bill Cage is an officer who has never seen a day of combat when he is unceremoniously demoted and dropped into combat. Cage is killed within minutes, managing to take an alpha alien down with him. He awakens back at the beginning of the same day and is forced to fight and die again... and again - as physical contact with the alien has thrown him into a time loop.",
     "date": "2026-08-09",
     "poster": "covers/edge-of-tomorrow.jpg",
-    "tmdbId": 137113
+    "tmdbId": 137113,
+    "runtime": 114
   },
   {
     "id": "arrival",
@@ -2602,7 +2777,8 @@ const LIBRARY = [
     "synopsis": "Taking place after alien crafts land around the world, an expert linguist is recruited by the military to determine whether they come in peace or are a threat.",
     "date": "2026-08-09",
     "poster": "covers/arrival.jpg",
-    "tmdbId": 329865
+    "tmdbId": 329865,
+    "runtime": 116
   },
   {
     "id": "baby-driver",
@@ -2618,7 +2794,8 @@ const LIBRARY = [
     "synopsis": "After being coerced into working for a crime boss, a young getaway driver finds himself taking part in a heist doomed to fail.",
     "date": "2026-08-09",
     "poster": "covers/baby-driver.jpg",
-    "tmdbId": 339403
+    "tmdbId": 339403,
+    "runtime": 113
   },
   {
     "id": "mother",
@@ -2634,7 +2811,8 @@ const LIBRARY = [
     "synopsis": "A couple's relationship is tested when uninvited guests arrive at their home, disrupting their tranquil existence.",
     "date": "2026-08-09",
     "poster": "covers/mother.jpg",
-    "tmdbId": 381283
+    "tmdbId": 381283,
+    "runtime": 121
   },
   {
     "id": "logan",
@@ -2651,7 +2829,8 @@ const LIBRARY = [
     "synopsis": "In the near future, a weary Logan cares for an ailing Professor X in a hideout on the Mexican border. But Logan's attempts to hide from the world and his legacy are upended when a young mutant arrives, pursued by dark forces.",
     "date": "2026-08-09",
     "poster": "covers/logan.jpg",
-    "tmdbId": 263115
+    "tmdbId": 263115,
+    "runtime": 137
   },
   {
     "id": "spider-man-into-the-spider-verse",
@@ -2669,7 +2848,8 @@ const LIBRARY = [
     "synopsis": "Struggling to find his place in the world while juggling school and family, Brooklyn teenager Miles Morales is unexpectedly bitten by a radioactive spider and develops unfathomable powers just like the one and only Spider-Man. While wrestling with the implications of his new abilities, Miles discovers a super collider created by the madman Wilson \"Kingpin\" Fisk, causing others from across the Spider-Verse to be inadvertently transported to his dimension.",
     "date": "2026-08-09",
     "poster": "covers/spider-man-into-the-spider-verse.jpg",
-    "tmdbId": 324857
+    "tmdbId": 324857,
+    "runtime": 117
   },
   {
     "id": "spider-man-across-the-spider-verse",
@@ -2687,7 +2867,8 @@ const LIBRARY = [
     "synopsis": "After reuniting with Gwen Stacy, Brooklyn’s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse's very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must set out on his own to save those he loves most.",
     "date": "2026-08-09",
     "poster": "covers/spider-man-across-the-spider-verse.jpg",
-    "tmdbId": 569094
+    "tmdbId": 569094,
+    "runtime": 140
   },
   {
     "id": "the-irishman",
@@ -2704,7 +2885,8 @@ const LIBRARY = [
     "synopsis": "Pennsylvania, 1956. Frank Sheeran, a war veteran of Irish origin who works as a truck driver, accidentally meets mobster Russell Bufalino. Once Frank becomes his trusted man, Bufalino sends him to Chicago with the task of helping Jimmy Hoffa, a powerful union leader related to organized crime, with whom Frank will maintain a close friendship for nearly twenty years.",
     "date": "2026-08-09",
     "poster": "covers/the-irishman.jpg",
-    "tmdbId": 398978
+    "tmdbId": 398978,
+    "runtime": 209
   },
   {
     "id": "dark-waters",
@@ -2720,7 +2902,8 @@ const LIBRARY = [
     "synopsis": "A tenacious attorney uncovers a dark secret that connects a growing number of unexplained deaths to one of the world's largest corporations. In the process, he risks everything — his future, his family, and his own life — to expose the truth.",
     "date": "2026-08-09",
     "poster": "covers/dark-waters.jpg",
-    "tmdbId": 552178
+    "tmdbId": 552178,
+    "runtime": 127
   },
   {
     "id": "1917",
@@ -2737,7 +2920,8 @@ const LIBRARY = [
     "synopsis": "At the height of the First World War, two young British soldiers must cross enemy territory and deliver a message that will stop a deadly attack on hundreds of soldiers.",
     "date": "2026-08-09",
     "poster": "covers/1917.jpg",
-    "tmdbId": 530915
+    "tmdbId": 530915,
+    "runtime": 119
   },
   {
     "id": "joker",
@@ -2754,7 +2938,8 @@ const LIBRARY = [
     "synopsis": "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure.",
     "date": "2026-08-09",
     "poster": "covers/joker.jpg",
-    "tmdbId": 475557
+    "tmdbId": 475557,
+    "runtime": 122
   },
   {
     "id": "lincoln",
@@ -2770,7 +2955,8 @@ const LIBRARY = [
     "synopsis": "The revealing story of the 16th US President's tumultuous final months in office. In a nation divided by war and the strong winds of change, Lincoln pursues a course of action designed to end the war, unite the country and abolish slavery. With the moral courage and fierce determination to succeed, his choices during this critical moment will change the fate of generations to come.",
     "date": "2026-08-09",
     "poster": "covers/lincoln.jpg",
-    "tmdbId": 72976
+    "tmdbId": 72976,
+    "runtime": 150
   },
   {
     "id": "the-king-s-speech",
@@ -2786,7 +2972,8 @@ const LIBRARY = [
     "synopsis": "The King's Speech tells the story of the man who became King George VI, the father of Queen Elizabeth II. After his brother abdicates, George ('Bertie') reluctantly assumes the throne. Plagued by a dreaded stutter and considered unfit to be king, Bertie engages the help of an unorthodox speech therapist named Lionel Logue. Through a set of unexpected techniques, and as a result of an unlikely friendship, Bertie is able to find his voice and boldly lead the country into war.",
     "date": "2026-08-09",
     "poster": "covers/the-king-s-speech.jpg",
-    "tmdbId": 45269
+    "tmdbId": 45269,
+    "runtime": 118
   },
   {
     "id": "ocean-s-eleven",
@@ -2802,7 +2989,8 @@ const LIBRARY = [
     "synopsis": "Less than 24 hours into his parole, charismatic thief Danny Ocean is already rolling out his next plan: In one night, Danny's hand-picked crew of specialists will attempt to steal more than $150 million from three Las Vegas casinos. But to score the cash, Danny risks his chances of reconciling with ex-wife, Tess.",
     "date": "2026-08-09",
     "poster": "covers/ocean-s-eleven.jpg",
-    "tmdbId": 161
+    "tmdbId": 161,
+    "runtime": 116
   },
   {
     "id": "val",
@@ -2817,7 +3005,8 @@ const LIBRARY = [
     "synopsis": "For over 40 years Val Kilmer, one of Hollywood’s most mercurial and/or misunderstood actors has been documenting his own life and craft through film and video. He has amassed thousands of hours of footage, from 16mm home movies made with his brothers, to time spent in iconic roles for blockbuster movies like Top Gun, The Doors, Tombstone, and Batman Forever. This raw, wildly original and unflinching documentary reveals a life lived to extremes and a heart-filled, sometimes hilarious look at what it means to be an artist and a complex man.",
     "date": "2026-08-09",
     "poster": "covers/val.jpg",
-    "tmdbId": 834027
+    "tmdbId": 834027,
+    "runtime": 109
   },
   {
     "id": "the-green-knight",
@@ -2834,7 +3023,8 @@ const LIBRARY = [
     "synopsis": "An epic fantasy adventure based on the timeless Arthurian legend, The Green Knight tells the story of Sir Gawain, King Arthur's reckless and headstrong nephew, who embarks on a daring quest to confront the eponymous Green Knight, a gigantic emerald-skinned stranger and tester of men.",
     "date": "2026-08-09",
     "poster": "covers/the-green-knight.jpg",
-    "tmdbId": 559907
+    "tmdbId": 559907,
+    "runtime": 130
   },
   {
     "id": "the-wall-of-the-eye",
@@ -2850,7 +3040,9 @@ const LIBRARY = [
     "synopsis": "In 1990, Hagizaki Tatsuo, the accounting department chief of Ukishima Electric Works, was busy negotiating on getting a loan together with Sekino, the company's general manager. However, just as they were about to get the funds, Sekino was involved in a 200 million yen fraud and he later disappeared with the loan. The company decides to cover up the incident to protect its image, but Hagizaki wants to get to the bottom of the matter with the help of his newspaper reporter friend, Muraki. Hagizaki later notices that the case becomes darker and darker as he continues to investigate. He then meets a beautiful woman, Uezaki Etsuko, whom he believes hold the key to the entire incident.",
     "date": "2026-08-09",
     "poster": "covers/the-wall-of-the-eye.jpg",
-    "tmdbId": 196055
+    "tmdbId": 196055,
+    "episodeRuntime": 26,
+    "episodes": 5
   },
   {
     "id": "still-a-michael-j-fox-movie",
@@ -2865,7 +3057,8 @@ const LIBRARY = [
     "synopsis": "A short kid from a Canadian army base becomes the international pop culture darling of the 1980s—only to find the course of his life altered by a stunning diagnosis. What happens when an incurable optimist confronts an incurable disease?",
     "date": "2026-08-09",
     "poster": "covers/still-a-michael-j-fox-movie.jpg",
-    "tmdbId": 1058699
+    "tmdbId": 1058699,
+    "runtime": 95
   },
   {
     "id": "taxi-driver",
@@ -2881,7 +3074,8 @@ const LIBRARY = [
     "synopsis": "Suffering from insomnia, disturbed loner Travis Bickle takes a job as a New York City cabbie, haunting the streets nightly, growing increasingly detached from reality as he dreams of cleaning up the filthy city.",
     "date": "2026-08-09",
     "poster": "covers/taxi-driver.jpg",
-    "tmdbId": 103
+    "tmdbId": 103,
+    "runtime": 114
   },
   {
     "id": "the-iron-claw",
@@ -2897,7 +3091,8 @@ const LIBRARY = [
     "synopsis": "The true story of the inseparable Von Erich brothers, who made history in the intensely competitive world of professional wrestling in the early 1980s. Through tragedy and triumph, under the shadow of their domineering father and coach, the brothers seek larger-than-life immortality on the biggest stage in sports.",
     "date": "2026-08-09",
     "poster": "covers/the-iron-claw.jpg",
-    "tmdbId": 850165
+    "tmdbId": 850165,
+    "runtime": 133
   },
   {
     "id": "gangs-of-new-york",
@@ -2914,7 +3109,8 @@ const LIBRARY = [
     "synopsis": "In early 1860s New York, Irish immigrant Amsterdam Vallon is released from prison and returns to the Five Points, seeking revenge against his father's killer, William Cutting, a powerful anti-immigrant gang leader. He knows that revenge can only be attained by infiltrating Cutting's inner circle. Vallon's journey becomes a fight for personal survival and to find a place for the Irish people.",
     "date": "2026-08-09",
     "poster": "covers/gangs-of-new-york.jpg",
-    "tmdbId": 3131
+    "tmdbId": 3131,
+    "runtime": 168
   },
   {
     "id": "killers-of-the-flower-moon",
@@ -2931,7 +3127,8 @@ const LIBRARY = [
     "synopsis": "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one—until the FBI steps in to unravel the mystery.",
     "date": "2026-08-09",
     "poster": "covers/killers-of-the-flower-moon.jpg",
-    "tmdbId": 466420
+    "tmdbId": 466420,
+    "runtime": 206
   },
   {
     "id": "godzilla-minus-one",
@@ -2948,7 +3145,8 @@ const LIBRARY = [
     "synopsis": "In postwar Japan, Godzilla brings new devastation to an already scorched landscape. With no military intervention or government help in sight, the survivors must join together in the face of despair and fight back against an unrelenting horror.",
     "date": "2026-08-09",
     "poster": "covers/godzilla-minus-one.jpg",
-    "tmdbId": 940721
+    "tmdbId": 940721,
+    "runtime": 125
   },
   {
     "id": "mickey-17",
@@ -2965,7 +3163,8 @@ const LIBRARY = [
     "synopsis": "Unlikely hero Mickey Barnes finds himself in the extraordinary circumstance of working for an employer who demands the ultimate commitment to the job… to die, for a living.",
     "date": "2026-08-09",
     "poster": "covers/mickey-17.jpg",
-    "tmdbId": 696506
+    "tmdbId": 696506,
+    "runtime": 137
   },
   {
     "id": "barking-dogs-never-bite",
@@ -2982,7 +3181,8 @@ const LIBRARY = [
     "synopsis": "An idle part-time college lecturer is annoyed by the yapping sound of a nearby dog. He decides to take drastic action.",
     "date": "2026-08-09",
     "poster": "covers/barking-dogs-never-bite.jpg",
-    "tmdbId": 21531
+    "tmdbId": 21531,
+    "runtime": 110
   },
   {
     "id": "john-wick-chapter-2",
@@ -2999,7 +3199,8 @@ const LIBRARY = [
     "synopsis": "John Wick is forced out of retirement by a former associate looking to seize control of a shadowy international assassins’ guild. Bound by a blood oath to aid him, Wick travels to Rome and does battle against some of the world’s most dangerous killers.",
     "date": "2026-08-09",
     "poster": "covers/john-wick-chapter-2.jpg",
-    "tmdbId": 324552
+    "tmdbId": 324552,
+    "runtime": 122
   },
   {
     "id": "john-wick-chapter-4",
@@ -3016,7 +3217,8 @@ const LIBRARY = [
     "synopsis": "With the price on his head ever increasing, John Wick uncovers a path to defeating The High Table. But before he can earn his freedom, Wick must face off against a new enemy with powerful alliances across the globe and forces that turn old friends into foes.",
     "date": "2026-08-09",
     "poster": "covers/john-wick-chapter-4.jpg",
-    "tmdbId": 603692
+    "tmdbId": 603692,
+    "runtime": 170
   },
   {
     "id": "john-wick-chapter-3-parabellum",
@@ -3033,7 +3235,8 @@ const LIBRARY = [
     "synopsis": "Super-assassin John Wick returns with a $14 million price tag on his head and an army of bounty-hunting killers on his trail. After killing a member of the shadowy international assassin’s guild, the High Table, John Wick is excommunicado, but the world’s most ruthless hit men and women await his every turn.",
     "date": "2026-08-09",
     "poster": "covers/john-wick-chapter-3-parabellum.jpg",
-    "tmdbId": 458156
+    "tmdbId": 458156,
+    "runtime": 131
   },
   {
     "id": "john-wick",
@@ -3049,7 +3252,8 @@ const LIBRARY = [
     "synopsis": "Ex-hitman John Wick comes out of retirement to track down the gangsters that took everything from him.",
     "date": "2026-08-09",
     "poster": "covers/john-wick.jpg",
-    "tmdbId": 245891
+    "tmdbId": 245891,
+    "runtime": 101
   },
   {
     "id": "the-nightingale",
@@ -3066,7 +3270,8 @@ const LIBRARY = [
     "synopsis": "In 1825, Clare, a 21-year-old Irish convict, chases a British soldier through the rugged Tasmanian wilderness, bent on revenge for a terrible act of violence he committed against her family. She enlists the services of an Aboriginal tracker who is also marked by trauma from his own violence-filled past.",
     "date": "2026-08-09",
     "poster": "covers/the-nightingale.jpg",
-    "tmdbId": 400090
+    "tmdbId": 400090,
+    "runtime": 136
   },
   {
     "id": "official-secrets",
@@ -3083,7 +3288,8 @@ const LIBRARY = [
     "synopsis": "The true story of British intelligence whistleblower Katharine Gun who—prior to the 2003 Iraq invasion—leaked a top-secret NSA memo exposing a joint US-UK illegal spying operation against members of the UN Security Council. The memo proposed blackmailing member states into voting for war.",
     "date": "2026-08-09",
     "poster": "covers/official-secrets.jpg",
-    "tmdbId": 393624
+    "tmdbId": 393624,
+    "runtime": 112
   },
   {
     "id": "mindhunter",
@@ -3099,7 +3305,9 @@ const LIBRARY = [
     "synopsis": "An agent in the FBI's Elite Serial Crime Unit develops profiling techniques as he pursues notorious serial killers and rapists.",
     "date": "2026-08-09",
     "poster": "covers/mindhunter.jpg",
-    "tmdbId": 67744
+    "tmdbId": 67744,
+    "episodeRuntime": 74,
+    "episodes": 19
   },
   {
     "id": "jojo-rabbit",
@@ -3116,7 +3324,8 @@ const LIBRARY = [
     "synopsis": "Jojo, a lonely German boy during World War II has his world shaken when he learns that his single mother is hiding a Jewish girl in their home. Influenced by a buffoonish imaginary version of Adolf Hitler, he begins to question his beliefs and confront the conflict between propaganda and his own humanity.",
     "date": "2026-08-09",
     "poster": "covers/jojo-rabbit.jpg",
-    "tmdbId": 515001
+    "tmdbId": 515001,
+    "runtime": 108
   },
   {
     "id": "the-father",
@@ -3131,7 +3340,8 @@ const LIBRARY = [
     "synopsis": "A man refuses all assistance from his daughter as he ages and, as he tries to make sense of his changing circumstances, he begins to doubt his loved ones, his own mind and even the fabric of his reality.",
     "date": "2026-08-09",
     "poster": "covers/the-father.jpg",
-    "tmdbId": 600354
+    "tmdbId": 600354,
+    "runtime": 97
   },
   {
     "id": "how-to-train-your-dragon",
@@ -3149,7 +3359,8 @@ const LIBRARY = [
     "synopsis": "As the son of a Viking leader on the cusp of manhood, shy Hiccup Horrendous Haddock III faces a rite of passage: he must kill a dragon to prove his warrior mettle. But after downing a feared dragon, he realizes that he no longer wants to destroy it, and instead befriends the beast – which he names Toothless – much to the chagrin of his warrior father.",
     "date": "2026-08-09",
     "poster": "covers/how-to-train-your-dragon.jpg",
-    "tmdbId": 10191
+    "tmdbId": 10191,
+    "runtime": 98
   },
   {
     "id": "how-to-train-your-dragon-2",
@@ -3168,7 +3379,8 @@ const LIBRARY = [
     "synopsis": "Five years after uniting the dragons and Vikings of Berk, Hiccup and Toothless soar beyond their homeland, charting the vast unknown. During one of their adventures, the pair discover a secret cave that houses hundreds of wild dragons -- and a mysterious dragon rider with a startling connection to Hiccup. And as the ruthless dragon conqueror Drago Bludvist rises to seize control of both dragons and people alike, Hiccup must step into his role as a true leader and, alongside his friends and Toothless, protect Berk from a devastating war.",
     "date": "2026-08-09",
     "poster": "covers/how-to-train-your-dragon-2.jpg",
-    "tmdbId": 82702
+    "tmdbId": 82702,
+    "runtime": 102
   },
   {
     "id": "dream-scenario",
@@ -3184,7 +3396,8 @@ const LIBRARY = [
     "synopsis": "Hapless family man Paul Matthews finds his life turned upside down when millions of strangers suddenly start seeing him in their dreams. But when his nighttime appearances take a nightmarish turn, Paul is forced to navigate his newfound stardom.",
     "date": "2026-08-09",
     "poster": "covers/dream-scenario.jpg",
-    "tmdbId": 823482
+    "tmdbId": 823482,
+    "runtime": 102
   },
   {
     "id": "poor-things",
@@ -3201,22 +3414,27 @@ const LIBRARY = [
     "synopsis": "Brought back to life by an unorthodox scientist, a young woman runs off with a lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.",
     "date": "2026-08-09",
     "poster": "covers/poor-things.jpg",
-    "tmdbId": 792307
+    "tmdbId": 792307,
+    "runtime": 141
   },
   {
     "id": "flow",
-    "title": "FLOW",
+    "title": "Flow",
     "type": "movie",
     "status": "towatch",
     "year": 2024,
     "genres": [
-      "Animation"
+      "Adventure",
+      "Animation",
+      "Family",
+      "Fantasy"
     ],
     "score": null,
-    "synopsis": "As the ‘flow’ progresses, the world where our ‘giant’ once stood gradually fades away, replaced by their inner worlds. Our ‘giant’ continues to advance endlessly, questioning the relationship between the world and oneself.",
+    "synopsis": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together.",
     "date": "2026-08-09",
     "poster": "covers/flow.jpg",
-    "tmdbId": 1281775
+    "tmdbId": 823219,
+    "runtime": 85
   },
   {
     "id": "nuremberg",
@@ -3232,7 +3450,8 @@ const LIBRARY = [
     "synopsis": "In postwar Germany, an American psychiatrist must determine whether Nazi prisoners are fit to go on trial for war crimes, and finds himself in a complex battle of intellect and ethics with Hermann Göring, Hitler's right-hand man.",
     "date": "2026-08-09",
     "poster": "covers/nuremberg.jpg",
-    "tmdbId": 1214931
+    "tmdbId": 1214931,
+    "runtime": 149
   },
   {
     "id": "chainsaw-man",
@@ -3250,7 +3469,9 @@ const LIBRARY = [
     "synopsis": "Denji has a simple dream—to live a happy and peaceful life, spending time with a girl he likes. This is a far cry from reality, however, as Denji is forced by the yakuza into killing devils in order to pay off his crushing debts. Using his pet devil Pochita as a weapon, he is ready to do anything for a bit of cash.",
     "date": "2026-08-09",
     "poster": "covers/chainsaw-man.jpg",
-    "tmdbId": 114410
+    "tmdbId": 114410,
+    "episodeRuntime": 24,
+    "episodes": 12
   },
   {
     "id": "frankenstein",
@@ -3267,7 +3488,8 @@ const LIBRARY = [
     "synopsis": "Dr. Victor Frankenstein, a brilliant but egotistical scientist, brings a creature to life in a monstrous experiment that ultimately leads to the undoing of both the creator and his tragic creation.",
     "date": "2026-08-09",
     "poster": "covers/frankenstein.jpg",
-    "tmdbId": 1062722
+    "tmdbId": 1062722,
+    "runtime": 150
   },
   {
     "id": "the-impossible",
@@ -3284,7 +3506,8 @@ const LIBRARY = [
     "synopsis": "In December 2004, close-knit family Maria, Henry and their three sons begin their winter vacation in Thailand. But the day after Christmas, the idyllic holiday turns into an incomprehensible nightmare when a terrifying roar rises from the depths of the sea, followed by a wall of black water that devours everything in its path. Though Maria and her family face their darkest hour, unexpected displays of kindness and courage ameliorate their terror.",
     "date": "2026-08-14",
     "poster": "covers/the-impossible.jpg",
-    "tmdbId": 80278
+    "tmdbId": 80278,
+    "runtime": 113
   },
   {
     "id": "steins-gate",
@@ -3302,7 +3525,9 @@ const LIBRARY = [
     "synopsis": "A group of friends have customized their microwave so that it can send text messages to the past. As they perform different experiments, an organization named SERN who has been doing their own research on time travel tracks them down and now the characters have to find a way to avoid being captured by them.",
     "date": "2026-08-16",
     "poster": "covers/steins-gate.jpg",
-    "tmdbId": 42509
+    "tmdbId": 42509,
+    "episodeRuntime": 24,
+    "episodes": 24
   },
   {
     "id": "mob-psycho-100",
@@ -3320,7 +3545,9 @@ const LIBRARY = [
     "synopsis": "Shigeo Kageyama, a.k.a. \"Mob,\" is a boy who has trouble expressing himself, but who happens to be a powerful esper. Mob is determined to live a normal life and keeps his ESP suppressed, but when his emotions surge to a level of 100%, something terrible happens to him! As he's surrounded by false espers, evil spirits, and mysterious organizations, what will Mob think? What choices will he make?",
     "date": "2026-08-16",
     "poster": "covers/mob-psycho-100.jpg",
-    "tmdbId": 67075
+    "tmdbId": 67075,
+    "episodeRuntime": 24,
+    "episodes": 37
   },
   {
     "id": "monster",
@@ -3338,7 +3565,9 @@ const LIBRARY = [
     "synopsis": "Kenzou Tenma, a Japanese brain surgeon in Germany, finds his life in utter turmoil after getting involved with a psychopath that was once a former patient.",
     "date": "2026-08-16",
     "poster": "covers/monster.jpg",
-    "tmdbId": 30981
+    "tmdbId": 30981,
+    "episodeRuntime": 24,
+    "episodes": 74
   },
   {
     "id": "death-note",
@@ -3355,6 +3584,8 @@ const LIBRARY = [
     "synopsis": "Light Yagami is an ace student with great prospects—and he’s bored out of his mind. But all that changes when he finds the Death Note, a notebook dropped by a rogue Shinigami death god. Any human whose name is written in the notebook dies, and Light has vowed to use the power of the Death Note to rid the world of evil. But will Light succeed in his noble goal, or will the Death Note turn him into the very thing he fights against?",
     "date": "2026-08-16",
     "poster": "covers/death-note.jpg",
-    "tmdbId": 13916
+    "tmdbId": 13916,
+    "episodeRuntime": 22,
+    "episodes": 37
   }
 ];
