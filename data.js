@@ -3339,5 +3339,22 @@ const LIBRARY = [
     "date": "2026-08-16",
     "poster": "covers/monster.jpg",
     "tmdbId": 30981
+  },
+  {
+    "id": "death-note",
+    "title": "Death Note",
+    "type": "tv",
+    "status": "watched",
+    "year": 2006,
+    "genres": [
+      "Animation",
+      "Mystery",
+      "Sci-Fi / Fantasy"
+    ],
+    "score": 8.9,
+    "synopsis": "Light Yagami is an ace student with great prospects—and he’s bored out of his mind. But all that changes when he finds the Death Note, a notebook dropped by a rogue Shinigami death god. Any human whose name is written in the notebook dies, and Light has vowed to use the power of the Death Note to rid the world of evil. But will Light succeed in his noble goal, or will the Death Note turn him into the very thing he fights against?",
+    "date": "2026-08-16",
+    "poster": "covers/death-note.jpg",
+    "tmdbId": 13916
   }
 ];
