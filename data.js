@@ -1300,9 +1300,9 @@ const LIBRARY = [
       "Sci-Fi / Fantasy",
       "Action / Adventure"
     ],
-    "score": null,
+    "score": 8.2,
     "synopsis": "A century before the events of Game of Thrones, two unlikely heroes wandered Westeros: a young, naive but courageous knight, Ser Duncan the Tall, and his diminutive squire, Egg. Set in an age when the Targaryen line still holds the Iron Throne and the last dragon has not yet passed from living memory, great destinies, powerful foes, and dangerous exploits await these improbable and incomparable friends.",
-    "date": "2026-08-04",
+    "date": "2026-08-19",
     "poster": "covers/a-knight-of-the-seven-kingdoms.jpg",
     "tmdbId": 224372,
     "episodeRuntime": 31,
@@ -3587,5 +3587,76 @@ const LIBRARY = [
     "tmdbId": 13916,
     "episodeRuntime": 22,
     "episodes": 37
+  },
+  {
+    "id": "a-toxic-love-story",
+    "title": "A Toxic Love Story",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2026,
+    "genres": [
+      "Documentary"
+    ],
+    "score": null,
+    "synopsis": "A string of threatening emails escalates into a revenge plot involving a newly married US marshal and his ex-girlfriend.",
+    "date": "2026-08-19",
+    "poster": "covers/a-toxic-love-story.jpg",
+    "tmdbId": 1723460,
+    "runtime": 91
+  },
+  {
+    "id": "parasyte-the-maxim",
+    "title": "Parasyte -the maxim-",
+    "type": "tv",
+    "status": "watched",
+    "year": 2014,
+    "genres": [
+      "Animation",
+      "Drama",
+      "Sci-Fi / Fantasy",
+      "Action / Adventure"
+    ],
+    "score": 9.0,
+    "synopsis": "A species of parasitic aliens descends on Earth and quickly infiltrates humanity by entering the brains of vulnerable targets; insatiable beings that gain total control of their host and are capable of transforming themselves to feed on unsuspecting prey. High school student Shinichi Izumi falls victim to one of these parasites, but the creature fails to take over his brain and ends up in his right hand.",
+    "date": "2026-08-19",
+    "poster": "covers/parasyte-the-maxim.jpg",
+    "tmdbId": 61459,
+    "episodeRuntime": 23,
+    "episodes": 24
+  },
+  {
+    "id": "gone-girl",
+    "title": "Gone Girl",
+    "type": "movie",
+    "status": "watched",
+    "year": 2014,
+    "genres": [
+      "Mystery",
+      "Thriller",
+      "Drama"
+    ],
+    "score": 8.4,
+    "synopsis": "With his wife's disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it's suspected that he may not be innocent.",
+    "date": "2026-08-19",
+    "poster": "covers/gone-girl.jpg",
+    "tmdbId": 210577,
+    "runtime": 149
+  },
+  {
+    "id": "fight-club",
+    "title": "Fight Club",
+    "type": "movie",
+    "status": "watched",
+    "year": 1999,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "score": 8.7,
+    "synopsis": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+    "date": "2026-08-19",
+    "poster": "covers/fight-club.jpg",
+    "tmdbId": 550,
+    "runtime": 139
   }
 ];
