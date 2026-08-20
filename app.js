@@ -100,7 +100,7 @@ function durationLabel(item) {
 }
 
 function scoreBadge(item) {
-  if (item.status === "watching") return ""; // no verdict until the story ends
+  if (item.status !== "watched") return ""; // no rating until it's been watched
   if (item.score == null) return `<div class="score-badge unrated" title="not rated yet">~</div>`;
   return `<div class="score-badge" title="my score">${item.score}</div>`;
 }
@@ -436,7 +436,7 @@ function openModal(item) {
           ? `<span class="chip chip-duration">⏱ ${durationLabel(item)}</span>` : ""}
         ${item.genres.map(g => `<span class="chip">${g}</span>`).join("")}
       </div>
-      ${item.status === "watching"
+      ${item.status !== "watched"
         ? ""
         : item.score != null
           ? `<div class="modal-score"><b>${item.score}</b> / 10</div>`
