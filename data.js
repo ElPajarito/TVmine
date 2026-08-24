@@ -1141,22 +1141,17 @@ const LIBRARY = [
     "id": "true-detective",
     "title": "True Detective",
     "type": "tv",
-    "status": "watching",
+    "status": "watched",
     "year": 2014,
     "genres": [
       "Drama",
       "Mystery"
     ],
-    "score": null,
+    "score": 8.1,
     "synopsis": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
-    "date": "2026-08-04",
+    "date": "2026-08-24",
     "poster": "covers/true-detective.jpg",
     "tmdbId": 46648,
-    "progress": {
-      "season": 1,
-      "episode": 4,
-      "episodesInSeason": 8
-    },
     "episodeRuntime": 76,
     "episodes": 30
   },
@@ -3658,5 +3653,23 @@ const LIBRARY = [
     "poster": "covers/fight-club.jpg",
     "tmdbId": 550,
     "runtime": 139
+  },
+  {
+    "id": "justice-league-the-flashpoint-paradox",
+    "title": "Justice League: The Flashpoint Paradox",
+    "type": "movie",
+    "status": "watched",
+    "year": 2013,
+    "genres": [
+      "Animation",
+      "Action",
+      "Sci-Fi"
+    ],
+    "score": 8.4,
+    "synopsis": "The Flash finds himself in a war-torn alternate timeline and teams up with alternate versions of his fellow heroes to restore the timeline.",
+    "date": "2026-08-24",
+    "poster": "covers/justice-league-the-flashpoint-paradox.jpg",
+    "tmdbId": 183011,
+    "runtime": 81
   }
 ];
