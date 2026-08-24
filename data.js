@@ -1519,7 +1519,7 @@ const LIBRARY = [
     "id": "kengan-ashura",
     "title": "KENGAN ASHURA",
     "type": "tv",
-    "status": "towatch",
+    "status": "watching",
     "year": 2019,
     "genres": [
       "Animation",
@@ -1535,8 +1535,8 @@ const LIBRARY = [
     "episodes": 52,
     "progress": {
       "season": 2,
-      "episode": 4,
-      "episodesInSeason": 23
+      "episode": 2,
+      "episodesInSeason": 10
     }
   },
   {
@@ -2278,7 +2278,7 @@ const LIBRARY = [
     "id": "invincible",
     "title": "INVINCIBLE",
     "type": "tv",
-    "status": "towatch",
+    "status": "watching",
     "year": 2021,
     "genres": [
       "Animation",
