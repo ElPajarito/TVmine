@@ -1532,7 +1532,12 @@ const LIBRARY = [
     "poster": "covers/kengan-ashura.jpg",
     "tmdbId": 90660,
     "episodeRuntime": 23,
-    "episodes": 52
+    "episodes": 52,
+    "progress": {
+      "season": 2,
+      "episode": 4,
+      "episodesInSeason": 23
+    }
   },
   {
     "id": "baki-dou-the-invincible-samurai",
@@ -2287,7 +2292,12 @@ const LIBRARY = [
     "poster": "covers/invincible.jpg",
     "tmdbId": 95557,
     "episodeRuntime": 52,
-    "episodes": 32
+    "episodes": 32,
+    "progress": {
+      "season": 1,
+      "episode": 2,
+      "episodesInSeason": 10
+    }
   },
   {
     "id": "berserk",
