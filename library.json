@@ -1144,7 +1144,7 @@
       "Drama",
       "Mystery"
     ],
-    "score": 8.1,
+    "score": 8.3,
     "synopsis": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
     "date": "2026-08-24",
     "poster": "covers/true-detective.jpg",
@@ -3678,5 +3678,22 @@
     "poster": "covers/justice-league-the-flashpoint-paradox.jpg",
     "tmdbId": 183011,
     "runtime": 81
+  },
+  {
+    "id": "the-last-dance",
+    "title": "The Last Dance",
+    "type": "tv",
+    "status": "towatch",
+    "year": 2020,
+    "genres": [
+      "Documentary"
+    ],
+    "score": null,
+    "synopsis": "A 10-part documentary chronicling the untold story of Michael Jordan and the Chicago Bulls dynasty with rare, never-before-seen footage and sound from the 1997-98 championship season – plus over 100 interviews with famous figures and basketball’s biggest names.",
+    "date": "2026-08-27",
+    "poster": "covers/the-last-dance.jpg",
+    "tmdbId": 79525,
+    "episodeRuntime": 50,
+    "episodes": 10
   }
 ]
