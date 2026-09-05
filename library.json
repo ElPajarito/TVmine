@@ -3763,5 +3763,23 @@
     "poster": "covers/the-batman.jpg",
     "tmdbId": 414906,
     "runtime": 177
+  },
+  {
+    "id": "true-detective-2",
+    "title": "True Detective",
+    "type": "tv",
+    "status": "watched",
+    "year": 2014,
+    "genres": [
+      "Drama",
+      "Mystery"
+    ],
+    "score": 8.4,
+    "synopsis": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
+    "date": "2026-09-06",
+    "poster": "covers/true-detective-2.jpg",
+    "tmdbId": 46648,
+    "episodeRuntime": 76,
+    "episodes": 30
   }
 ]
