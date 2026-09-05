@@ -3695,5 +3695,37 @@
     "tmdbId": 79525,
     "episodeRuntime": 50,
     "episodes": 10
+  },
+  {
+    "id": "superbad",
+    "title": "Superbad",
+    "type": "movie",
+    "status": "watched",
+    "year": 2007,
+    "genres": [
+      "Comedy"
+    ],
+    "score": 7.9,
+    "synopsis": "Two co-dependent high school seniors are forced to deal with separation anxiety after their plan to stage a booze-soaked party goes awry.",
+    "date": "2026-09-06",
+    "poster": "covers/superbad.jpg",
+    "tmdbId": 8363,
+    "runtime": 113
+  },
+  {
+    "id": "mud",
+    "title": "Mud",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2013,
+    "genres": [
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "Two teenage boys find a fugitive hiding out on an island in the Mississippi River and help him reunite with his lover and escape an avenging family and their armed posse.",
+    "date": "2026-09-06",
+    "poster": "covers/mud.jpg",
+    "tmdbId": 103731,
+    "runtime": 130
   }
 ]
