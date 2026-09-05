@@ -2383,9 +2383,9 @@
       "Crime",
       "Mystery"
     ],
-    "score": null,
+    "score": 9.0,
     "synopsis": "Andrea Beaumont leaves her father to return to Gotham, rekindling an old romance with Bruce Wayne. At the same time, a mysterious figure begins to hunt down Gotham's criminals, wrongly implicating Batman in the murders. Now on the run from the law, Batman must find and stop the culprit, while also navigating his relationship with Andrea.",
-    "date": "2026-08-08",
+    "date": "2026-09-06",
     "poster": "covers/batman-mask-of-the-phantasm.jpg",
     "tmdbId": 14919,
     "runtime": 76
@@ -3727,5 +3727,41 @@
     "poster": "covers/mud.jpg",
     "tmdbId": 103731,
     "runtime": 130
+  },
+  {
+    "id": "the-dark-knight",
+    "title": "The Dark Knight",
+    "type": "movie",
+    "status": "watched",
+    "year": 2008,
+    "genres": [
+      "Action",
+      "Crime",
+      "Thriller"
+    ],
+    "score": 9.0,
+    "synopsis": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker.",
+    "date": "2026-09-06",
+    "poster": "covers/the-dark-knight.jpg",
+    "tmdbId": 155,
+    "runtime": 152
+  },
+  {
+    "id": "the-batman",
+    "title": "The Batman",
+    "type": "movie",
+    "status": "watched",
+    "year": 2022,
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
+    "score": 9.0,
+    "synopsis": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.",
+    "date": "2026-09-06",
+    "poster": "covers/the-batman.jpg",
+    "tmdbId": 414906,
+    "runtime": 177
   }
 ]
