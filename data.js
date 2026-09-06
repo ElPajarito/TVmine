@@ -2653,7 +2653,7 @@ const LIBRARY = [
       "Action",
       "Drama"
     ],
-    "score": 8.7,
+    "score": 8.6,
     "synopsis": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team—and mentor a young hotshot driver—while chasing one more chance at glory.",
     "date": "2026-08-09",
     "poster": "covers/f1.jpg",
