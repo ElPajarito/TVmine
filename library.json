@@ -3904,5 +3904,662 @@
     "poster": "covers/kick-ass.jpg",
     "tmdbId": 23483,
     "runtime": 118
+  },
+  {
+    "id": "creed",
+    "title": "Creed",
+    "type": "movie",
+    "status": "watched",
+    "year": 2015,
+    "genres": [
+      "Drama"
+    ],
+    "score": 8.2,
+    "synopsis": "The former World Heavyweight Champion Rocky Balboa serves as a trainer and mentor to Adonis Johnson, the son of his late friend and former rival Apollo Creed.",
+    "date": "2026-09-06",
+    "poster": "covers/creed.jpg",
+    "tmdbId": 312221,
+    "runtime": 133
+  },
+  {
+    "id": "spider-man",
+    "title": "Spider-Man",
+    "type": "movie",
+    "status": "watched",
+    "year": 2002,
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "score": 8.3,
+    "synopsis": "After being bitten by a genetically altered spider at Oscorp, nerdy but endearing high school student Peter Parker is endowed with amazing powers to become the superhero known as Spider-Man.",
+    "date": "2026-09-06",
+    "poster": "covers/spider-man.jpg",
+    "tmdbId": 557,
+    "runtime": 121
+  },
+  {
+    "id": "spider-man-2",
+    "title": "Spider-Man 2",
+    "type": "movie",
+    "status": "watched",
+    "year": 2004,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "score": 8.5,
+    "synopsis": "Peter Parker is going through a major identity crisis. Burned out from being Spider-Man, he decides to shelve his superhero alter ego, which leaves the city suffering in the wake of carnage left by the evil Doc Ock. In the meantime, Parker still can't act on his feelings for Mary Jane Watson, a girl he's loved since childhood. A certain anger begins to brew in his best friend Harry Osborn as well...",
+    "date": "2026-09-06",
+    "poster": "covers/spider-man-2.jpg",
+    "tmdbId": 558,
+    "runtime": 127
+  },
+  {
+    "id": "steve-jobs",
+    "title": "Steve Jobs",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2015,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "score": null,
+    "synopsis": "Set backstage at three iconic product launches and ending in 1998 with the unveiling of the iMac, Steve Jobs takes us behind the scenes of the digital revolution to paint an intimate portrait of the brilliant man at its epicenter.",
+    "date": "2026-09-06",
+    "poster": "covers/steve-jobs.jpg",
+    "tmdbId": 321697,
+    "runtime": 123
+  },
+  {
+    "id": "blood-diamond",
+    "title": "Blood Diamond",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2006,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Action"
+    ],
+    "score": null,
+    "synopsis": "An ex-mercenary turned smuggler. A Mende fisherman. Amid the explosive civil war overtaking 1999 Sierra Leone, these men join for two desperate missions: recovering a rare pink diamond of immense value and rescuing the fisherman's son, conscripted as a child soldier into the brutal rebel forces ripping a swath of torture and bloodshed countrywide.",
+    "date": "2026-09-06",
+    "poster": "covers/blood-diamond.jpg",
+    "tmdbId": 1372,
+    "runtime": 143
+  },
+  {
+    "id": "pan-s-labyrinth",
+    "title": "Pan's Labyrinth",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2006,
+    "genres": [
+      "Fantasy",
+      "Drama",
+      "War"
+    ],
+    "score": null,
+    "synopsis": "In post–civil war Spain, 10-year-old Ofelia moves with her pregnant mother to live under the control of her cruel stepfather. Drawn into a mysterious labyrinth, she meets a faun who reveals that she may be a lost princess from an underground kingdom. To return to her true father, she must complete a series of surreal and perilous tasks that blur the line between reality and fantasy.",
+    "date": "2026-09-06",
+    "poster": "covers/pan-s-labyrinth.jpg",
+    "tmdbId": 1417,
+    "runtime": 118
+  },
+  {
+    "id": "a-beautiful-mind",
+    "title": "A Beautiful Mind",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2001,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "score": null,
+    "synopsis": "From the heights of notoriety to the depths of depravity, John Forbes Nash Jr. experiences it all. As a brilliant but socially awkward mathematician, he made a groundbreaking discovery early in his career and stands on the brink of international acclaim. But as the handsome and arrogant Nash accepts secret work in cryptography, he becomes entangled in a mysterious conspiracy. His life takes a nightmarish turn and he soon finds himself on a painful and harrowing journey of self-discovery.",
+    "date": "2026-09-06",
+    "poster": "covers/a-beautiful-mind.jpg",
+    "tmdbId": 453,
+    "runtime": 135
+  },
+  {
+    "id": "elite-squad",
+    "title": "Elite Squad",
+    "type": "movie",
+    "status": "watched",
+    "year": 2007,
+    "genres": [
+      "Drama",
+      "Action",
+      "Crime"
+    ],
+    "score": 8.5,
+    "synopsis": "In 1997, before the visit of the pope to Rio de Janeiro, Captain Nascimento from BOPE (Special Police Operations Battalion) is assigned to eliminate the risks of the drug dealers in a dangerous slum nearby where the pope intends to be lodged.",
+    "date": "2026-09-06",
+    "poster": "covers/elite-squad.jpg",
+    "tmdbId": 7347,
+    "runtime": 115
+  },
+  {
+    "id": "elite-squad-the-enemy-within",
+    "title": "Elite Squad: The Enemy Within",
+    "type": "movie",
+    "status": "watched",
+    "year": 2010,
+    "genres": [
+      "Drama",
+      "Action",
+      "Crime"
+    ],
+    "score": 8.5,
+    "synopsis": "After a bloody invasion of the BOPE in the High-Security Penitentiary Bangu 1 in Rio de Janeiro to control a rebellion of interns, the Lieutenant-Colonel Roberto Nascimento and the second in command Captain André Matias are accused by the Human Right Aids member Diogo Fraga of execution of prisoners. Matias is transferred to the corrupted Military Police and Nascimento is exonerated from the BOPE by the Governor.",
+    "date": "2026-09-06",
+    "poster": "covers/elite-squad-the-enemy-within.jpg",
+    "tmdbId": 47931,
+    "runtime": 115
+  },
+  {
+    "id": "eternal-sunshine-of-the-spotless-mind",
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2004,
+    "genres": [
+      "Sci-Fi",
+      "Drama",
+      "Romance"
+    ],
+    "score": null,
+    "synopsis": "Joel Barish, heartbroken that his girlfriend underwent a procedure to erase him from her memory, decides to do the same. However, as he watches his memories of her fade away, he realises that he still loves her, and may be too late to correct his mistake.",
+    "date": "2026-09-06",
+    "poster": "covers/eternal-sunshine-of-the-spotless-mind.jpg",
+    "tmdbId": 38,
+    "runtime": 108
+  },
+  {
+    "id": "casino-royale",
+    "title": "Casino Royale",
+    "type": "movie",
+    "status": "watched",
+    "year": 2006,
+    "genres": [
+      "Adventure",
+      "Action",
+      "Thriller"
+    ],
+    "score": 8.6,
+    "synopsis": "Le Chiffre, a banker to the world's terrorists, is scheduled to participate in a high-stakes poker game in Montenegro, where he intends to use his winnings to establish his financial grip on the terrorist market. M sends Bond—on his maiden mission as a 00 Agent—to attend this game and prevent Le Chiffre from winning. With the help of Vesper Lynd and Felix Leiter, Bond enters the most important poker game in his already dangerous career.",
+    "date": "2026-09-06",
+    "poster": "covers/casino-royale.jpg",
+    "tmdbId": 36557,
+    "runtime": 144
+  },
+  {
+    "id": "mystic-river",
+    "title": "Mystic River",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2003,
+    "genres": [
+      "Thriller",
+      "Drama",
+      "Mystery",
+      "Crime"
+    ],
+    "score": null,
+    "synopsis": "The lives of three men who were childhood friends are shattered when one of them suffers a family tragedy.",
+    "date": "2026-09-06",
+    "poster": "covers/mystic-river.jpg",
+    "tmdbId": 322,
+    "runtime": 138
+  },
+  {
+    "id": "american-gangster",
+    "title": "American Gangster",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2007,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "score": null,
+    "synopsis": "Loosely based on the criminal career of Frank Lucas, a gangster from La Grange, North Carolina, who smuggled heroin into the United States on American service planes returning from the Vietnam War, before being detained by a task force led by Newark Detective Richie Roberts.",
+    "date": "2026-09-06",
+    "poster": "covers/american-gangster.jpg",
+    "tmdbId": 4982,
+    "runtime": 157
+  },
+  {
+    "id": "the-wrestler",
+    "title": "The Wrestler",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2008,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "score": null,
+    "synopsis": "Aging wrestler Randy \"The Ram\" Robinson is long past his prime but still ready and rarin' to go on the pro-wrestling circuit. After a particularly brutal beating, however, Randy hangs up his tights, pursues a serious relationship with a long-in-the-tooth stripper, and tries to reconnect with his estranged daughter. But he can't resist the lure of the ring and readies himself for a comeback.",
+    "date": "2026-09-06",
+    "poster": "covers/the-wrestler.jpg",
+    "tmdbId": 12163,
+    "runtime": 109
+  },
+  {
+    "id": "there-will-be-blood",
+    "title": "There Will Be Blood",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2007,
+    "genres": [
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "Ruthless silver miner, turned oil prospector, Daniel Plainview, moves to oil-rich California. Using his son to project a trustworthy, family-man image, Plainview cons local landowners into selling him their valuable properties for a pittance. However, local preacher Eli Sunday suspects Plainview's motives and intentions, starting a slow-burning feud that threatens both their lives.",
+    "date": "2026-09-06",
+    "poster": "covers/there-will-be-blood.jpg",
+    "tmdbId": 7345,
+    "runtime": 158
+  },
+  {
+    "id": "slumdog-millionaire",
+    "title": "Slumdog Millionaire",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2008,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "score": null,
+    "synopsis": "A teenager reflects on his life after being accused of cheating on the Indian version of \"Who Wants to be a Millionaire?\".",
+    "date": "2026-09-06",
+    "poster": "covers/slumdog-millionaire.jpg",
+    "tmdbId": 12405,
+    "runtime": 121
+  },
+  {
+    "id": "raiders-of-the-lost-ark",
+    "title": "Raiders of the Lost Ark",
+    "type": "movie",
+    "status": "towatch",
+    "year": 1981,
+    "genres": [
+      "Adventure",
+      "Action"
+    ],
+    "score": null,
+    "synopsis": "When Dr. Indiana Jones – the tweed-suited professor who just happens to be a celebrated archaeologist – is hired by the government to locate the legendary Ark of the Covenant, he finds himself up against the entire Nazi regime.",
+    "date": "2026-09-06",
+    "poster": "covers/raiders-of-the-lost-ark.jpg",
+    "tmdbId": 85,
+    "runtime": 115
+  },
+  {
+    "id": "the-last-emperor",
+    "title": "The Last Emperor",
+    "type": "movie",
+    "status": "towatch",
+    "year": 1987,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "score": null,
+    "synopsis": "A dramatic history of Pu Yi, the last of the Emperors of China, from his lofty birth and brief reign in the Forbidden City, the object of worship by half a billion people; through his abdication, his decline and dissolute lifestyle; his exploitation by the invading Japanese, and finally to his obscure existence as just another peasant worker in the People's Republic.",
+    "date": "2026-09-06",
+    "poster": "covers/the-last-emperor.jpg",
+    "tmdbId": 746,
+    "runtime": 163
+  },
+  {
+    "id": "raging-bull",
+    "title": "Raging Bull",
+    "type": "movie",
+    "status": "towatch",
+    "year": 1980,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "score": null,
+    "synopsis": "The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it.",
+    "date": "2026-09-06",
+    "poster": "covers/raging-bull.jpg",
+    "tmdbId": 1578,
+    "runtime": 129
+  },
+  {
+    "id": "the-killing-fields",
+    "title": "The Killing Fields",
+    "type": "movie",
+    "status": "towatch",
+    "year": 1984,
+    "genres": [
+      "Drama",
+      "History",
+      "War"
+    ],
+    "score": null,
+    "synopsis": "New York Times reporter Sydney Schanberg is on assignment covering the Cambodian Civil War, with the help of local interpreter Dith Pran and American photojournalist Al Rockoff. When the U.S. Army pulls out amid escalating violence, Schanberg makes exit arrangements for Pran and his family. Pran, however, tells Schanberg he intends to stay in Cambodia to help cover the unfolding story — a decision he may regret as the Khmer Rouge rebels move in.",
+    "date": "2026-09-06",
+    "poster": "covers/the-killing-fields.jpg",
+    "tmdbId": 625,
+    "runtime": 142
+  },
+  {
+    "id": "amadeus",
+    "title": "Amadeus",
+    "type": "movie",
+    "status": "towatch",
+    "year": 1984,
+    "genres": [
+      "Drama",
+      "History",
+      "Music"
+    ],
+    "score": null,
+    "synopsis": "Disciplined Italian composer Antonio Salieri becomes consumed by jealousy and resentment towards the hedonistic and remarkably talented young Salzburger composer Wolfgang Amadeus Mozart.",
+    "date": "2026-09-06",
+    "poster": "covers/amadeus.jpg",
+    "tmdbId": 279,
+    "runtime": 160
+  },
+  {
+    "id": "ran",
+    "title": "Ran",
+    "type": "movie",
+    "status": "towatch",
+    "year": 1985,
+    "genres": [
+      "Action",
+      "Drama",
+      "History"
+    ],
+    "score": null,
+    "synopsis": "Shakespeare's King Lear is reimagined as a singular historical epic set in sixteenth-century Japan where an aging warlord divides his kingdom between his three sons.",
+    "date": "2026-09-06",
+    "poster": "covers/ran.jpg",
+    "tmdbId": 11645,
+    "runtime": 160
+  },
+  {
+    "id": "the-elephant-man",
+    "title": "The Elephant Man",
+    "type": "movie",
+    "status": "towatch",
+    "year": 1980,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "score": null,
+    "synopsis": "A Victorian surgeon rescues a heavily disfigured man being mistreated by his \"owner\" as a side-show freak. Behind his monstrous façade, there is revealed a person of great intelligence and sensitivity. Based on the true story of Joseph Merrick (called John Merrick in the film), a severely deformed man in 19th century London.",
+    "date": "2026-09-06",
+    "poster": "covers/the-elephant-man.jpg",
+    "tmdbId": 1955,
+    "runtime": 124
+  },
+  {
+    "id": "blade-runner",
+    "title": "Blade Runner",
+    "type": "movie",
+    "status": "towatch",
+    "year": 1982,
+    "genres": [
+      "Sci-Fi",
+      "Drama",
+      "Thriller"
+    ],
+    "score": null,
+    "synopsis": "In the smog-choked dystopian Los Angeles of 2019, blade runner Rick Deckard is called out of retirement to terminate a quartet of replicants who have escaped to Earth seeking their creator for a way to extend their short life spans.",
+    "date": "2026-09-06",
+    "poster": "covers/blade-runner.jpg",
+    "tmdbId": 78,
+    "runtime": 118
+  },
+  {
+    "id": "missing",
+    "title": "Missing",
+    "type": "movie",
+    "status": "towatch",
+    "year": 1982,
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Thriller"
+    ],
+    "score": null,
+    "synopsis": "Based on the real-life experiences of Ed Horman. A conservative American businessman travels to Chile to investigate the sudden disappearance of his son after a military takeover. Accompanied by his son's wife he uncovers a trail of cover-ups that implicate the US State department which supports the dictatorship.",
+    "date": "2026-09-06",
+    "poster": "covers/missing.jpg",
+    "tmdbId": 15600,
+    "runtime": 123
+  },
+  {
+    "id": "glory",
+    "title": "Glory",
+    "type": "movie",
+    "status": "towatch",
+    "year": 1989,
+    "genres": [
+      "Drama",
+      "History",
+      "War"
+    ],
+    "score": null,
+    "synopsis": "Robert Gould Shaw leads the US Civil War's first all-black volunteer company, fighting prejudices of both his own Union army and the Confederates.",
+    "date": "2026-09-06",
+    "poster": "covers/glory.jpg",
+    "tmdbId": 9665,
+    "runtime": 122
+  },
+  {
+    "id": "wall-street",
+    "title": "Wall Street",
+    "type": "movie",
+    "status": "towatch",
+    "year": 1987,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "A young and impatient stockbroker is willing to do anything to get to the top, including trading on illegal inside information taken through a ruthless and greedy corporate raider, who takes the youth under his wing.",
+    "date": "2026-09-06",
+    "poster": "covers/wall-street.jpg",
+    "tmdbId": 10673,
+    "runtime": 126
+  },
+  {
+    "id": "a-fish-called-wanda",
+    "title": "A Fish Called Wanda",
+    "type": "movie",
+    "status": "towatch",
+    "year": 1988,
+    "genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "score": null,
+    "synopsis": "While a diamond advocate attempts to steal a collection of diamonds, troubles arise when he realises he’s not the only one after the collection.",
+    "date": "2026-09-06",
+    "poster": "covers/a-fish-called-wanda.jpg",
+    "tmdbId": 623,
+    "runtime": 109
+  },
+  {
+    "id": "stand-by-me",
+    "title": "Stand by Me",
+    "type": "movie",
+    "status": "towatch",
+    "year": 1986,
+    "genres": [
+      "Drama",
+      "Adventure"
+    ],
+    "score": null,
+    "synopsis": "After learning that a boy their age has been accidentally killed near their rural homes, four boys decide to go see the body. Gordie, Vern, Chris, and Teddy encounter a mean junk man and a marsh full of leeches, but they also learn more about one another and their very different home lives. Just a lark at first, the boys' adventure evolves into a defining event in their lives.",
+    "date": "2026-09-06",
+    "poster": "covers/stand-by-me.jpg",
+    "tmdbId": 235,
+    "runtime": 89
+  },
+  {
+    "id": "my-left-foot-the-story-of-christy-brown",
+    "title": "My Left Foot: The Story of Christy Brown",
+    "type": "movie",
+    "status": "towatch",
+    "year": 1989,
+    "genres": [
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "No one expects much from Christy Brown, a boy with cerebral palsy born into a working-class Irish family. Though Christy is a spastic quadriplegic and essentially paralyzed, a miraculous event occurs when, at the age of 5, he demonstrates control of his left foot by using chalk to scrawl a word on the floor. With the help of his steely mother — and no shortage of grit and determination — Christy overcomes his infirmity to become a painter, poet and author.",
+    "date": "2026-09-06",
+    "poster": "covers/my-left-foot-the-story-of-christy-brown.jpg",
+    "tmdbId": 10161,
+    "runtime": 103
+  },
+  {
+    "id": "fargo",
+    "title": "Fargo",
+    "type": "movie",
+    "status": "towatch",
+    "year": 1996,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "score": null,
+    "synopsis": "Jerry, a small-town Minnesota car salesman is bursting at the seams with debt... but he's got a plan. He's going to hire two thugs to kidnap his wife in a scheme to collect a hefty ransom from his wealthy father-in-law. It's going to be a snap and nobody's going to get hurt... until people start dying. Enter Police Chief Marge, a coffee-drinking, parka-wearing - and extremely pregnant - investigator who'll stop at nothing to get her man. And if you think her small-time investigative skills will give the crooks a run for their ransom... you betcha!",
+    "date": "2026-09-06",
+    "poster": "covers/fargo.jpg",
+    "tmdbId": 275,
+    "runtime": 98
+  },
+  {
+    "id": "the-usual-suspects",
+    "title": "The Usual Suspects",
+    "type": "movie",
+    "status": "towatch",
+    "year": 1995,
+    "genres": [
+      "Drama",
+      "Crime",
+      "Thriller"
+    ],
+    "score": null,
+    "synopsis": "Held in an L.A. interrogation room, Verbal Kint attempts to convince the feds that a mythic crime lord, Keyser Soze, not only exists, but was also responsible for drawing him and his four partners into a multi-million dollar heist that ended with an explosion in San Pedro harbor – leaving few survivors. Verbal lures his interrogators with an incredible story of the crime lord's almost supernatural prowess.",
+    "date": "2026-09-06",
+    "poster": "covers/the-usual-suspects.jpg",
+    "tmdbId": 629,
+    "runtime": 106
+  },
+  {
+    "id": "american-history-x",
+    "title": "American History X",
+    "type": "movie",
+    "status": "watched",
+    "year": 1998,
+    "genres": [
+      "Drama"
+    ],
+    "score": 8.4,
+    "synopsis": "Derek Vineyard is paroled after serving 3 years in prison for killing two African-American men. Through his brother, Danny Vineyard's narration, we learn that before going to prison, Derek was a skinhead and the leader of a violent white supremacist gang that committed acts of racial crime throughout L.A. and his actions greatly influenced Danny. Reformed and fresh out of prison, Derek severs contact with the gang and becomes determined to keep Danny from going down the same violent path as he did.",
+    "date": "2026-09-06",
+    "poster": "covers/american-history-x.jpg",
+    "tmdbId": 73,
+    "runtime": 119
+  },
+  {
+    "id": "magnolia",
+    "title": "Magnolia",
+    "type": "movie",
+    "status": "towatch",
+    "year": 1999,
+    "genres": [
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "On one random day in the San Fernando Valley, a dying father, a young wife, a male caretaker, a famous lost son, a police officer in love, a boy genius, an ex-boy genius, a game show host and an estranged daughter will each become part of a dazzling multiplicity of plots, but one story.",
+    "date": "2026-09-06",
+    "poster": "covers/magnolia.jpg",
+    "tmdbId": 334,
+    "runtime": 189
+  },
+  {
+    "id": "natural-born-killers",
+    "title": "Natural Born Killers",
+    "type": "movie",
+    "status": "towatch",
+    "year": 1994,
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "Two victims of traumatized childhoods become lovers and serial murderers irresponsibly glorified by the mass media.",
+    "date": "2026-09-06",
+    "poster": "covers/natural-born-killers.jpg",
+    "tmdbId": 241,
+    "runtime": 119
+  },
+  {
+    "id": "the-people-vs-larry-flynt",
+    "title": "The People vs. Larry Flynt",
+    "type": "movie",
+    "status": "towatch",
+    "year": 1996,
+    "genres": [
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "Larry Flynt is the hedonistically obnoxious, but indomitable, publisher of Hustler magazine. The film recounts his struggle to make an honest living publishing his girlie magazine and how it changes into a battle to protect the freedom of speech for all people.",
+    "date": "2026-09-06",
+    "poster": "covers/the-people-vs-larry-flynt.jpg",
+    "tmdbId": 1630,
+    "runtime": 130
+  },
+  {
+    "id": "the-aviator",
+    "title": "The Aviator",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2004,
+    "genres": [
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "A biopic depicting the life of filmmaker and aviation pioneer Howard Hughes from 1927 to 1947, during which time he became a successful film producer and an aviation magnate, while simultaneously growing more unstable due to severe obsessive-compulsive disorder.",
+    "date": "2026-09-06",
+    "poster": "covers/the-aviator.jpg",
+    "tmdbId": 2567,
+    "runtime": 170
+  },
+  {
+    "id": "bohemian-rhapsody",
+    "title": "Bohemian Rhapsody",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2018,
+    "genres": [
+      "Music",
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock 'n' roll band Queen in 1970. Hit songs become instant classics. When Mercury's increasingly wild lifestyle starts to spiral out of control, Queen soon faces its greatest challenge yet – finding a way to keep the band together amid the success and excess.",
+    "date": "2026-09-06",
+    "poster": "covers/bohemian-rhapsody.jpg",
+    "tmdbId": 424694,
+    "runtime": 135
   }
 ]
