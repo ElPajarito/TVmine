@@ -53,7 +53,9 @@ Progress format is `season:episode/episodesInSeason`.
 **Scoring implies watched** — `add "The Substance" --score 9` goes straight
 into Watched (no `--status` needed), and scoring an existing entry with
 `update` moves it to Watched and stamps today's date. An explicit `--status`
-always wins.
+always wins. Re-`add`ing something already in the library with a `--score`
+doesn't duplicate it — it just replaces the score on the existing entry (and
+moves it to Watched), wherever it was.
 
 **Duplicate protection** — `add` refuses anything already in the library
 (matched by TMDB id, or by title + type for entries that lack one) and points

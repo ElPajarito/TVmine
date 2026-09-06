@@ -277,6 +277,25 @@ def cmd_add(args):
     chosen = pick_result(results, first=args.first)
     dupes = find_duplicates(lib, chosen["tmdb_id"], chosen["title"], chosen["type"])
     if dupes and not args.again:
+        if args.score is not None:
+            # re-adding something with a score = re-score the existing entry
+            e = dupes[0][0]
+            e["score"] = args.score
+            if args.status == "watched" and e["status"] != "watched" and not args.date:
+                e["date"] = today()
+            e["status"] = args.status
+            if args.status != "watching":
+                e.pop("progress", None)
+            if args.date:
+                e["date"] = args.date
+            if args.notes:
+                e["notes"] = args.notes
+            if args.progress:
+                e["progress"] = parse_progress(args.progress)
+            save_library(lib)
+            print(f"'{e['title']}' was already in the library — updated it instead: "
+                  f"score {e['score']}, {e['status']} [{e['id']}]")
+            return
         if not confirm_duplicate(dupes, interactive=not args.first):
             sys.exit(1)
     details, genres = fetch_details(chosen["tmdb_id"], chosen["type"])

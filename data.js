@@ -1147,9 +1147,9 @@ const LIBRARY = [
       "Drama",
       "Mystery"
     ],
-    "score": 8.3,
+    "score": 8.4,
     "synopsis": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
-    "date": "2026-08-24",
+    "date": "2026-09-06",
     "poster": "covers/true-detective.jpg",
     "tmdbId": 46648,
     "episodeRuntime": 76,
@@ -3708,7 +3708,7 @@ const LIBRARY = [
     "genres": [
       "Comedy"
     ],
-    "score": 7.9,
+    "score": 8.2,
     "synopsis": "Two co-dependent high school seniors are forced to deal with separation anxiety after their plan to stage a booze-soaked party goes awry.",
     "date": "2026-09-06",
     "poster": "covers/superbad.jpg",
@@ -3768,21 +3768,144 @@ const LIBRARY = [
     "runtime": 177
   },
   {
-    "id": "true-detective-2",
-    "title": "True Detective",
+    "id": "breaking-bad",
+    "title": "Breaking Bad",
     "type": "tv",
+    "status": "watched",
+    "year": 2008,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "score": 9.1,
+    "synopsis": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
+    "date": "2026-09-06",
+    "poster": "covers/breaking-bad.jpg",
+    "tmdbId": 1396,
+    "episodeRuntime": 56,
+    "episodes": 62
+  },
+  {
+    "id": "trap",
+    "title": "Trap",
+    "type": "movie",
+    "status": "watched",
+    "year": 2024,
+    "genres": [
+      "Crime",
+      "Horror",
+      "Thriller"
+    ],
+    "score": 7.2,
+    "synopsis": "A father and teen daughter attend a pop concert, where they realize they're at the center of a dark and sinister event.",
+    "date": "2026-09-06",
+    "poster": "covers/trap.jpg",
+    "tmdbId": 1032823,
+    "runtime": 105
+  },
+  {
+    "id": "split",
+    "title": "Split",
+    "type": "movie",
+    "status": "watched",
+    "year": 2017,
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "score": 8.3,
+    "synopsis": "Though Kevin has evidenced 23 personalities to his trusted psychiatrist, Dr. Fletcher, there remains one still submerged who is set to materialize and dominate all the others. Compelled to abduct three teenage girls led by the willful, observant Casey, Kevin reaches a war for survival among all of those contained within him — as well as everyone around him — as the walls between his compartments shatter apart.",
+    "date": "2026-09-06",
+    "poster": "covers/split.jpg",
+    "tmdbId": 381288,
+    "runtime": 117
+  },
+  {
+    "id": "x2",
+    "title": "X2",
+    "type": "movie",
+    "status": "watched",
+    "year": 2003,
+    "genres": [
+      "Adventure",
+      "Action",
+      "Sci-Fi"
+    ],
+    "score": 8.0,
+    "synopsis": "Professor Charles Xavier and his team of genetically gifted superheroes face a rising tide of anti-mutant sentiment led by Col. William Stryker. Storm, Wolverine and Jean Grey must join Magneto and Mystique to unhinge Stryker's scheme to exterminate all mutants.",
+    "date": "2026-09-06",
+    "poster": "covers/x2.jpg",
+    "tmdbId": 36658,
+    "runtime": 133
+  },
+  {
+    "id": "x-men-days-of-future-past",
+    "title": "X-Men: Days of Future Past",
+    "type": "movie",
     "status": "watched",
     "year": 2014,
     "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "score": 8.0,
+    "synopsis": "The ultimate X-Men ensemble fights a war for the survival of the species across two time periods as they join forces with their younger selves in an epic battle that must change the past – to save our future.",
+    "date": "2026-09-06",
+    "poster": "covers/x-men-days-of-future-past.jpg",
+    "tmdbId": 127585,
+    "runtime": 132
+  },
+  {
+    "id": "x-men-first-class",
+    "title": "X-Men: First Class",
+    "type": "movie",
+    "status": "watched",
+    "year": 2011,
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "score": 7.9,
+    "synopsis": "Before Charles Xavier and Erik Lensherr took the names Professor X and Magneto, they were two young men discovering their powers for the first time. Before they were arch-enemies, they were closest of friends, working together with other mutants (some familiar, some new), to stop the greatest threat the world has ever known.",
+    "date": "2026-09-06",
+    "poster": "covers/x-men-first-class.jpg",
+    "tmdbId": 49538,
+    "runtime": 132
+  },
+  {
+    "id": "oppenheimer",
+    "title": "Oppenheimer",
+    "type": "movie",
+    "status": "watched",
+    "year": 2023,
+    "genres": [
       "Drama",
-      "Mystery"
+      "History"
     ],
     "score": 8.4,
-    "synopsis": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
+    "synopsis": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
     "date": "2026-09-06",
-    "poster": "covers/true-detective-2.jpg",
-    "tmdbId": 46648,
-    "episodeRuntime": 76,
-    "episodes": 30
+    "poster": "covers/oppenheimer.jpg",
+    "tmdbId": 872585,
+    "runtime": 181
+  },
+  {
+    "id": "kick-ass",
+    "title": "Kick-Ass",
+    "type": "movie",
+    "status": "watched",
+    "year": 2010,
+    "genres": [
+      "Action",
+      "Crime"
+    ],
+    "score": 7.4,
+    "synopsis": "Dave Lizewski is an unnoticed high school student and comic book fan who one day decides to become a super-hero, even though he has no powers, training or meaningful reason to do so.",
+    "date": "2026-09-06",
+    "poster": "covers/kick-ass.jpg",
+    "tmdbId": 23483,
+    "runtime": 118
   }
 ];
