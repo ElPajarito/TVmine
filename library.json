@@ -4561,5 +4561,24 @@
     "poster": "covers/bohemian-rhapsody.jpg",
     "tmdbId": 424694,
     "runtime": 135
+  },
+  {
+    "id": "x-men-97",
+    "title": "X-Men '97",
+    "type": "tv",
+    "status": "towatch",
+    "year": 2024,
+    "genres": [
+      "Animation",
+      "Action / Adventure",
+      "Sci-Fi / Fantasy"
+    ],
+    "score": null,
+    "synopsis": "The X-Men, a band of mutants who use their uncanny gifts to protect a world that hates and fears them, are challenged like never before, forced to face a dangerous and unexpected new future.",
+    "date": "2026-09-07",
+    "poster": "covers/x-men-97.jpg",
+    "tmdbId": 138502,
+    "episodeRuntime": 32,
+    "episodes": 19
   }
 ]
