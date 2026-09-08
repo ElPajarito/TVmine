@@ -4603,5 +4603,22 @@ const LIBRARY = [
     "tmdbId": 30991,
     "episodeRuntime": 25,
     "episodes": 26
+  },
+  {
+    "id": "michael",
+    "title": "Michael",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2026,
+    "genres": [
+      "Music",
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "The story of Michael Jackson, one of the most influential artists the world has ever known, and his life beyond the music. His journey from the discovery of his extraordinary talent as the lead of the Jackson Five, to the visionary artist whose creative ambition fueled a relentless pursuit to become the biggest entertainer in the world, highlighting both his life off-stage and some of the most iconic performances from his early solo career.",
+    "date": "2026-09-08",
+    "poster": "covers/michael.jpg",
+    "tmdbId": 936075,
+    "runtime": 128
   }
 ];
