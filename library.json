@@ -4580,5 +4580,25 @@
     "tmdbId": 138502,
     "episodeRuntime": 32,
     "episodes": 19
+  },
+  {
+    "id": "cowboy-bebop",
+    "title": "Cowboy Bebop",
+    "type": "tv",
+    "status": "towatch",
+    "year": 1998,
+    "genres": [
+      "Animation",
+      "Action / Adventure",
+      "Sci-Fi / Fantasy",
+      "Western"
+    ],
+    "score": null,
+    "synopsis": "In 2071, roughly fifty years after an accident with a hyperspace gateway made the Earth almost uninhabitable, humanity has colonized most of the rocky planets and moons of the Solar System. Amid a rising crime rate, the Inter Solar System Police (ISSP) set up a legalized contract system, in which registered bounty hunters, also referred to as \"Cowboys\", chase criminals and bring them in alive in return for a reward.",
+    "date": "2026-09-08",
+    "poster": "covers/cowboy-bebop.jpg",
+    "tmdbId": 30991,
+    "episodeRuntime": 25,
+    "episodes": 26
   }
 ]
