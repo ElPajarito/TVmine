@@ -4617,5 +4617,126 @@
     "poster": "covers/michael.jpg",
     "tmdbId": 936075,
     "runtime": 128
+  },
+  {
+    "id": "hannibal",
+    "title": "Hannibal",
+    "type": "tv",
+    "status": "towatch",
+    "year": 2013,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "score": null,
+    "synopsis": "Both a gift and a curse, Graham has the extraordinary ability to think like his prey—he sees what they see, feels what they feel. But while Graham is pursuing an especially troubling, cannibalistic murderer, Special Agent Jack Crawford teams him with a highly respected psychiatrist – a man with a taste for the criminal minded – Dr. Hannibal Lecter.",
+    "date": "2026-09-09",
+    "poster": "covers/hannibal.jpg",
+    "tmdbId": 40008,
+    "episodeRuntime": 45,
+    "episodes": 39
+  },
+  {
+    "id": "chernobyl",
+    "title": "Chernobyl",
+    "type": "tv",
+    "status": "towatch",
+    "year": 2019,
+    "genres": [
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "The true story of one of the worst man-made catastrophes in history: the catastrophic nuclear accident at Chernobyl. A tale of the brave men and women who sacrificed to save Europe from unimaginable disaster.",
+    "date": "2026-09-09",
+    "poster": "covers/chernobyl.jpg",
+    "tmdbId": 87108,
+    "episodeRuntime": 73,
+    "episodes": 5
+  },
+  {
+    "id": "talk-to-me",
+    "title": "Talk to Me",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2023,
+    "genres": [
+      "Horror"
+    ],
+    "score": null,
+    "synopsis": "When a group of friends discover how to conjure spirits using an embalmed hand, they become hooked on the new thrill, until one of them goes too far and unleashes terrifying supernatural forces.",
+    "date": "2026-09-09",
+    "poster": "covers/talk-to-me.jpg",
+    "tmdbId": 1008042,
+    "runtime": 95
+  },
+  {
+    "id": "dark-city",
+    "title": "Dark City",
+    "type": "movie",
+    "status": "towatch",
+    "year": 1998,
+    "genres": [
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "score": null,
+    "synopsis": "A man struggles with memories of his past, including a wife he cannot remember, in a nightmarish world with no sun and run by beings with telekinetic powers who seek the souls of humans.",
+    "date": "2026-09-09",
+    "poster": "covers/dark-city.jpg",
+    "tmdbId": 2666,
+    "runtime": 101
+  },
+  {
+    "id": "the-crow",
+    "title": "The Crow",
+    "type": "movie",
+    "status": "towatch",
+    "year": 1994,
+    "genres": [
+      "Fantasy",
+      "Action",
+      "Thriller"
+    ],
+    "score": null,
+    "synopsis": "Exactly one year after young rock guitarist Eric Draven and his fiancée are brutally killed by a ruthless gang of criminals, Draven, watched over by a hypnotic crow, returns from the grave to exact revenge.",
+    "date": "2026-09-09",
+    "poster": "covers/the-crow.jpg",
+    "tmdbId": 9495,
+    "runtime": 102
+  },
+  {
+    "id": "saving-mr-banks",
+    "title": "Saving Mr. Banks",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2013,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "History"
+    ],
+    "score": null,
+    "synopsis": "Author P.L. Travers looks back on her childhood while reluctantly meeting with Walt Disney, who seeks to adapt her Mary Poppins books for the big screen.",
+    "date": "2026-09-09",
+    "poster": "covers/saving-mr-banks.jpg",
+    "tmdbId": 140823,
+    "runtime": 126
+  },
+  {
+    "id": "the-disaster-artist",
+    "title": "The Disaster Artist",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2017,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "An aspiring actor in Hollywood meets an enigmatic stranger by the name of Tommy Wiseau, the meeting leads the actor down a path nobody could have predicted; creating the worst movie ever made.",
+    "date": "2026-09-09",
+    "poster": "covers/the-disaster-artist.jpg",
+    "tmdbId": 371638,
+    "runtime": 104
   }
 ]
