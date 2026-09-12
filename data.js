@@ -1147,7 +1147,7 @@ const LIBRARY = [
       "Drama",
       "Mystery"
     ],
-    "score": 8.4,
+    "score": 8.5,
     "synopsis": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
     "date": "2026-09-06",
     "poster": "covers/true-detective.jpg",
@@ -2540,14 +2540,14 @@ const LIBRARY = [
     "id": "late-night-with-the-devil",
     "title": "Late Night with the Devil",
     "type": "movie",
-    "status": "towatch",
+    "status": "watched",
     "year": 2024,
     "genres": [
       "Horror"
     ],
-    "score": null,
+    "score": 7.8,
     "synopsis": "A live broadcast of a late-night talk show in 1977 goes horribly wrong, unleashing evil into the nation's living rooms.",
-    "date": "2026-08-09",
+    "date": "2026-09-12",
     "poster": "covers/late-night-with-the-devil.jpg",
     "tmdbId": 938614,
     "runtime": 93
@@ -2653,7 +2653,7 @@ const LIBRARY = [
       "Action",
       "Drama"
     ],
-    "score": 8.6,
+    "score": 8.5,
     "synopsis": "Racing legend Sonny Hayes is coaxed out of retirement to lead a struggling Formula 1 team—and mentor a young hotshot driver—while chasing one more chance at glory.",
     "date": "2026-08-09",
     "poster": "covers/f1.jpg",
