@@ -4741,5 +4741,41 @@ const LIBRARY = [
     "poster": "covers/the-disaster-artist.jpg",
     "tmdbId": 371638,
     "runtime": 104
+  },
+  {
+    "id": "upgrade",
+    "title": "Upgrade",
+    "type": "movie",
+    "status": "watched",
+    "year": 2018,
+    "genres": [
+      "Action",
+      "Thriller",
+      "Sci-Fi"
+    ],
+    "score": 8.0,
+    "synopsis": "A brutal mugging leaves Grey Trace paralyzed in the hospital and his beloved wife dead. A billionaire inventor soon offers Trace a cure — an artificial intelligence implant called STEM that will enhance his body. Now able to walk, Grey finds that he also has superhuman strength and agility — skills he uses to seek revenge against the thugs who destroyed his life.",
+    "date": "2026-09-12",
+    "poster": "covers/upgrade.jpg",
+    "tmdbId": 500664,
+    "runtime": 100
+  },
+  {
+    "id": "better-call-saul",
+    "title": "Better Call Saul",
+    "type": "tv",
+    "status": "watched",
+    "year": 2015,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "score": 9.2,
+    "synopsis": "Six years before Saul Goodman meets Walter White. We meet him when the man who will become Saul Goodman is known as Jimmy McGill, a small-time lawyer searching for his destiny, and, more immediately, hustling to make ends meet. Working alongside, and, often, against Jimmy, is “fixer” Mike Ehrmantraut. The series tracks Jimmy’s transformation into Saul Goodman, the man who puts “criminal” in “criminal lawyer\".",
+    "date": "2026-09-12",
+    "poster": "covers/better-call-saul.jpg",
+    "tmdbId": 60059,
+    "episodeRuntime": 70,
+    "episodes": 63
   }
 ];
