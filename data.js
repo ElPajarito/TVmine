@@ -372,7 +372,7 @@ const LIBRARY = [
     "genres": [
       "Drama"
     ],
-    "score": 6.5,
+    "score": 6.1,
     "synopsis": "In the 1960s, Israeli clerk-turned-secret agent Eli Cohen goes deep undercover inside Syria on a perilous, years-long mission to spy for Mossad.",
     "date": "2026-08-04",
     "poster": "covers/the-spy.jpg",
@@ -2545,7 +2545,7 @@ const LIBRARY = [
     "genres": [
       "Horror"
     ],
-    "score": 7.8,
+    "score": 7.6,
     "synopsis": "A live broadcast of a late-night talk show in 1977 goes horribly wrong, unleashing evil into the nation's living rooms.",
     "date": "2026-09-12",
     "poster": "covers/late-night-with-the-devil.jpg",
@@ -3796,7 +3796,7 @@ const LIBRARY = [
       "Horror",
       "Thriller"
     ],
-    "score": 7.2,
+    "score": 6.9,
     "synopsis": "A father and teen daughter attend a pop concert, where they realize they're at the center of a dark and sinister event.",
     "date": "2026-09-06",
     "poster": "covers/trap.jpg",
@@ -4777,5 +4777,57 @@ const LIBRARY = [
     "tmdbId": 60059,
     "episodeRuntime": 70,
     "episodes": 63
+  },
+  {
+    "id": "shattered-glass",
+    "title": "Shattered Glass",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2003,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "score": null,
+    "synopsis": "Stephen Glass is a staff writer for the respected current events and policy magazine The New Republic and a freelance feature writer for publications such as Rolling Stone, Harper's and George. By the mid-90s, Glass' articles had turned him into one of the most sought-after young journalists in Washington, but a bizarre chain of events - chronicled in Buzz Bissinger's September 1998 Vanity Fair article - suddenly stopped his career in its tracks.",
+    "date": "2026-09-14",
+    "poster": "covers/shattered-glass.jpg",
+    "tmdbId": 13537,
+    "runtime": 94
+  },
+  {
+    "id": "buddy",
+    "title": "Buddy",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2026,
+    "genres": [
+      "Horror",
+      "Comedy"
+    ],
+    "score": null,
+    "synopsis": "A magical, singing orange unicorn holds his cast hostage in a surreal TV-show dimension, as he becomes more and more demented.",
+    "date": "2026-09-14",
+    "poster": "covers/buddy.jpg",
+    "tmdbId": 1514026,
+    "runtime": 95
+  },
+  {
+    "id": "backrooms",
+    "title": "Backrooms",
+    "type": "movie",
+    "status": "watched",
+    "year": 2026,
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "score": 7.7,
+    "synopsis": "A strange doorway appears in the basement of a furniture showroom.",
+    "date": "2026-09-14",
+    "poster": "covers/backrooms.jpg",
+    "tmdbId": 1083381,
+    "runtime": 111
   }
 ];
