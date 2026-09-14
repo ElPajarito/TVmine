@@ -4826,5 +4826,22 @@
     "poster": "covers/backrooms.jpg",
     "tmdbId": 1083381,
     "runtime": 111
+  },
+  {
+    "id": "molly-s-game",
+    "title": "Molly's Game",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2017,
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "score": null,
+    "synopsis": "Molly Bloom, a young skier and former Olympic hopeful becomes a successful entrepreneur (and a target of an FBI investigation) when she establishes a high-stakes, international poker game.",
+    "date": "2026-09-15",
+    "poster": "covers/molly-s-game.jpg",
+    "tmdbId": 396371,
+    "runtime": 141
   }
 ]
