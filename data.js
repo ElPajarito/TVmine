@@ -1103,7 +1103,7 @@ const LIBRARY = [
     "id": "cyberpunk-edgerunners",
     "title": "Cyberpunk: Edgerunners",
     "type": "tv",
-    "status": "towatch",
+    "status": "watching",
     "year": 2022,
     "genres": [
       "Animation",
