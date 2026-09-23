@@ -4843,5 +4843,23 @@
     "poster": "covers/molly-s-game.jpg",
     "tmdbId": 396371,
     "runtime": 141
+  },
+  {
+    "id": "eyes-wide-shut",
+    "title": "Eyes Wide Shut",
+    "type": "movie",
+    "status": "watched",
+    "year": 1999,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Mystery"
+    ],
+    "score": 8.2,
+    "synopsis": "After Dr. Bill Harford's wife, Alice, admits to having sexual fantasies about a man she met, Bill becomes obsessed with having a sexual encounter. He discovers an underground sexual group and attends one of their meetings -- and quickly discovers that he is in over his head.",
+    "date": "2026-09-23",
+    "poster": "covers/eyes-wide-shut.jpg",
+    "tmdbId": 345,
+    "runtime": 159
   }
 ]
