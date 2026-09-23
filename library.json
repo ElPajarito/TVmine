@@ -1114,7 +1114,12 @@
     "poster": "covers/cyberpunk-edgerunners.jpg",
     "tmdbId": 105248,
     "episodeRuntime": 29,
-    "episodes": 10
+    "episodes": 10,
+    "progress": {
+      "season": 1,
+      "episode": 1,
+      "episodesInSeason": 10
+    }
   },
   {
     "id": "pluribus",
@@ -1516,7 +1521,7 @@
     "id": "kengan-ashura",
     "title": "KENGAN ASHURA",
     "type": "tv",
-    "status": "watching",
+    "status": "towatch",
     "year": 2019,
     "genres": [
       "Animation",
@@ -1529,12 +1534,7 @@
     "poster": "covers/kengan-ashura.jpg",
     "tmdbId": 90660,
     "episodeRuntime": 23,
-    "episodes": 52,
-    "progress": {
-      "season": 2,
-      "episode": 2,
-      "episodesInSeason": 10
-    }
+    "episodes": 52
   },
   {
     "id": "baki-dou-the-invincible-samurai",
@@ -2292,8 +2292,8 @@
     "episodes": 32,
     "progress": {
       "season": 1,
-      "episode": 2,
-      "episodesInSeason": 10
+      "episode": 3,
+      "episodesInSeason": 8
     }
   },
   {
@@ -4861,5 +4861,23 @@
     "poster": "covers/eyes-wide-shut.jpg",
     "tmdbId": 345,
     "runtime": 159
+  },
+  {
+    "id": "twelve-monkeys",
+    "title": "Twelve Monkeys",
+    "type": "movie",
+    "status": "towatch",
+    "year": 1995,
+    "genres": [
+      "Sci-Fi",
+      "Thriller",
+      "Mystery"
+    ],
+    "score": null,
+    "synopsis": "In the year 2035, convict James Cole reluctantly volunteers to be sent back in time to discover the origin of a deadly virus that wiped out nearly all of the earth's population and forced the survivors into underground communities. But when Cole is mistakenly sent to 1990 instead of 1996, he's arrested and locked up in a mental hospital. There he meets psychiatrist Dr. Kathryn Railly and the son of a famous virus expert who may hold the key to the Army of the 12 Monkeys; thought to be responsible for unleashing the killer disease.",
+    "date": "2026-09-23",
+    "poster": "covers/twelve-monkeys.jpg",
+    "tmdbId": 63,
+    "runtime": 129
   }
 ]
