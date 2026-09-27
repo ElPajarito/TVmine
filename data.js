@@ -2278,7 +2278,7 @@ const LIBRARY = [
     "id": "invincible",
     "title": "INVINCIBLE",
     "type": "tv",
-    "status": "watching",
+    "status": "towatch",
     "year": 2021,
     "genres": [
       "Animation",
@@ -2292,12 +2292,7 @@ const LIBRARY = [
     "poster": "covers/invincible.jpg",
     "tmdbId": 95557,
     "episodeRuntime": 52,
-    "episodes": 32,
-    "progress": {
-      "season": 1,
-      "episode": 3,
-      "episodesInSeason": 8
-    }
+    "episodes": 32
   },
   {
     "id": "berserk",
