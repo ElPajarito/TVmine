@@ -3597,14 +3597,14 @@ const LIBRARY = [
     "id": "a-toxic-love-story",
     "title": "A Toxic Love Story",
     "type": "movie",
-    "status": "towatch",
+    "status": "watched",
     "year": 2026,
     "genres": [
       "Documentary"
     ],
-    "score": null,
+    "score": 7.3,
     "synopsis": "A string of threatening emails escalates into a revenge plot involving a newly married US marshal and his ex-girlfriend.",
-    "date": "2026-08-19",
+    "date": "2026-09-27",
     "poster": "covers/a-toxic-love-story.jpg",
     "tmdbId": 1723460,
     "runtime": 91
