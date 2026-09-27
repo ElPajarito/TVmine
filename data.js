@@ -4877,5 +4877,59 @@ const LIBRARY = [
     "poster": "covers/twelve-monkeys.jpg",
     "tmdbId": 63,
     "runtime": 129
+  },
+  {
+    "id": "blade",
+    "title": "Blade",
+    "type": "movie",
+    "status": "towatch",
+    "year": 1998,
+    "genres": [
+      "Horror",
+      "Action"
+    ],
+    "score": null,
+    "synopsis": "The Daywalker known as \"Blade\" - a half-vampire, half-mortal man - becomes the protector of humanity against an underground army of vampires.",
+    "date": "2026-09-27",
+    "poster": "covers/blade.jpg",
+    "tmdbId": 36647,
+    "runtime": 121
+  },
+  {
+    "id": "blade-ii",
+    "title": "Blade II",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2002,
+    "genres": [
+      "Fantasy",
+      "Horror",
+      "Action",
+      "Thriller"
+    ],
+    "score": null,
+    "synopsis": "Blade forms an uneasy alliance with the vampire council in order to combat the Reapers, who are feeding on vampires.",
+    "date": "2026-09-27",
+    "poster": "covers/blade-ii.jpg",
+    "tmdbId": 36586,
+    "runtime": 117
+  },
+  {
+    "id": "blade-trinity",
+    "title": "Blade: Trinity",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2004,
+    "genres": [
+      "Action",
+      "Horror",
+      "Sci-Fi"
+    ],
+    "score": null,
+    "synopsis": "For years, Blade has fought against the vampires in the cover of the night. But now, after falling into the crosshairs of the FBI, he is forced out into the daylight, where he is driven to join forces with a clan of human vampire hunters he never knew existed—The Nightstalkers. Together with Abigail and Hannibal, two deftly trained Nightstalkers, Blade follows a trail of blood to the ancient creature that is also hunting him—the original vampire, Dracula.",
+    "date": "2026-09-27",
+    "poster": "covers/blade-trinity.jpg",
+    "tmdbId": 36648,
+    "runtime": 113
   }
 ];
