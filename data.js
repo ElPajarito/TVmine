@@ -1152,7 +1152,7 @@ const LIBRARY = [
       "Drama",
       "Mystery"
     ],
-    "score": 8.5,
+    "score": 8.7,
     "synopsis": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
     "date": "2026-09-06",
     "poster": "covers/true-detective.jpg",
