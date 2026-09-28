@@ -3597,7 +3597,7 @@ const LIBRARY = [
     "genres": [
       "Documentary"
     ],
-    "score": 7.3,
+    "score": 7.1,
     "synopsis": "A string of threatening emails escalates into a revenge plot involving a newly married US marshal and his ex-girlfriend.",
     "date": "2026-09-27",
     "poster": "covers/a-toxic-love-story.jpg",
