@@ -4931,5 +4931,39 @@ const LIBRARY = [
     "poster": "covers/blade-trinity.jpg",
     "tmdbId": 36648,
     "runtime": 113
+  },
+  {
+    "id": "billions",
+    "title": "Billions",
+    "type": "tv",
+    "status": "towatch",
+    "year": 2016,
+    "genres": [
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "Shrewd, savvy U.S. Attorney Chuck Rhoades and the brilliant, ambitious hedge fund king Bobby \"Axe\" Axelrod are on an explosive collision course, with each using all of his considerable smarts, power and influence to outmaneuver the other. The stakes are in the billions in this timely, provocative series.",
+    "date": "2026-09-30",
+    "poster": "covers/billions.jpg",
+    "tmdbId": 62852,
+    "episodeRuntime": 58,
+    "episodes": 84
+  },
+  {
+    "id": "margin-call",
+    "title": "Margin Call",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2011,
+    "genres": [
+      "Thriller",
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "Set in the high-stakes world of the financial industry, involving the key players at an investment firm during one perilous 24-hour period in the early stages of the 2008 financial crisis. An entry-level analyst unlocks information that could prove to be the downfall of the firm.",
+    "date": "2026-09-30",
+    "poster": "covers/margin-call.jpg",
+    "tmdbId": 50839,
+    "runtime": 107
   }
 ];
