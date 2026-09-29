@@ -4962,5 +4962,23 @@
     "poster": "covers/margin-call.jpg",
     "tmdbId": 50839,
     "runtime": 107
+  },
+  {
+    "id": "primetime",
+    "title": "Primetime",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2026,
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "In 2006, To Catch a Predator host Chris Hansen sets out to make television history, turning an undercover investigation into one of the most controversial cultural phenomena of the decade.",
+    "date": "2026-09-30",
+    "poster": "covers/primetime.jpg",
+    "tmdbId": 1375441,
+    "runtime": 109
   }
 ]
