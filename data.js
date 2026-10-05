@@ -4983,5 +4983,22 @@ const LIBRARY = [
     "poster": "covers/primetime.jpg",
     "tmdbId": 1375441,
     "runtime": 109
+  },
+  {
+    "id": "house-of-cards",
+    "title": "House of Cards",
+    "type": "tv",
+    "status": "towatch",
+    "year": 2013,
+    "genres": [
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "Betrayed by the White House, Congressman Frank Underwood embarks on a ruthless rise to power. Blackmail, seduction and ambition are his weapons.",
+    "date": "2026-10-05",
+    "poster": "covers/house-of-cards.jpg",
+    "tmdbId": 1425,
+    "episodeRuntime": 55,
+    "episodes": 73
   }
 ];
