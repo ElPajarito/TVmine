@@ -5000,5 +5000,22 @@ const LIBRARY = [
     "tmdbId": 1425,
     "episodeRuntime": 55,
     "episodes": 73
+  },
+  {
+    "id": "weapons",
+    "title": "Weapons",
+    "type": "movie",
+    "status": "watched",
+    "year": 2025,
+    "genres": [
+      "Horror",
+      "Mystery"
+    ],
+    "score": 7.7,
+    "synopsis": "When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.",
+    "date": "2026-10-25",
+    "poster": "covers/weapons.jpg",
+    "tmdbId": 1078605,
+    "runtime": 129
   }
 ];
