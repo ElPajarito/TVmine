@@ -99,10 +99,17 @@ function durationLabel(item) {
   return item.type === "tv" ? `${item.episodes} eps · ${fmtDuration(min)}` : fmtDuration(min);
 }
 
+// the score shown everywhere: the highest of the whole-show score and every season score
+function displayScore(item) {
+  const scored = [item.score, ...(item.seasons || []).map(s => s.score)].filter(v => v != null);
+  return scored.length ? Math.max(...scored) : null;
+}
+
 function scoreBadge(item) {
   if (item.status !== "watched") return ""; // no rating until it's been watched
-  if (item.score == null) return `<div class="score-badge unrated" title="not rated yet">~</div>`;
-  return `<div class="score-badge" title="my score">${item.score}</div>`;
+  const score = displayScore(item);
+  if (score == null) return `<div class="score-badge unrated" title="not rated yet">~</div>`;
+  return `<div class="score-badge" title="my score">${score}</div>`;
 }
 
 function progressMarkup(item) {
@@ -156,7 +163,7 @@ function matchesFilters(item) {
 // fixed smart order: watched by score, to-watch by date added, watching stays
 // in data order
 function smartSort(items, status) {
-  if (status === "watched") return [...items].sort((a, b) => (b.score ?? -1) - (a.score ?? -1));
+  if (status === "watched") return [...items].sort((a, b) => (displayScore(b) ?? -1) - (displayScore(a) ?? -1));
   if (status === "towatch") return [...items].sort((a, b) => b.date.localeCompare(a.date));
   return items;
 }
@@ -277,9 +284,9 @@ function renderHub() {
   const count = s => LIBRARY.filter(x => x.status === s).length;
   document.getElementById("countTowatch").textContent = count("towatch");
   document.getElementById("countWatched").textContent = count("watched");
-  const rated = LIBRARY.filter(x => x.status === "watched" && x.score != null);
+  const rated = LIBRARY.filter(x => x.status === "watched" && displayScore(x) != null);
   if (rated.length) {
-    const avg = (rated.reduce((s, x) => s + x.score, 0) / rated.length).toFixed(1);
+    const avg = (rated.reduce((s, x) => s + displayScore(x), 0) / rated.length).toFixed(1);
     document.getElementById("watchedSub").textContent = `avg score ${avg}`;
   }
 
@@ -423,7 +430,17 @@ function initFilters() {
 const modal = document.getElementById("modal");
 const modalBody = document.getElementById("modalBody");
 
+// one line per finished season: "finished Sep 6, 2026 – Season 1 ........ 8.7"
+function seasonLinesMarkup(item) {
+  return (item.seasons || []).map(s => `
+    <div class="season-line">
+      <span class="timeline-date">finished ${fmtDate(s.date)} – <span class="season-tag">Season ${s.season}</span></span>
+      ${s.score != null ? `<span class="season-score">${s.score}</span>` : ""}
+    </div>`).join("");
+}
+
 function openModal(item) {
+  const score = displayScore(item);
   const typeLabel = item.type === "tv" ? "TV series" : "Movie";
   modalBody.innerHTML = `
     <div class="modal-poster">${posterMarkup(item)}</div>
@@ -438,13 +455,15 @@ function openModal(item) {
       </div>
       ${item.status !== "watched"
         ? ""
-        : item.score != null
-          ? `<div class="modal-score"><b>${item.score}</b> / 10</div>`
+        : score != null
+          ? `<div class="modal-score"><b>${score}</b> / 10</div>`
           : `<div class="modal-score">not rated yet</div>`}
       ${progressMarkup(item)}
       <p class="modal-synopsis">${item.synopsis}</p>
       ${item.notes ? `<div class="modal-notes">${item.notes}</div>` : ""}
-      <div class="timeline-date">${item.status === "watched" ? "finished " : "added "}${fmtDate(item.date)}</div>
+      ${item.seasons?.length
+        ? `<div class="season-lines">${seasonLinesMarkup(item)}</div>`
+        : `<div class="timeline-date">${item.status === "watched" ? "finished " : "added "}${fmtDate(item.date)}</div>`}
     </div>`;
   modal.hidden = false;
   modalBody.querySelectorAll(".progress-fill").forEach(f => {

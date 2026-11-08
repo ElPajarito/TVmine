@@ -14,6 +14,7 @@ Usage:
   ./tvmine.py add "Perfect Days" --type movie --notes "rainy day pick"
   ./tvmine.py update frieren --score 10 --status watched
   ./tvmine.py update severance --progress 2:5/10
+  ./tvmine.py update true-detective --season 1 --score 8.7   # score one season
   ./tvmine.py remove the-bear-s3
   ./tvmine.py list
   ./tvmine.py regen          # just rebuild data.js from library.json
@@ -216,6 +217,59 @@ def today():
     return datetime.date.today().isoformat()
 
 
+# ---------- scores (whole show vs. single seasons) ----------
+
+def display_score(e):
+    """The score the site shows: the highest of the whole-show score and
+    every season score."""
+    scored = [s["score"] for s in e.get("seasons", []) if s.get("score") is not None]
+    if e.get("score") is not None:
+        scored.append(e["score"])
+    return max(scored) if scored else None
+
+
+def record_season(e, season, score, date):
+    """Mark a season finished (optionally scored). Re-recording a season replaces it."""
+    if e["type"] != "tv":
+        sys.exit("--season only applies to TV shows")
+    if season < 1:
+        sys.exit("--season must be 1 or higher")
+    seasons = [s for s in e.get("seasons", []) if s["season"] != season]
+    seasons.append({"season": season, "score": score, "date": date})
+    e["seasons"] = sorted(seasons, key=lambda s: s["season"])
+
+
+def apply_changes(e, args):
+    """Shared by `update` and re-`add`: apply score/season/status/date/notes/progress."""
+    if args.season is not None:
+        # a finished season scores only that season and moves the show to Watched
+        finished = args.date or today()
+        record_season(e, args.season, args.score, finished)
+        if not args.status:
+            args.status = "watched"
+        e["date"] = finished
+    elif args.score is not None:
+        e["score"] = args.score
+        # scoring something means you've watched it (unless told otherwise)
+        if not args.status and e["status"] != "watched":
+            args.status = "watched"
+    if args.status:
+        if args.status == "watched" and e["status"] != "watched" and not args.date:
+            e["date"] = today()  # finished today
+        e["status"] = args.status
+        if args.status != "watching":
+            e.pop("progress", None)
+    if args.date:
+        e["date"] = args.date
+    if args.notes is not None:
+        if args.notes:
+            e["notes"] = args.notes
+        else:
+            e.pop("notes", None)
+    if args.progress:
+        e["progress"] = parse_progress(args.progress)
+
+
 # ---------- duplicate detection ----------
 
 def normalize_title(title):
@@ -272,29 +326,22 @@ def cmd_add(args):
     lib = load_library()
     if args.status is None:
         # a score means you've seen it; otherwise it's a plan
-        args.status = "watched" if args.score is not None else "towatch"
+        args.status = "watched" if (args.score is not None or args.season is not None) else "towatch"
+    if args.season is not None and args.type == "movie":
+        sys.exit("--season only applies to TV shows")
     results = search_tmdb(args.title, args.type)
     chosen = pick_result(results, first=args.first)
     dupes = find_duplicates(lib, chosen["tmdb_id"], chosen["title"], chosen["type"])
     if dupes and not args.again:
-        if args.score is not None:
-            # re-adding something with a score = re-score the existing entry
+        if args.score is not None or args.season is not None:
+            # re-adding something with a score/season = re-score the existing entry
             e = dupes[0][0]
-            e["score"] = args.score
-            if args.status == "watched" and e["status"] != "watched" and not args.date:
-                e["date"] = today()
-            e["status"] = args.status
-            if args.status != "watching":
-                e.pop("progress", None)
-            if args.date:
-                e["date"] = args.date
-            if args.notes:
-                e["notes"] = args.notes
-            if args.progress:
-                e["progress"] = parse_progress(args.progress)
+            apply_changes(e, args)
             save_library(lib)
+            what = (f"season {args.season}" if args.season is not None else "score")
             print(f"'{e['title']}' was already in the library — updated it instead: "
-                  f"score {e['score']}, {e['status']} [{e['id']}]")
+                  f"{what} {args.score if args.score is not None else '(no score)'}, "
+                  f"{e['status']} [{e['id']}]")
             return
         if not confirm_duplicate(dupes, interactive=not args.first):
             sys.exit(1)
@@ -309,13 +356,17 @@ def cmd_add(args):
         "status": args.status,
         "year": chosen["year"],
         "genres": genres or ["Unknown"],
-        "score": args.score,
+        "score": None if args.season is not None else args.score,
         "synopsis": chosen["overview"],
         "date": args.date or today(),
         "poster": poster,
         "tmdbId": chosen["tmdb_id"],
     }
     apply_runtime(entry, details)
+    if args.season is not None:
+        if chosen["type"] != "tv":
+            sys.exit("--season only applies to TV shows")
+        record_season(entry, args.season, args.score, entry["date"])
     if args.notes:
         entry["notes"] = args.notes
     if args.progress:
@@ -333,26 +384,7 @@ def cmd_add(args):
 def cmd_update(args):
     lib = load_library()
     e = find_entry(lib, args.id)
-    if args.score is not None:
-        e["score"] = args.score
-        # scoring something means you've watched it (unless told otherwise)
-        if not args.status and e["status"] != "watched":
-            args.status = "watched"
-    if args.status:
-        if args.status == "watched" and e["status"] != "watched" and not args.date:
-            e["date"] = today()  # finished today
-        e["status"] = args.status
-        if args.status != "watching":
-            e.pop("progress", None)
-    if args.date:
-        e["date"] = args.date
-    if args.notes is not None:
-        if args.notes:
-            e["notes"] = args.notes
-        else:
-            e.pop("notes", None)
-    if args.progress:
-        e["progress"] = parse_progress(args.progress)
+    apply_changes(e, args)
     save_library(lib)
     print(f"updated: {e['title']} [{e['id']}]")
 
@@ -373,12 +405,16 @@ def cmd_list(args):
     lib = load_library()
     order = {"watching": 0, "towatch": 1, "watched": 2}
     for e in sorted(lib, key=lambda x: (order.get(x["status"], 9), x["title"])):
-        score = f"{e['score']:>4}" if e.get("score") is not None else "  — "
+        shown = display_score(e)
+        score = f"{shown:>4}" if shown is not None else "  — "
         prog = ""
         if e.get("progress"):
             p = e["progress"]
             prog = f"  S{p['season']}·E{p['episode']}/{p['episodesInSeason']}"
-        print(f"{e['status']:9} {score}  {e['title']} ({e.get('year','?')}) [{e['id']}]{prog}")
+        seasons = "".join(
+            f"  S{s['season']}:{s['score'] if s.get('score') is not None else '—'}"
+            for s in e.get("seasons", []))
+        print(f"{e['status']:9} {score}  {e['title']} ({e.get('year','?')}) [{e['id']}]{prog}{seasons}")
     print(f"\n{len(lib)} entries")
 
 
@@ -412,6 +448,7 @@ def main():
     a.add_argument("--status", choices=["watching", "towatch", "watched"],
                    help="default: towatch, or watched when --score is given")
     a.add_argument("--score", type=float)
+    a.add_argument("--season", type=int, help="score only this season (TV), not the whole show")
     a.add_argument("--notes")
     a.add_argument("--progress", help="S:E/TOTAL e.g. 1:21/28")
     a.add_argument("--date", help="YYYY-MM-DD (default: today)")
@@ -422,6 +459,7 @@ def main():
     u = sub.add_parser("update", help="change score/status/progress/notes of an entry")
     u.add_argument("id", help="entry id or title fragment")
     u.add_argument("--score", type=float)
+    u.add_argument("--season", type=int, help="score only this season (TV), not the whole show")
     u.add_argument("--status", choices=["watching", "towatch", "watched"])
     u.add_argument("--notes", help="new notes ('' to clear)")
     u.add_argument("--progress", help="S:E/TOTAL e.g. 2:5/10")

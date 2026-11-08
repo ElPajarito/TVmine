@@ -1103,7 +1103,7 @@ const LIBRARY = [
     "id": "cyberpunk-edgerunners",
     "title": "Cyberpunk: Edgerunners",
     "type": "tv",
-    "status": "watching",
+    "status": "watched",
     "year": 2022,
     "genres": [
       "Animation",
@@ -1113,16 +1113,18 @@ const LIBRARY = [
     ],
     "score": null,
     "synopsis": "In a dystopia riddled with corruption and cybernetic implants, a talented but reckless street kid strives to become a mercenary outlaw — an edgerunner.",
-    "date": "2026-08-04",
+    "date": "2026-11-08",
     "poster": "covers/cyberpunk-edgerunners.jpg",
     "tmdbId": 105248,
     "episodeRuntime": 29,
     "episodes": 10,
-    "progress": {
-      "season": 1,
-      "episode": 1,
-      "episodesInSeason": 10
-    }
+    "seasons": [
+      {
+        "season": 1,
+        "score": 7.9,
+        "date": "2026-11-08"
+      }
+    ]
   },
   {
     "id": "pluribus",
@@ -4794,15 +4796,15 @@ const LIBRARY = [
     "id": "buddy",
     "title": "Buddy",
     "type": "movie",
-    "status": "towatch",
+    "status": "watched",
     "year": 2026,
     "genres": [
       "Horror",
       "Comedy"
     ],
-    "score": null,
+    "score": 7.8,
     "synopsis": "A magical, singing orange unicorn holds his cast hostage in a surreal TV-show dimension, as he becomes more and more demented.",
-    "date": "2026-09-14",
+    "date": "2026-11-08",
     "poster": "covers/buddy.jpg",
     "tmdbId": 1514026,
     "runtime": 95
@@ -4936,18 +4938,25 @@ const LIBRARY = [
     "id": "billions",
     "title": "Billions",
     "type": "tv",
-    "status": "towatch",
+    "status": "watched",
     "year": 2016,
     "genres": [
       "Drama"
     ],
     "score": null,
     "synopsis": "Shrewd, savvy U.S. Attorney Chuck Rhoades and the brilliant, ambitious hedge fund king Bobby \"Axe\" Axelrod are on an explosive collision course, with each using all of his considerable smarts, power and influence to outmaneuver the other. The stakes are in the billions in this timely, provocative series.",
-    "date": "2026-09-30",
+    "date": "2026-11-08",
     "poster": "covers/billions.jpg",
     "tmdbId": 62852,
     "episodeRuntime": 58,
-    "episodes": 84
+    "episodes": 84,
+    "seasons": [
+      {
+        "season": 1,
+        "score": 8.0,
+        "date": "2026-11-08"
+      }
+    ]
   },
   {
     "id": "margin-call",
@@ -5017,5 +5026,125 @@ const LIBRARY = [
     "poster": "covers/weapons.jpg",
     "tmdbId": 1078605,
     "runtime": 129
+  },
+  {
+    "id": "digger",
+    "title": "Digger",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2026,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything.",
+    "date": "2026-11-08",
+    "poster": "covers/digger.jpg",
+    "tmdbId": 1248832,
+    "runtime": 129
+  },
+  {
+    "id": "i-play-rocky",
+    "title": "I Play Rocky",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2026,
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "score": null,
+    "synopsis": "The electrifying true story about an unknown actor with an unshakable belief that he wasn't just meant to write Rocky—he was meant to be Rocky Balboa. Told \"no\" at every turn, Sylvester Stallone bets everything on himself, holding the line on playing the lead against seemingly impossible odds.",
+    "date": "2026-11-08",
+    "poster": "covers/i-play-rocky.jpg",
+    "tmdbId": 1286656,
+    "runtime": 128
+  },
+  {
+    "id": "wild-horse-nine",
+    "title": "Wild Horse Nine",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2026,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Thriller"
+    ],
+    "score": null,
+    "synopsis": "Shortly before the 1973 Chilean coup, CIA agents Chris and Lee are dispatched from Santiago to Easter Island by their bureau chief, MJ. Amongst the Island's iconic statues, and as the longtime partners wrestle with their dark pasts and present conspiracies, Chris's newfound bond with a pair of rebellious students threatens to send everyone’s trip to this remote paradise sideways.",
+    "date": "2026-11-08",
+    "poster": "covers/wild-horse-nine.jpg",
+    "tmdbId": 891621,
+    "runtime": 117
+  },
+  {
+    "id": "everest-the-other-side",
+    "title": "Everest: The Other Side",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2026,
+    "genres": [
+      "Documentary"
+    ],
+    "score": null,
+    "synopsis": "An intimate portrait of two people bound by love, ambition, and the pursuit of the impossible. Elite ski mountaineers Jim Morrison and Hilaree Nelson fell deeply in love while reaching the pinnacle of their sport. Their drive sharpened into a shared dream: to climb and ski the direct North Face of Mount Everest—the most difficult and dangerous climb on the mountain and the most coveted ski line on Earth—something only a handful have ever achieved, and no one has successfully skied down.",
+    "date": "2026-11-08",
+    "poster": "covers/everest-the-other-side.jpg",
+    "tmdbId": 1603262,
+    "runtime": 115
+  },
+  {
+    "id": "clayface",
+    "title": "Clayface",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2026,
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Sci-Fi"
+    ],
+    "score": null,
+    "synopsis": "Matt Hagen's meteoric rise from Gotham street kid to Hollywood leading man is tragically cut short when a local crime boss's actions leave him horribly disfigured. Abandoned by his team and with nothing left, Matt seeks out a cutting edge treatment that miraculously returns him to his former self… but also unexpectedly affects his grip on reality, spiraling him down a destructive path of all-consuming revenge.",
+    "date": "2026-11-08",
+    "poster": "covers/clayface.jpg",
+    "tmdbId": 1400940,
+    "runtime": 109
+  },
+  {
+    "id": "wildwood",
+    "title": "Wildwood",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2026,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Fantasy"
+    ],
+    "score": null,
+    "synopsis": "Prue and her classmate Curtis are drawn into a magical forest filled with enchanted creatures, loyal allies, and formidable adversaries as they embark on a desperate quest to rescue Prue's abducted baby brother from a murder of crows led by a mysterious woman named Alexandra.",
+    "date": "2026-11-08",
+    "poster": "covers/wildwood.jpg",
+    "tmdbId": 791523,
+    "runtime": 132
+  },
+  {
+    "id": "you-can-see-everything",
+    "title": "You Can See Everything",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2026,
+    "genres": [
+      "Documentary"
+    ],
+    "score": null,
+    "synopsis": "Thirty-four days before she's sent to prison, notorious Silicon Valley founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait of an enigmatic felon becomes a mind-bending three-year journey into the abyss.",
+    "date": "2026-11-08",
+    "poster": "covers/you-can-see-everything.jpg",
+    "tmdbId": 1765072,
+    "runtime": 174
   }
 ];

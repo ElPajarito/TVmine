@@ -926,6 +926,21 @@ body, .topbar, .card, .modal-panel, .hub-btn, .watch-strip, .panel-card {
   line-height: 1;
 }
 .modal-synopsis { line-height: 1.65; font-size: 0.95rem; }
+/* finished seasons: "finished Sep 6, 2026 – Season 1" with the season score on the right */
+.season-lines { display: flex; flex-direction: column; gap: 6px; }
+.season-line {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+.season-tag { color: var(--acc-towatch); }
+.season-score {
+  font-family: var(--font-hand);
+  font-size: 1.15rem;
+  color: var(--amber);
+  line-height: 1;
+}
 .modal-notes {
   background: rgba(242, 166, 90, 0.14);
   border-left: 4px solid var(--amber);

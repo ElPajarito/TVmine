@@ -57,6 +57,14 @@ always wins. Re-`add`ing something already in the library with a `--score`
 doesn't duplicate it — it just replaces the score on the existing entry (and
 moves it to Watched), wherever it was.
 
+**Season scores** — `--score` alone scores the whole show. Add `--season N`
+to score just that season instead: `update true-detective --season 1 --score 8.7`.
+That marks the season finished (today, or `--date`), moves the show to Watched,
+and leaves the whole-show score alone. Re-running it for the same season
+replaces it; `--season N` without `--score` marks it finished but unrated.
+The site shows the highest score of them all (whole show or any season); clicking the poster lists each season as
+"finished Sep 6, 2026 – Season 1" with that season's score on the right.
+
 **Duplicate protection** — `add` refuses anything already in the library
 (matched by TMDB id, or by title + type for entries that lack one) and points
 you at `update` instead; interactively it asks, with `--first` it just refuses,
