@@ -5246,5 +5246,24 @@
     "poster": "covers/the-hunt.jpg",
     "tmdbId": 103663,
     "runtime": 116
+  },
+  {
+    "id": "dexter",
+    "title": "Dexter",
+    "type": "tv",
+    "status": "towatch",
+    "year": 2006,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "score": null,
+    "synopsis": "Dexter Morgan, a blood spatter pattern analyst for the Miami Metro Police also leads a secret life as a serial killer, hunting down criminals who have slipped through the cracks of justice.",
+    "date": "2026-11-09",
+    "poster": "covers/dexter.jpg",
+    "tmdbId": 1405,
+    "episodeRuntime": 60,
+    "episodes": 96
   }
 ]
