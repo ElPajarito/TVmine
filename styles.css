@@ -931,10 +931,17 @@ body, .topbar, .card, .modal-panel, .hub-btn, .watch-strip, .panel-card {
 .season-line {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
-  gap: 12px;
+  gap: 10px;
 }
-.season-tag { color: var(--acc-towatch); }
+/* the "finished …" date in the popup stays green in both themes */
+.modal-info .timeline-date { color: #4a7d46; }
+.season-tag {
+  /* same Limelight as the date; it has one weight, so bold is synthesized */
+  font-weight: 700;
+  font-synthesis: weight;
+  font-size: 1.05em;
+  color: #941100;
+}
 .season-score {
   font-family: var(--font-hand);
   font-size: 1.15rem;

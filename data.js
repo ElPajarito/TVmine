@@ -5146,5 +5146,108 @@ const LIBRARY = [
     "poster": "covers/you-can-see-everything.jpg",
     "tmdbId": 1765072,
     "runtime": 174
+  },
+  {
+    "id": "the-neon-demon",
+    "title": "The Neon Demon",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2016,
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "score": null,
+    "synopsis": "When aspiring model Jesse moves to Los Angeles, her youth and vitality are devoured by a group of beauty-obsessed women who will take any means necessary to get what she has.",
+    "date": "2026-11-09",
+    "poster": "covers/the-neon-demon.jpg",
+    "tmdbId": 301365,
+    "runtime": 118
+  },
+  {
+    "id": "only-god-forgives",
+    "title": "Only God Forgives",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2013,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Crime"
+    ],
+    "score": null,
+    "synopsis": "Julian, who runs a Thai boxing club as a front organization for his family's drug smuggling operation, is forced by his mother Crystal to find and kill the individual responsible for his brother's recent death.",
+    "date": "2026-11-09",
+    "poster": "covers/only-god-forgives.jpg",
+    "tmdbId": 77987,
+    "runtime": 89
+  },
+  {
+    "id": "pusher",
+    "title": "Pusher",
+    "type": "movie",
+    "status": "towatch",
+    "year": 1996,
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "A drug pusher grows increasingly desperate after a botched deal leaves him with a large debt to a ruthless drug lord.",
+    "date": "2026-11-09",
+    "poster": "covers/pusher.jpg",
+    "tmdbId": 2061,
+    "runtime": 110
+  },
+  {
+    "id": "bronson",
+    "title": "Bronson",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2009,
+    "genres": [
+      "Drama",
+      "Action",
+      "Crime"
+    ],
+    "score": null,
+    "synopsis": "A young man who was sentenced to 7 years in prison for robbing a post office ends up spending 30 years in solitary confinement. During this time, his own personality is supplanted by his alter ego, Charles Bronson.",
+    "date": "2026-11-09",
+    "poster": "covers/bronson.jpg",
+    "tmdbId": 18533,
+    "runtime": 92
+  },
+  {
+    "id": "another-round",
+    "title": "Another Round",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2020,
+    "genres": [
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "Four stagnant high school teachers decide to test out a theory that maintaining a constant level of intoxication will improve their overall lives.",
+    "date": "2026-11-09",
+    "poster": "covers/another-round.jpg",
+    "tmdbId": 580175,
+    "runtime": 117
+  },
+  {
+    "id": "the-hunt",
+    "title": "The Hunt",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2012,
+    "genres": [
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "A teacher lives a lonely life, all the while struggling over his son’s custody. His life slowly gets better as he finds love and receives good news from his son, but his new luck is about to be brutally shattered by an innocent little lie.",
+    "date": "2026-11-09",
+    "poster": "covers/the-hunt.jpg",
+    "tmdbId": 103663,
+    "runtime": 116
   }
 ];
