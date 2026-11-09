@@ -5298,5 +5298,57 @@
     "poster": "covers/free-solo.jpg",
     "tmdbId": 515042,
     "runtime": 100
+  },
+  {
+    "id": "la-haine",
+    "title": "La Haine",
+    "type": "movie",
+    "status": "towatch",
+    "year": 1995,
+    "genres": [
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "After a chaotic night of rioting in a marginal suburb of Paris, three young friends, Vinz, Hubert and Saïd, wander around unoccupied waiting for news about the state of health of a mutual friend who has been seriously injured when confronting the police.",
+    "date": "2026-11-09",
+    "poster": "covers/la-haine.jpg",
+    "tmdbId": 406,
+    "runtime": 98
+  },
+  {
+    "id": "the-odyssey",
+    "title": "The Odyssey",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2026,
+    "genres": [
+      "Adventure",
+      "Action",
+      "Fantasy"
+    ],
+    "score": null,
+    "synopsis": "Odysseus, the legendary King of Ithaca, embarks on a long and perilous journey home following the Trojan War. Throughout his voyage, he is forced to confront the whims of gods, mythological monsters, and trials that stretch both his cunning and his humanity to the breaking point.",
+    "date": "2026-11-09",
+    "poster": "covers/the-odyssey.jpg",
+    "tmdbId": 1368337,
+    "runtime": 173
+  },
+  {
+    "id": "dunkirk",
+    "title": "Dunkirk",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2017,
+    "genres": [
+      "War",
+      "Action",
+      "History"
+    ],
+    "score": null,
+    "synopsis": "The story of the miraculous evacuation of Allied soldiers from Belgium, Britain, Canada and France, who were cut off and surrounded by the German army from the beaches and harbour of Dunkirk between May 26th and June 4th 1940 during World War II.",
+    "date": "2026-11-09",
+    "poster": "covers/dunkirk.jpg",
+    "tmdbId": 374720,
+    "runtime": 107
   }
 ]
