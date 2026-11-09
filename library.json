@@ -5265,5 +5265,38 @@
     "tmdbId": 1405,
     "episodeRuntime": 60,
     "episodes": 96
+  },
+  {
+    "id": "my-octopus-teacher",
+    "title": "My Octopus Teacher",
+    "type": "movie",
+    "status": "watched",
+    "year": 2020,
+    "genres": [
+      "Documentary"
+    ],
+    "score": 7.8,
+    "synopsis": "After years of swimming every day in the freezing ocean at the tip of Africa, Craig Foster meets an unlikely teacher: a young octopus who displays remarkable curiosity. Visiting her den and tracking her movements for months on end he eventually wins the animal’s trust and they develop a never-before-seen bond between human and wild animal.",
+    "date": "2026-11-09",
+    "poster": "covers/my-octopus-teacher.jpg",
+    "tmdbId": 682110,
+    "runtime": 85
+  },
+  {
+    "id": "free-solo",
+    "title": "Free Solo",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2018,
+    "genres": [
+      "Documentary",
+      "Adventure"
+    ],
+    "score": null,
+    "synopsis": "Follow Alex Honnold as he attempts to become the first person to ever free solo climb Yosemite's 3,000 foot high El Capitan wall. With no ropes or safety gear, this would arguably be the greatest feat in rock climbing history.",
+    "date": "2026-11-09",
+    "poster": "covers/free-solo.jpg",
+    "tmdbId": 515042,
+    "runtime": 100
   }
 ]
