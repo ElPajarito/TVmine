@@ -5353,5 +5353,93 @@ const LIBRARY = [
     "poster": "covers/dunkirk.jpg",
     "tmdbId": 374720,
     "runtime": 107
+  },
+  {
+    "id": "the-grand-budapest-hotel",
+    "title": "The Grand Budapest Hotel",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2014,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "score": null,
+    "synopsis": "The Grand Budapest Hotel tells of a legendary concierge at a famous European hotel between the wars and his friendship with a young employee who becomes his trusted protégé. The story involves the theft and recovery of a priceless Renaissance painting, the battle for an enormous family fortune and the slow and then sudden upheavals that transformed Europe during the first half of the 20th century.",
+    "date": "2026-11-15",
+    "poster": "covers/the-grand-budapest-hotel.jpg",
+    "tmdbId": 120467,
+    "runtime": 100
+  },
+  {
+    "id": "babylon",
+    "title": "Babylon",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2022,
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "score": null,
+    "synopsis": "A tale of outsized ambition and outrageous excess, tracing the rise and fall of multiple characters in an era of unbridled decadence and depravity during Hollywood's transition from silent films to sound films in the late 1920s.",
+    "date": "2026-11-15",
+    "poster": "covers/babylon.jpg",
+    "tmdbId": 615777,
+    "runtime": 189
+  },
+  {
+    "id": "zodiac",
+    "title": "Zodiac",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2007,
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
+    "score": null,
+    "synopsis": "Police conduct a manhunt for the Zodiac Killer, a serial killer who terrorized the San Francisco Bay Area during the late 1960s and early 1970s, taunting police with letters, bloodstained clothing, and ciphers mailed to newspapers.",
+    "date": "2026-11-15",
+    "poster": "covers/zodiac.jpg",
+    "tmdbId": 1949,
+    "runtime": 157
+  },
+  {
+    "id": "inglourious-basterds",
+    "title": "Inglourious Basterds",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2009,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "War"
+    ],
+    "score": null,
+    "synopsis": "In Nazi-occupied France during World War II, a group of Jewish-American soldiers known as \"The Basterds\" are chosen specifically to spread fear throughout the Third Reich by scalping and brutally killing Nazis. The Basterds, lead by Lt. Aldo Raine soon cross paths with a French-Jewish teenage girl who runs a movie theater in Paris which is targeted by the soldiers.",
+    "date": "2026-11-15",
+    "poster": "covers/inglourious-basterds.jpg",
+    "tmdbId": 16869,
+    "runtime": 153
+  },
+  {
+    "id": "black-swan",
+    "title": "Black Swan",
+    "type": "movie",
+    "status": "towatch",
+    "year": 2010,
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Horror"
+    ],
+    "score": null,
+    "synopsis": "A committed dancer struggles to maintain her sanity after winning the lead role in a production of Tchaikovsky's \"Swan Lake.\"",
+    "date": "2026-11-15",
+    "poster": "covers/black-swan.jpg",
+    "tmdbId": 44214,
+    "runtime": 108
   }
 ];
