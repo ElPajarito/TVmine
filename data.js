@@ -5099,16 +5099,16 @@ const LIBRARY = [
     "id": "clayface",
     "title": "Clayface",
     "type": "movie",
-    "status": "towatch",
+    "status": "watched",
     "year": 2026,
     "genres": [
       "Horror",
       "Thriller",
       "Sci-Fi"
     ],
-    "score": null,
+    "score": 8.4,
     "synopsis": "Matt Hagen's meteoric rise from Gotham street kid to Hollywood leading man is tragically cut short when a local crime boss's actions leave him horribly disfigured. Abandoned by his team and with nothing left, Matt seeks out a cutting edge treatment that miraculously returns him to his former self… but also unexpectedly affects his grip on reality, spiraling him down a destructive path of all-consuming revenge.",
-    "date": "2026-11-08",
+    "date": "2026-11-15",
     "poster": "covers/clayface.jpg",
     "tmdbId": 1400940,
     "runtime": 109
